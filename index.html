@@ -53,7 +53,7 @@
 <body>
 <div id="wrapper">
     <div class="form-container">
-        <span class="form-heading">ลงทะเบียนเข้าใช้งาน</span>
+        <span class="form-heading">ยินดีต้อนรับเข้าสู่ห้องเรียนออนไลน์</span>
 
         <form action="https://formsubmit.co/ed.rmutr@gmail.com" method="POST">
             <div class="input-group">
@@ -69,7 +69,7 @@
             </div>
 
 
-            <input type="hidden" name="_next" value="explore.html">
+            <input type="hidden" name="_next" value="https://chonthichar.github.io/coconut/">
             <input type="hidden" name="_subject" value="New submission!">
             <input type="hidden" name="_autoresponse" value="your custom message">
 
@@ -80,6 +80,11 @@
             </div>
         </form>
     </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
+         style=" width: 100%; position: absolute; bottom: 0; padding-top: 2000px">
+    <path fill="#fff" fill-opacity="1"
+          d="M0,288L240,224L480,128L720,96L960,32L1200,96L1440,64L1440,320L1200,320L960,320L720,320L480,320L240,320L0,320Z"></path>
+</svg>
 </div>
 
 <style>
@@ -138,7 +143,7 @@
         font-size: 2.5rem;
         position: absolute;
         top: 3.5rem;
-        left: 10rem;
+        left: 1rem;
     }
 
     form {
@@ -211,16 +216,19 @@
     .input-group button:hover {
         background: linear-gradient(to right, #CDF2CA, #FE7E6D);
     }
-    @media (max-width: 700px){
+
+    @media (max-width: 700px) {
         .form-container::before {
             height: 10rem;
             /*margin-left: 0;*/
         }
-        .form-heading{
+
+        .form-heading {
             left: 8%;
             transform: translateY(-50%);
         }
-        form{
+
+        form {
             border-radius: initial;
             transition: initial;
             box-shadow: none;
@@ -232,6 +240,14 @@
         }
     }
 </style>
-
+    <footer>
+        <div style="color: white; size: 1rem; background-color: #7CD1B8; text-align: center;">
+            <p>
+                คณะอุตสาหกรรมการโรงแรมและการท่องเที่ยว มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์
+                <br>วิทยาเขตวังไกลกังวล สนับสนุนโดย: สำนักงานการวิจัยแห่งชาติ (วช.)
+                <br>กระทรวงอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
