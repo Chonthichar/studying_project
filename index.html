@@ -41,6 +41,9 @@
 
     <!-- CSS only -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -102,13 +105,15 @@
 
 <style>
 
-    .fa  {
+    .fa {
         font-size: 40px;
         color: cornflowerblue;
     }
+
     .fa:hover {
         color: white;
     }
+
     .card-body {
         background-color: rgb(255, 255, 255, 0.6);
         margin-top: 8rem;
@@ -186,12 +191,12 @@
     .input-group button {
         margin-right: auto;
         margin-left: auto;
-        padding: 1rem 1rem;
+        padding: 0.5rem 0.5rem;
         /*background: linear-gradient(to left, #CDF2CA, #FE7E6D);*/
         border: none;
         background-color: whitesmoke;
         color: dimgray;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         cursor: pointer;
         border-radius: 0.4rem;
     }
@@ -207,20 +212,38 @@
     }
 
     /*media query for ipad Air*/
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
- .input-group button {
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+        h6 {
+            border-bottom: 5px solid green;
+            margin-top: 1rem;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer p {
+            font-size: 12rem;
+            text-align: center;
+        }
+
+        .input-group button {
             margin-right: auto;
             margin-left: auto;
             padding: 8px;
 
             /*background: linear-gradient(to left, #CDF2CA, #FE7E6D);*/
 
-            font-size: 18px;
+            font-size: 10px;
             width: 100%;
         }
+
         .input-group input {
             width: 100%;
         }
+
         .fa {
             font-size: 22px;
         }
@@ -236,7 +259,7 @@
 
         }
 
-                .container {
+        .container {
             margin-top: 5%;
             width: 90%;
             height: 100px;
@@ -247,11 +270,11 @@
         }
 
         .card-text {
-            line-height: 1.2rem;
+            line-height: 1rem;
         }
 
         .card-body h2 {
-            font-size: 1rem;
+            font-size: 0.8rem;
             width: 100%;
             padding: 0.5px;
 
@@ -259,7 +282,8 @@
 
         .card-body h1 {
             /*position: absolute;*/
-            font-size: 0.9rem;
+            font-size: 1rem;
+            line-height: 1.1rem;
         }
 
         .fas i {
@@ -276,7 +300,8 @@
         .bg-image {
             /*border: 0.1rem solid green;*/
         }
-    h6 {
+
+        h6 {
             width: 90%;
         }
 
@@ -287,7 +312,7 @@
             /*margin: 1.4rem;*/
             text-align: left;
         }
-}
+    }
 
     @media (max-width: 500px) {
 
@@ -298,12 +323,14 @@
 
             /*background: linear-gradient(to left, #CDF2CA, #FE7E6D);*/
 
-            font-size: 16px;
+            font-size: 10px;
             width: 100%;
         }
+
         .input-group input {
             width: 100%;
         }
+
         .fa {
             font-size: 22px;
         }
@@ -316,10 +343,9 @@
             padding-right: 0;
             padding-left: 0;
             transform: translateX(0.1rem);
-
         }
 
-                .container {
+        .container {
             margin-top: 5%;
             width: 90%;
             height: 100px;
@@ -334,7 +360,7 @@
         }
 
         .card-body h2 {
-            font-size: 1rem;
+            font-size: 0.7rem;
             width: 100%;
             padding: 0.5px;
 
@@ -342,7 +368,7 @@
 
         .card-body h1 {
             /*position: absolute;*/
-            font-size: 0.9rem;
+            font-size: 9rem;
         }
 
         .fas i {
@@ -380,7 +406,7 @@
         }
 
         .card-body h2 {
-            font-size: 1rem;
+            font-size: 0.7rem;
             width: 100%;
             padding: 0.5px;
 
@@ -388,7 +414,7 @@
 
         .card-body h1 {
             /*position: absolute;*/
-            font-size: 0.9rem;
+            font-size: 1rem;
         }
 
         .fas i {
