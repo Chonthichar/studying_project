@@ -53,7 +53,7 @@
 <body>
 <div id="wrapper">
     <div class="form-container">
-        <span class="form-heading">ยินดีต้อนรับเข้าสู่ห้องเรียนออนไลน์</span>
+        <span class="form-heading">ลงทะเบียนเพื่อเข้าสู่ห้องเรียน</span>
 
         <form action="https://formsubmit.co/ed.rmutr@gmail.com" method="POST">
             <div class="input-group">
@@ -64,7 +64,7 @@
 
             <div class="input-group">
                 <i class='fas fa-envelope-open-text' style='font-size:36px'></i>
-                <input type="email" name="email" placeholder="กรอกอีเมล์ของคุณที่นี่...">
+                <input type="email" name="email" placeholder="กรอกอีเมล์ของท่านที่นี่...">
                 <span class="bar"></span>
             </div>
 
@@ -240,14 +240,50 @@
         }
     }
 </style>
-    <footer>
-        <div style="color: white; size: 1rem; background-color: #7CD1B8; text-align: center;">
-            <p>
-                คณะอุตสาหกรรมการโรงแรมและการท่องเที่ยว มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์
-                <br>วิทยาเขตวังไกลกังวล สนับสนุนโดย: สำนักงานการวิจัยแห่งชาติ (วช.)
-                <br>กระทรวงอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม
-            </p>
-        </div>
-    </footer>
+
+
+<style>
+
+    h6 {
+        border-bottom: 5px solid green;
+        margin-top: 1rem;
+        width: 72%;
+        justify-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    @media (max-width: 500px) {
+        h6 {
+            width: 90%;
+        }
+
+        .footer p {
+            font-size: 14px;
+            margin: 1.4rem;
+            text-align: left;
+        }
+    }
+
+</style>
+<h6></h6>
+<footer class="footer">
+    <div>
+        <p>
+            โครงการวิจัยเรื่อง การพัฒนานวัตกรรมหลักสูตรท้องถิ่นออนไลน์:
+            <br>การจัดการท่องเที่ยววิถีพร้าวโดยชุมชนเชิงสร้างสรรค์อย่างยั่งยืน
+            <br>บนฐานสหวิทยาและภูมิปัญญาท้องถิ่น
+            <br>มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์ คณะอุตสาหกรรมการโรงแรมและการท่องเที่ยว
+            <br>สนับสนุนโดย สำนักงานคณะกรรมการวิทยาศาสตร์ วิจัยและนวัตกรรม (สกสว.)
+        </p>
+    </div>
+</footer>
+
 </body>
 </html>

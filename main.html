@@ -97,7 +97,7 @@
                         <a class="nav-link" href="#section-4">รายวิชา</a>
                     </li>
 
-                     <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#section-button">เข้าสู่บทเรียน</a>
                     </li>
 
@@ -137,7 +137,7 @@
             class="bg-image  text-center shadow-1-strong p-3 mb-3 text-white test note note-primary"
             style="background-color: #EFFFFD;" id="section-1">
 
-        <h2 class="h4 card-text text-dark d-flex fw-bolder p-2 note note-primary" style="text-align: left">
+        <h2 class="h4 card-text text-dark d-flex fw-bolder p-1 note note-primary" style="text-align: left">
             รายละเอียดหลักสูตร</h2>
         <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-6">
             หลักสูตรท้องถิ่นออนไลน์ การจัดการการท่องเที่ยววิถีพร้าวโดยชุมชนเชิงสร้างสรรค์อย่างยั่งยืน
@@ -264,11 +264,11 @@
     </div>
 
 
-
     <style>
         header {
             overflow-y: hidden;
             overflow-x: hidden;
+            overflow: hidden;
         }
 
         .fas:hover {
@@ -279,7 +279,7 @@
         dl {
             display: grid;
             flex-flow: row wrap;
-            width: 200%;
+            width: 300%;
             overflow: hidden;
             overflow-x: hidden;
             overflow-y: hidden;
@@ -379,19 +379,61 @@
 
 </style>
 
+<style>
 
+    a {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .input-group button {
+        margin: 1rem auto;
+        padding: 0.5rem 2rem;
+        background: linear-gradient(to left, #CDF2CA, #FE7E6D);
+        border: none;
+        color: #ffffff;
+        font-size: 1.5rem;
+        cursor: pointer;
+        border-radius: 0.4rem;
+    }
+
+    .input-group button:focus,
+    .input-group button:hover {
+        background: linear-gradient(to right, #CDF2CA, #FE7E6D);
+    }
+
+    @media (max-width: 700px) {
+
+        form {
+            border-radius: initial;
+            transition: initial;
+            box-shadow: none;
+            margin-right: 0;
+            padding-right: 0;
+            padding-left: 0;
+            transform: translateX(0.1rem);
+
+        }
+    }
+</style>
 
 <footer>
-                <div class="process container" id="section-button">
-                <div class="p-5 text-center bg-light" style="margin-top: 58px;">
-                        <div>
-                    <i class="fas fa-chevron-circle-down fa-3x process-icon my-2"></i>
-                </div>
-<!--                    <h1 class="mb-3"><i class='fas fa-chevron-circle-down' style='font-size:48px;color:green'></i></h1>-->
-                    <h4 class="mb-3">ลงทะเบียนเพื่อเข้าสู่บทเรียน</h4>
-                    <a class="btn btn-primary" href="" role="button">เข้าสู่บทเรียน</a>
-                </div>
+    <div class="process container" id="section-button">
+        <div class="p-5 text-center bg-light" style="margin-top: 58px;">
+            <div>
+                <i class="fas fa-chevron-circle-down fa-3x process-icon my-2"></i>
             </div>
+            <!--                    <h1 class="mb-3"><i class='fas fa-chevron-circle-down' style='font-size:48px;color:green'></i></h1>-->
+            <h4 class="mb-3">ลงทะเบียนเพื่อเข้าสู่บทเรียน</h4>
+            <div class="input-group">
+                <a href="register.html">
+                <button type="submit">
+                    เข้าสู่บทเรียน
+                </button>
+                </a>
+            </div>
+        </div>
+    </div>
 
 </footer>
 

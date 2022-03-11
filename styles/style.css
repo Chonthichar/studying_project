@@ -78,7 +78,7 @@ img {
 .container {
     margin: auto;
     max-width: 1200px;
-    overflow: auto;
+    overflow: hidden;
     /*padding: 0 20px;*/
 }
 
