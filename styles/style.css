@@ -1688,55 +1688,7 @@ section {
     padding-left: 0;
 }
 
-/*#main-footer {*/
-/*    background: grey;*/
-/*    color: white;*/
-/*    height: 5rem;*/
-/*}*/
 
-/*#main-footer   .footer-content {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    height: 5rem;*/
-/*    align-items: center;*/
-/*}*/
-
-/*#main-footer .footer-content     .social .fab {*/
-/*    margin-right: 1rem;*/
-/*    border: 2px white solid;*/
-/*    border-radius: 50%;*/
-/*    height: 20px;*/
-/*    width: 20px;*/
-/*    line-height: 20px;*/
-/*    text-align: center;*/
-/*    padding: 0.5rem;*/
-/*}*/
-/*#main-footer .footer-content     .social .fab:hover{*/
-/*    background: orange;*/
-/*}*/
-
-/*Implements new styles of new function*/
-/*...............................................................................*/
-/* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
-
-.nav a {
-    color: black;
-}
-#frame {
-    background-color: #F0A500;
-    border: solid 0.5rem #F0A500;
-    /*border-bottom: #28a754;*/
-}
-
-.navbar .logo a, .logo{
-    /*margin-top: 0.5rem;*/
-    padding-top: 1rem;
-    font-weight: 400;
-    /*padding-top: 4rem;*/
-    color: green;
-    font-size: 1.3rem;
-    /*z-index: -6000;*/
-}
 
 
 .tex a:hover {
@@ -1746,105 +1698,7 @@ section {
     opacity: 0.5;
 }
 
-#navbar ul li a:hover,
-#navbar ul li a.current {
-    list-style: none;
-    /*opacity: 0.5;*/
-}
 
-
-/* NAVIGATION */
-/*.nav {*/
-/*    !*display: flex;*!*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*    height: 4rem;*/
-/*    width: 100%;*/
-/*    padding: 1rem;*/
-/*    z-index: 1000;*/
-/*    font-size: 1rem;*/
-/*    !*margin-top: 1rem;*!*/
-/*    background-color: whitesmoke;*/
-/*    float: right;*/
-
-/*}*/
-
-/* nav and stickly class at the same time */
-/*.nav.sticky {*/
-/*    position: fixed;*/
-/*    background-color: rgba(255, 255, 255, 0.90);*/
-/*    !*background-color: lightblue;*!*/
-/*}*/
-
-
-.nav__links {
-    margin-top: 0;
-    float: right;
-    display: inline-flex;
-    align-items: center;
-    /*list-style: none;*/
-
-}
-
-.nav__item {
-    margin-left: 2.5rem;
-    text-decoration: none;
-
-}
-
-/*.nav__link:link,*/
-/*.nav__link:visited {*/
-/*    font-size: 1.7rem;*/
-/*    font-weight: 400;*/
-/*    color: inherit;*/
-/*    text-decoration: none;*/
-/*    display: block;*/
-/*    transition: all 0.3s;*/
-/*}*/
-
-.nav__link--btn:link,
-.nav__link--btn:visited {
-    padding: 0.8rem 2.5rem;
-    border-radius: 3rem;
-    background-color: var(--color-primary);
-    color: white;
-}
-
-.nav__link--btn:hover,
-.nav__link--btn:active {
-    color: inherit;
-    background-color: var(--color-primary-darker);
-    color: #333;
-}
-
-/* HEADER */
-/*.header {*/
-/*    padding: 0 3rem;*/
-/*    height: 100vh;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*}*/
-
-/*.header__title {*/
-/*    flex: 1;*/
-
-/*    max-width: 115rem;*/
-/*    display: grid;*/
-/*    grid-template-columns: 3fr 2fr;*/
-/*    row-gap: 3rem;*/
-/*    align-content: center;*/
-/*    justify-content: center;*/
-
-/*    align-items: start;*/
-/*    justify-items: start;*/
-/*}*/
-
-
-
-/*............................*/
-/*components*/
-/*Btn to top*/
 #btn-back-to-top{
     position: fixed;
     bottom: 20px;
@@ -1857,54 +1711,7 @@ section {
     font-size: 2rem;
     /*border-radius: 5%;*/
 }
-/*#btn-back-to-top:hover{*/
-/*    background-color: #EDEDED;*/
-/*}*/
 
-
-
-/*footer*/
-/*#footer{*/
-/*    border: none;*/
-/*    min-height: 38vmax;*/
-/*    padding-top: 5rem;*/
-/*    position: relative;*/
-/*    background-color: #F0A500;*/
-/*}*/
-
-/*!*clip part base mountain*!*/
-/*#footer  {*/
-/*    clip-path: polygon(459px 1px, 496px 25px, 533px 25px, 689px 142px, 0px 142px, 224px 50px, 301px 80px);*/
-/*    background-color: #F0A500;*/
-/*}*/
-
-/*.clipPath--mtn2--T {*/
-/*    background-color: green;*/
-/*    clip-path: polygon(0 1.5%, 2% 5%,7.5% 8%, 8% 3.7%, 8.5% 10%, 11.5% 2%,12% 8%,17.7% 3%,18% 2%, 19.5% 2.5%,23% 3%, 28% 3%,29% 3.5%, 31% 4%,32% 5%,34.5% 3.2%,35% 3%,36% 3.3%,39% 5%, 48% 0,50% 1%,52.5% 1%,53% 1.1%,58% 5%, 60% 4.7%,63.5% 3%,64% 3.1%,64.5% 3%,65% 3.2%, 66% 3.1%,69% 4%,70% 4.3%,73% 5%,75% 4.6%,77% 4.3%,77.6%*/
-/*    4.1%,78% 4%,79% 4.6%,80% 5%,80.5% 4.8%,83% 3%,85% 3.7%,86% 3.5%,87% 3.7%,88% 3%,93% 3.7%, 94% 2.7%, 95% 3%,96% 2.9%,100% 3.5%, 100% 100%,0 100%);*/
-/*    margin-top: -12rem;*/
-/*    position: absolute;*/
-/*    width: 100%;*/
-/*    z-index: -1;*/
-/*}*/
-
-/*.clipPath--mtn2--TB {*/
-/*    clip-path:polygon(0 3.5%, 2% 3%,7.5% 3.5%, 8% 3.7%, 8.5% 4%, 11.5% 3.1%,12% 3%,12.5% 3.1%, 15% 4%,17.7% 2.1%,18% 2%, 19.5% 2.5%,23% 3%, 28% 3%,29% 3.5%, 31% 4%,32% 5%,34.5% 3.2%,35% 3%,36% 3.3%,39% 5%, 48% 0,50% 1%,52.5% 1%,53% 1.1%,58% 5%, 60% 4.7%,63.5% 3%,64% 3.1%,64.5% 3%,65% 3.2%, 66% 3.1%,69% 4%,70% 4.3%,73% 5%,75% 4.6%,77% 4.3%,77.6% 4.1%,78% 4%,79% 4.6%,80% 5%,80.5% 4.8%,83% 3%,85% 3.7%,86% 3.5%,87% 3.7%,88% 3%,93% 3.7%, 94% 2.7%, 95% 3%,96% 2.9%,100% 3.5%, 100% 100%,98% 98%, 90% 100%, 88% 98%,83% 100%, 80% 99%,78% 100%,75% 97%,69% 99%,62% 100%,60% 100%,53% 95%,51% 95%,49% 93%,39% 100%,35% 97%,32% 96%,28% 98%,18% 98%,15% 99%,12% 98%,8% 97%,0 100%,0 100%);*/
-/*    display:block;*/
-/*    overflow:visible;*/
-/*    position:relative;*/
-/*    z-index:1;*/
-/*}*/
-/*.clipPath--mtn2-1--T {background-color:magenta;clip-path:polygon(0 1.5%, 2% 5%,7.5% 8%, 8% 3.7%, 8.5% 10%, 11.5% 2%,12% 8%,17.7% 3%,18% 2%, 19.5% 2.5%,23% 3%, 28% 3%,29% 3.5%, 31% 4%,32% 5%,34.5% 3.2%,35% 3%,36% 3.3%,39% 5%, 48% 0,50% 1%,52.5% 1%,53% 1.1%,58% 5%, 60% 4.7%,63.5% 3%,64% 3.1%,64.5% 3%,65% 3.2%, 66% 3.1%,69% 4%,70% 4.3%,73% 5%,75% 4.6%,77% 4.3%,77.6% 4.1%,78% 4%,79% 4.6%,80% 5%,80.5% 4.8%,83% 3%,85% 3.7%,86% 3.5%,87% 3.7%,88% 3%,93% 3.7%, 94% 2.7%, 95% 3%,96% 2.9%,100% 3.5%, 100% 100%,0 100%);*/
-/*    margin-top:-12rem;position:absolute;width:100%;z-index:-1;*/
-/*}*/
-
-
-
-
-/*.............................*/
-
-/*.............*/
 
 footer{
     width: 100%;
@@ -1935,19 +1742,6 @@ footer{
 .card-img-top:hover {
     background-color: #94DAFF;
 }
-
-.navbar{
-    /*transition-duration: 0.6s;*/
-    background-color: whitesmoke;
-    opacity: 0.9;
-}
-
-.scroll_navbar{
-    padding: 10px 0px;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0 ,0.4);
-    transition-duration: 0.6s;
-}
-
 
 
 
