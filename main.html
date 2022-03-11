@@ -52,31 +52,79 @@
 <body id="Home" class=".selector-for-some-widget">
 
 
-<header>
-    <!---->
-</header>
-
-
-<!-- Background image -->
-<!-- Jumbotron -->
-<style>
-
-</style>
-
-
 <header class="container"
         style="background-color: whitesmoke">
 
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light indigo fixed-top container">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarCenteredExample"
+                    aria-controls="navbarCenteredExample"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div
+                    class="collapse navbar-collapse justify-content-center"
+                    id="navbarCenteredExample"
+            >
+                <!-- Left links -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-1">รายละเอียดหลักสูตร</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-2">วัตถุประสงค์</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-3">โครงสร้างหลักสูตร</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-4">รายวิชา</a>
+                    </li>
+
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#section-button">เข้าสู่บทเรียน</a>
+                    </li>
+
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+
+
     <div
-            class="bg-image p-1 text-center shadow-1-strong  mb-5 text-white test"
+            class="bg-image p-1 text-center shadow-1-strong  mb-5 mt-8 text-white"
             style="background-image: linear-gradient(to right, rgb(1, 146, 103), rgb(101, 193, 140),rgb(255, 178, 166)), url('./images/google_1.JPG');
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
          -background-size: cover;">
 
-        <h2 class=" vie text-center text-white fw-bolder mb-0">หลักสูตรท้องถิ่นออนไลน์</h2>
-        <h2 style="border-bottom: #ffffff solid 5px; width: 40%; margin-right: auto; margin-left: auto"></h2>
+        <h2 class=" vie text-center text-white fw-bolder mb-0 mx-auto">
+            <br>
+            <br>
+            หลักสูตรท้องถิ่นออนไลน์</h2>
+        <h2 class="line"
+            style="border-bottom: #ffffff solid 5px; width: 40%; margin-right: auto; margin-left: auto"></h2>
         <h2 class=" vie text-center text-white display-8" style="top: 0">
             การจัดการท่องเที่ยววิถีพร้าวโดยชุมชน <br>
             เชิงสร้างสรรค์อย่างยั่งยืน
@@ -87,12 +135,13 @@
 
     <div
             class="bg-image  text-center shadow-1-strong p-3 mb-3 text-white test note note-primary"
-            style="background-color: #EFFFFD;">
+            style="background-color: #EFFFFD;" id="section-1">
 
         <h2 class="h4 card-text text-dark d-flex fw-bolder p-2 note note-primary" style="text-align: left">
             รายละเอียดหลักสูตร</h2>
         <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-6">
-            หลักสูตรท้องถิ่นออนไลน์ การจัดการการท่องเที่ยววิถีพร้าวโดยชุมชนเชิงสร้างสรรค์อย่างยั่งยืน ปรับปรุงมาจากความรู้และภูมิปัญญาท้องถิ่น
+            หลักสูตรท้องถิ่นออนไลน์ การจัดการการท่องเที่ยววิถีพร้าวโดยชุมชนเชิงสร้างสรรค์อย่างยั่งยืน
+            ปรับปรุงมาจากความรู้และภูมิปัญญาท้องถิ่น
             เกี่ยวกับการใช้มะพร้าวในการส่งเสริมการท่องเที่ยวโดยชุมชน
             ที่ปรากฏในชุมชนท่องเที่ยวที่ตั้งอยู่ในพื้นที่อำเภอทับสะแก บางสะพาน และบาง
             สะพานน้อย จังหวัดประจวบคีรีขันธ์ ออกแบบโดยความเห็นชอบร่วมกัน
@@ -108,7 +157,7 @@
 
     <div
             class="bg-image p-3 text-center shadow-1-strong rounded mb-3 text-white test"
-            style="background-color: #FFF9F9;">
+            style="background-color: #FFF9F9;" id="section-2">
 
         <h2 class="h4 card-text text-dark d-flex fw-bolder p-1 note note-primary" style="text-align: left">
             วัตถุประสงค์หลักสูตร</h2>
@@ -126,12 +175,13 @@
     </div>
     <!-- Jumbotron -->
 
-    <div class="p-2 mb-3" style="background-color: #FFDDEE;">
+    <div class="p-2 mb-3" style="background-color: #FFDDEE;" id="section-3">
         <h4 class="h4 card-text text-dark d-flex fw-bolder p-2 note note-primary" style="text-align: left">
             โครงสร้างหลักสูตร</h4>
 
         <dl class="row mb-3 card-text p-1 text-dark text-start text-break fs-6 text-normal">
-            <dt class="col-sm-3 fs-5 card-text text-dark d-flex" style="text-align: left">จำนวนหน่วยกิตรวมตลอดหลักสูตร</dt>
+            <dt class="col-sm-3 fs-5 card-text text-dark d-flex" style="text-align: left">จำนวนหน่วยกิตรวมตลอดหลักสูตร
+            </dt>
             <dd class="col-sm-9">30 ชั่วโมง</dd>
             <dt class="col-sm-3 fw-normal">1.กลุ่มวิชาพื้นฐานมะพร้าว</dt>
             <dd class="col-sm-9 fw-normal">4 ชั่วโมง</dd>
@@ -145,9 +195,9 @@
     </div>
 
 
-    <div class="p-2 shadow-1-strong mb-5"
+    <div class="p-2 shadow-1-strong mb-5" id="section-4"
          style="background-color: #FDECFF;">
-        <h4 class="h4 card-text text-dark d-flex fw-bolder p-2 note note-primary" style="text-align: left">
+        <h4 class="h4 card-text text-dark d-flex fw-bolder p-1 note note-primary" style="text-align: left">
             รายวิชา</h4>
 
         <dl class="row mb-3 card-text p-1 text-dark text-start text-break fs-6 text-normal">
@@ -176,7 +226,7 @@
             <dd class="col-sm-3 card-text text-dark fs-6">วิชาทำน้ำตาลมะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-             <dd class="col-sm-3 card-text text-dark fs-6">วิชาร้อยเรียงกะลามะพร้าว</dd>
+            <dd class="col-sm-3 card-text text-dark fs-6">วิชาร้อยเรียงกะลามะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
             <dd class="col-sm-3 card-text text-dark fs-6">วิชาเลี้ยงผึ้งโพรง 2 ชั่วโมง</dd>
@@ -198,33 +248,55 @@
             <dd class="col-sm-3 card-text text-dark fs-6">วิชาการจัดการอาหารสำหรับนักท่องเที่ยว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-             <dd class="col-sm-3 card-text text-dark fs-6">วิชานันทนาการมะพร้าว</dd>
+            <dd class="col-sm-3 card-text text-dark fs-6">วิชานันทนาการมะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 fw-bolder card-text text-dark fs-6">กลุ่มวิชาการจัดการการท่องเที่ยววิถีพร้าวโดยชุมชน</dd>
+            <dd class="col-sm-3 fw-bolder card-text text-dark fs-6">กลุ่มวิชาการจัดการการท่องเที่ยววิถีพร้าวโดยชุมชน
+            </dd>
             <dt class="col-sm-9 fw-normal"> 4 ชั่วโมง</dt>
 
-                <dd class="col-sm-3 card-text text-dark fs-6">วิชาการจัดการการท่องเที่ยวโดยชุมชนวิถีพร้าวโดยชุมชน</dd>
+            <dd class="col-sm-3 card-text text-dark fs-6">วิชาการจัดการการท่องเที่ยวโดยชุมชนวิถีพร้าวโดยชุมชน</dd>
             <dt class="col-sm-9 fw-normal"> 4 ชั่วโมง</dt>
 
         </dl>
 
+
     </div>
 
 
+
     <style>
+        header {
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+
+        .fas:hover {
+            color: darkseagreen;
+            font-size: 3.2rem;
+        }
 
         dl {
-            width: 3000px;
+            display: grid;
+            flex-flow: row wrap;
+            width: 200%;
             overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: hidden;
             /*background: #ff0;*/
             padding: 0;
-            margin: 0
+            margin: 0;
+            text-align: center;
+
         }
+
 
         dt {
             float: left;
-            width: 2000px;
+            flex-basis: 100%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            width: 50%;
             /* adjust the width; make sure the total of both is 100% */
             /*background: #cc0;*/
             padding: 0;
@@ -232,15 +304,25 @@
         }
 
         dd {
+            flex-basis: 100%;
             float: left;
-            width: 1000px;
-             /*adjust the width; make sure the total of both is 100%*/
+            width: 100%;
+            /*adjust the width; make sure the total of both is 100%*/
             /*background: #dd0;*/
             padding: 0;
-            margin: 0
+            margin: 0;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            overflow-scrolling: auto;
         }
 
         @media (max-width: 500px) {
+
+            .line h2 {
+                height: 1px;
+                width: 20rem;
+            }
+
             h2 {
                 font-size: 1.3rem;
                 line-height: 1.3rem;
@@ -265,8 +347,8 @@
 
 </header>
 
-<style>
 
+<style>
 
     h6 {
         border-bottom: 5px solid green;
@@ -296,8 +378,25 @@
     }
 
 </style>
-<h6></h6>
 
+
+
+<footer>
+                <div class="process container" id="section-button">
+                <div class="p-5 text-center bg-light" style="margin-top: 58px;">
+                        <div>
+                    <i class="fas fa-chevron-circle-down fa-3x process-icon my-2"></i>
+                </div>
+<!--                    <h1 class="mb-3"><i class='fas fa-chevron-circle-down' style='font-size:48px;color:green'></i></h1>-->
+                    <h4 class="mb-3">ลงทะเบียนเพื่อเข้าสู่บทเรียน</h4>
+                    <a class="btn btn-primary" href="" role="button">เข้าสู่บทเรียน</a>
+                </div>
+            </div>
+
+</footer>
+
+
+<h6></h6>
 <footer class="footer">
     <div>
         <p>
@@ -309,6 +408,7 @@
         </p>
     </div>
 </footer>
+
 
 <footer id="footer" class="mountain">
     <!--    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">-->
@@ -326,6 +426,8 @@
         type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
 ></script>
+
+
 </body>
 </html>
 
