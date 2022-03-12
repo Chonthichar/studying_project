@@ -354,8 +354,9 @@ p {
         border: 0.1rem solid whitesmoke;
         overflow: hidden;
     }
-
-
+    .category {
+        font-size: 2rem;
+    }
 }
 
 

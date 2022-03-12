@@ -43,6 +43,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Mali:wght@600&family=Prompt:wght@200&display=swap"
           rel="stylesheet">
 
+<!--favicon-->
+   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -70,7 +73,7 @@
         style="background-color: whitesmoke; font-family: 'Prompt', sans-serif;">
 
 
-    <nav class="navbar navbar-expand-lg navbar-scroll shadow-0 border-bottom border-dark bg-light container">
+    <nav class="navbar navbar-expand-lg navbar-scroll fixed-top shadow-0 container">
         <div class="container" style="border-bottom: green">
             <a class="navbar-brand" href="index.html"><i class="fa fa-leaf fa-1x" style="color: black"></i></a>
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -122,7 +125,6 @@
             เชิงสร้างสรรค์อย่างยั่งยืน
         </h2>
     </div>
-    <!-- Jumbotron -->
 
 
     <div
@@ -179,7 +181,7 @@
                 จำนวนหน่วยกิตรวมตลอดหลักสูตร
             </dt>
             <dd class="col-sm-9">30 ชั่วโมง</dd>
-            <dt class="col-sm-3 fw-normal">1.กลุ่มวิชาพื้นฐานมะพร้าว</dt>
+            <dt class="col-sm-3 fw-normal"><a href="./images/site%20map%20new.pdf" style="color: black">1.กลุ่มวิชาพื้นฐานมะพร้าว</a></dt>
             <dd class="col-sm-9 fw-normal">4 ชั่วโมง</dd>
             <dt class="col-sm-3 fw-normal">2.กลุ่มวิชาชีพมะพร้าว</dt>
             <dd class="col-sm-9 fw-normal">12 ชั่วโมง</dd>
@@ -265,9 +267,10 @@
 
 
         .navbar-expand-lg {
-            position: sticky;
-            top: 0;
+            /*position: sticky;*/
+            /*top: 0;*/
             z-index: 100;
+            background-color: white;
         }
 
         .nav-link {
@@ -514,7 +517,7 @@
 
 
                 <input type="hidden" name="_next"
-                       value="https://chonthichar.github.io/studying_project/explore.html">
+                       value="https://chonthichar.github.io/studying_project/class_room.html">
                 <input type="hidden" name="_subject" value="New submission!">
                 <input type="text" name="_honey" style="display:none">
                 <input type="hidden" name="_captcha" value="false">
@@ -900,9 +903,9 @@
 </script>
 
 <h6></h6>
-<footer class="footer" id="footer">
+<footer class="footer">
     <div>
-        <p>
+        <p style="font-family: 'Prompt', sans-serif;">
             โครงการวิจัยเรื่อง การพัฒนานวัตกรรมหลักสูตรท้องถิ่นออนไลน์:
             <br>การจัดการท่องเที่ยววิถีพร้าวโดยชุมชนเชิงสร้างสรรค์อย่างยั่งยืน
             <br>บนฐานสหวิทยาและภูมิปัญญาท้องถิ่น
@@ -911,7 +914,6 @@
         </p>
     </div>
 </footer>
-
 
 <script src="./scripts/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
