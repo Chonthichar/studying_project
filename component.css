@@ -1,12 +1,24 @@
 /*photo*/
-body {
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
     background-color: whitesmoke;
     /*overflow: hidden;*/
     overflow-x: hidden;
+    /*font-size: 10px;*/
+    font-weight: normal;
+}
+h2, p {
+    font-weight: inherit;
+    font-family: 'Prompt', sans-serif;
 }
 
 .name-text h1 {
-    margin-top: 5rem;
+    margin-top: 2rem;
     line-height: 6rem;
     margin-bottom: 4rem;
     background-color: rgba(0, 0, 0, 0.5);
@@ -19,16 +31,19 @@ body {
 /*important box for styling a whole page*/
 .container {
     text-align: center;
+    margin-top: 0;
     margin-left: 30%;
     /*transform: translate(-50%, -50%);*/
     width: 100%;
     background-color: white;
-    gap: 1rem;
+    gap: 5rem;
+    ;
     /*display: none;*/
 }
 
+
 .hero-image {
-    background-image: url('./images/img_2.png');
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('./images/cocogo_7.JPG');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.5); /* Used if the image is unavailable */
     height: 300px; /* You must set a specified height */
@@ -40,6 +55,7 @@ body {
 
 .main h2 {
     font-size: 4rem;
+    /*margin-bottom: 2rem;*/
 }
 
 .hero-text {
@@ -385,11 +401,11 @@ body {
 
 /*chapter 2*/
 
-dr {
-    overflow-y: hidden;
-    overflow-x: hidden;
-    overflow: hidden;
-}
+/*dr {*/
+/*    overflow-y: hidden;*/
+/*    overflow-x: hidden;*/
+/*    overflow: hidden;*/
+/*}*/
 
 .fa-chevron-circle-down:hover {
     color: darkseagreen;
