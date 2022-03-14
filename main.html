@@ -36,15 +36,15 @@
     <link rel="stylesheet" href="./styles/media.css">
     <link rel="stylesheet" href="./styles/another.css">
     <link rel="stylesheet" href="./home_1.html">
-
+    <link rel="stylesheet" href="main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mali:wght@600&family=Prompt:wght@200&display=swap"
           rel="stylesheet">
 
-<!--favicon-->
-   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 
     <!-- CSS only -->
@@ -60,6 +60,7 @@
     <!--    <link rel="stylesheet" media="screen and (max-width: 768px)" href="responsive.css">-->
     <script src="https://kit.fontawesome.com/d5930ea29d.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="./styles/pagination.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,7 +74,7 @@
         style="background-color: whitesmoke; font-family: 'Prompt', sans-serif;">
 
 
-    <nav class="navbar navbar-expand-lg navbar-scroll fixed-top shadow-0 container">
+    <nav class="navbar navbar-expand-lg navbar-scroll shadow-0 container bg-light">
         <div class="container" style="border-bottom: green">
             <a class="navbar-brand" href="index.html"><i class="fa fa-leaf fa-1x" style="color: black"></i></a>
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -107,21 +108,22 @@
 
 
     <div
-            class="bg-image p-1 text-center shadow-1-strong  mb-5  text-white"
-            style="background-image: linear-gradient(to right, rgb(1, 146, 103), rgb(101, 193, 140),rgb(255, 178, 166)), url('./images/google_1.JPG');
+            class="bg-image p-1 text-center shadow-1-strong  mb-5  text-white text-break"
+            style="background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 1)),
+    url('images/cocogo_7.JPG');
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
          -background-size: cover;">
 
-        <h2 class=" vie text-center text-white fw-bolder mb-0 mx-auto" style="font-family: 'Mali', cursive" ;>
+        <h2 class="text-center text-white fw-bolder mb-0 mx-auto text-break calls" style="font-family: 'Mali', cursive" ;>
             <br>
             <br>
             หลักสูตรท้องถิ่นออนไลน์</h2>
-        <h2 class="line"
-            style="border-bottom: #ffffff solid 5px; width: 40%; margin-right: auto; margin-left: auto"></h2>
-        <h2 class=" vie text-center text-white display-8" style="top: 0; font-family:'Mali', cursive;">
-            การจัดการท่องเที่ยววิถีพร้าวโดยชุมชน <br>
+        <h2 class="line"></h2>
+        <h2 class="text-center text-white display-8 lh-sm call" style="top: 0; font-family:'Mali', cursive;">
+            การจัดการการท่องเที่ยว <br>
+            วิถีพร้าวโดยชุมชน
             เชิงสร้างสรรค์อย่างยั่งยืน
         </h2>
     </div>
@@ -134,7 +136,7 @@
         <h2 class="h4 card-text text-dark d-flex fw-bolder p-1 note note-primary"
             style="text-align: left; font-family:'Mali', cursive;">
             รายละเอียดหลักสูตร</h2>
-        <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-6">
+        <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-6 text-break">
             หลักสูตรท้องถิ่นออนไลน์ การจัดการการท่องเที่ยววิถีพร้าวโดยชุมชนเชิงสร้างสรรค์อย่างยั่งยืน
             ปรับปรุงมาจากความรู้และภูมิปัญญาท้องถิ่น
             เกี่ยวกับการใช้มะพร้าวในการส่งเสริมการท่องเที่ยวโดยชุมชน
@@ -156,7 +158,7 @@
         <h2 class="h4 card-text text-dark d-flex fw-bolder p-1 note note-primary"
             style="text-align: left; font-family:'Mali', cursive;">
             วัตถุประสงค์หลักสูตร</h2>
-        <p class="mb-3 card-text p-1 text-dark text-start text-break fs-6">
+        <p class="mb-3 card-text p-1 text-dark text-start text-break fs-6 text-break">
             1. ส่งเสริมผู้ศึกษาเรียนรู้ให้มีความเข้าใจในวิถีชาวสวนมะพร้าวในพื้นที่
             อำเภอทับสะแก บางสะพาน และ บางสะพานน้อยจังหวัด
             ประจวบคีรีขันธ์ <br>
@@ -171,16 +173,17 @@
     <!-- Jumbotron -->
 
     <div class="p-2 mb-3" style="background-color: #FFDDEE;" id="section-3">
-        <h4 class="h4 card-text text-dark d-flex fw-bolder p-2 note note-primary"
+        <h4 class="fs-6 card-text text-dark d-flex fw-bolder p-2 note note-primary"
             style="text-align: left; font-family:'Mali', cursive;">
             โครงสร้างหลักสูตร</h4>
 
-        <dl class="row mb-3 card-text p-1 text-dark text-start text-break fs-6 text-normal">
-            <dt class="col-sm-3 fs-5 card-text text-dark d-flex" style="text-align: left; font-family:'Mali', cursive;">
+        <dl class="row mb-3 card-text p-1 text-dark text-start fs-6 text-normal">
+            <dt class="col-sm-3 fs-6 card-text text-dark d-flex kit" style="text-align: left; font-family:'Mali', cursive;">
                 จำนวนหน่วยกิตรวมตลอดหลักสูตร
             </dt>
             <dd class="col-sm-9">30 ชั่วโมง</dd>
-            <dt class="col-sm-3 fw-normal"><a href="./images/site%20map%20new.pdf" style="color: black">1.กลุ่มวิชาพื้นฐานมะพร้าว</a></dt>
+            <dt class="col-sm-3 fw-normal"><a href="./images/site%20map%20new.pdf" style="color: black">1.กลุ่มวิชาพื้นฐานมะพร้าว</a>
+            </dt>
             <dd class="col-sm-9 fw-normal">4 ชั่วโมง</dd>
             <dt class="col-sm-3 fw-normal">2.กลุ่มวิชาชีพมะพร้าว</dt>
             <dd class="col-sm-9 fw-normal">12 ชั่วโมง</dd>
@@ -198,286 +201,72 @@
             style="text-align: left; font-family:'Mali', cursive;">
             รายวิชา</h4>
 
-        <dl class="row mb-3 card-text p-1 text-dark text-start text-break fs-6 text-normal"
+        <dl class=" row mb-3 card-text p-1 text-dark text-start text-break text-normal text-break"
             style="font-family: 'Prompt', sans-serif;">
-            <dd class="col-sm-3 fw-bolder card-text text-dark fs-6" style="font-family: 'Prompt', sans-serif;">
+            <dd class="col-sm-3 fw-bolder card-text text-dark" style="font-family: 'Prompt', sans-serif;">
                 กลุ่มวิชาพื้นฐานมะพร้าว
             </dd>
             <dt class="col-sm-9 fw-normal" style="font-family: 'Prompt', sans-serif;"> 4 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 card-text text-dark fs-6"> วิชาพงศาวดารมะพร้าว</dd>
+            <dd class="col-sm-3 card-text text-dark"> วิชาพงศาวดารมะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 card-text text-dark fs-6"> วิชามะพร้าวในชีวิตประจำวัน</dd>
+            <dd class="col-sm-3 card-text text-dark"> วิชามะพร้าวในชีวิตประจำวัน</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 fw-bolder card-text text-dark fs-6"> กลุ่มวิชาชีพมะพร้าว</dd>
+            <dd class="col-sm-3 fw-bolder card-text text-dark"> กลุ่มวิชาชีพมะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 12 ชั่วโมง</dt>
 
 
-            <dd class="col-sm-3 card-text text-dark fs-6">วิชาล้งมะพร้าว</dd>
+            <dd class="col-sm-3 card-text text-dark">วิชาล้งมะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 card-text text-dark fs-6">วิชาเทคโนโลยีชาวบ้านสวนมะพร้าว</dd>
+            <dd class="col-sm-3 card-text text-dark">วิชาเทคโนโลยีชาวบ้านสวนมะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 card-text text-dark fs-6">วิชาการจัดการผลิตภัณฑ์มะพร้าว</dd>
+            <dd class="col-sm-3 card-text text-dark">วิชาการจัดการผลิตภัณฑ์มะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 card-text text-dark fs-6">วิชาทำน้ำตาลมะพร้าว</dd>
+            <dd class="col-sm-3 card-text text-dark">วิชาทำน้ำตาลมะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 card-text text-dark fs-6">วิชาร้อยเรียงกะลามะพร้าว</dd>
+            <dd class="col-sm-3 card-text text-dark">วิชาร้อยเรียงกะลามะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 card-text text-dark fs-6">วิชาเลี้ยงผึ้งโพรง</dd>
+            <dd class="col-sm-3 card-text text-dark">วิชาเลี้ยงผึ้งโพรง</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 fw-bolder card-text text-dark fs-6">กลุ่มวิชาส่งเสริมการท่องเที่ยว</dd>
+            <dd class="col-sm-3 fw-bolder card-text text-dark">กลุ่มวิชาส่งเสริมการท่องเที่ยว</dd>
             <dt class="col-sm-9 fw-normal"> 10 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 card-text text-dark fs-6">วิชามะพร้าวเชิงสร้างสรรค</dd>
+            <dd class="col-sm-3 card-text text-dark ">วิชามะพร้าวเชิงสร้างสรรค</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 card-text text-dark fs-6">วิชาโฮมสเตย์ถิ่นมะพร้าว</dd>
+            <dd class="col-sm-3 card-text text-dark ">วิชาโฮมสเตย์ถิ่นมะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 card-text text-dark fs-6">วิชาเมนูมะพร้าว</dd>
+            <dd class="col-sm-3 card-text text-dark">วิชาเมนูมะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
 
-            <dd class="col-sm-3 card-text text-dark fs-6">วิชาการจัดการอาหารสำหรับนักท่องเที่ยว</dd>
+            <dd class="col-sm-3 card-text text-dark ">วิชาการจัดการอาหารสำหรับนักท่องเที่ยว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 card-text text-dark fs-6">วิชานันทนาการมะพร้าว</dd>
+            <dd class="col-sm-3 card-text text-dark">วิชานันทนาการมะพร้าว</dd>
             <dt class="col-sm-9 fw-normal"> 2 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 fw-bolder card-text text-dark fs-6">กลุ่มวิชาการจัดการการท่องเที่ยววิถีพร้าวโดยชุมชน
+            <dd class="col-sm-3 fw-bolder card-text text-dark">กลุ่มวิชาการจัดการการท่องเที่ยววิถีพร้าวโดยชุมชน
             </dd>
             <dt class="col-sm-9 fw-normal"> 4 ชั่วโมง</dt>
 
-            <dd class="col-sm-3 card-text text-dark fs-6">วิชาการจัดการการท่องเที่ยวโดยชุมชนวิถีพร้าวโดยชุมชน</dd>
+            <dd class="col-sm-3 card-text text-dark">วิชาการจัดการการท่องเที่ยวโดยชุมชนวิถีพร้าวโดยชุมชน</dd>
             <dt class="col-sm-9 fw-normal"> 4 ชั่วโมง</dt>
         </dl>
     </div>
 
 
-    <style>
 
-
-        .navbar-expand-lg {
-            /*position: sticky;*/
-            /*top: 0;*/
-            z-index: 100;
-            background-color: white;
-        }
-
-        .nav-link {
-            color: dimgrey;
-            border-bottom: none;
-        }
-
-        .nav-link:hover {
-            color: white;
-            background-color: grey;
-            border-radius: 10px;
-        }
-
-        dr {
-            overflow-y: hidden;
-            overflow-x: hidden;
-            overflow: hidden;
-        }
-
-        .fa-chevron-circle-down:hover {
-            color: darkseagreen;
-            font-size: 3.2rem;
-        }
-
-        dl {
-            display: grid;
-            flex-flow: row wrap;
-            width: 220%;
-            overflow: hidden;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            /*background: #ff0;*/
-            padding: 0;
-            margin: 0;
-            text-align: center;
-
-        }
-
-
-        dt {
-            float: left;
-            flex-basis: 100%;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            width: 50%;
-            /* adjust the width; make sure the total of both is 100% */
-            /*background: #cc0;*/
-            padding: 0;
-            margin: 0
-        }
-
-        dd {
-            flex-basis: 100%;
-            float: left;
-            width: 100%;
-            /*adjust the width; make sure the total of both is 100%*/
-            /*background: #dd0;*/
-            padding: 0;
-            margin: 0;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            overflow-scrolling: auto;
-        }
-
-        @media (max-width: 500px) {
-
-            /*.col-sm-3 {*/
-            /*    font-size: 18px;*/
-            /*    display: grid;*/
-            /*    !*width: 30%;*!*/
-            /*    !*text-align: right;*!*/
-            /*}*/
-            /*.col-sm-9 {*/
-            /*    font-size: 10px;*/
-            /*    display: inline-block;*/
-            /*    width: 30%;*/
-            /*    text-align: center;*/
-            /*}*/
-            /*dl {*/
-            /*    margin: 10px;*/
-            /*    padding: 0px;*/
-            /*    !*background-color: #D0D;*!*/
-            /*    overflow: auto;*/
-            /*}*/
-            /*dt {*/
-            /*    !*display: inline-block;*!*/
-            /*    width: 30%;*/
-            /*    !*text-align: right;*!*/
-            /*    !*background-color: #DD0;*!*/
-            /*}*/
-            /*dd {*/
-            /*     margin: 0 0 0 80px;*/
-            /*padding: 0 0 0.5em 0;*/
-            /*    !*background-color: #0DD;*!*/
-            /*}*/
-            .line h2 {
-                height: 1px;
-                width: 20rem;
-            }
-
-            h2 {
-                font-size: 1.3rem;
-                line-height: 1.3rem;
-                padding: 3px;
-                margin: 0;
-
-            }
-
-            .card-text {
-                font-size: 26px;
-                margin: 0;
-                padding: 0;
-            }
-
-            .card-text p {
-                font-size: 10px;
-                line-height: 1.2rem;
-            }
-        }
-    </style>
-
-
-</header>
-
-
-<style>
-    html {
-        /*font-size: 0.6rem;*/
-        font-family: 'Roboto', sans-serif;
-    }
-
-    h6 {
-        border-bottom: 5px solid green;
-        margin-top: 1rem;
-        width: 72%;
-        justify-content: center;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .footer p {
-        font-size: 0.9rem;
-        text-align: center;
-    }
-
-    @media (max-width: 500px) {
-        h6 {
-            width: 90%;
-        }
-
-        .footer p {
-            font-size: 14px;
-            margin: 1.4rem;
-            text-align: left;
-        }
-    }
-
-</style>
-
-<style>
-
-    a {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .input-group button {
-        margin: 0;
-        padding: 0.5rem 2rem;
-        background: linear-gradient(to left, #CDF2CA, #FE7E6D);
-        border: none;
-        color: #ffffff;
-        font-size: 1.5rem;
-        cursor: pointer;
-        border-radius: 0.4rem;
-    }
-
-    .input-group button:focus,
-    .input-group button:hover {
-        background: linear-gradient(to right, #CDF2CA, #FE7E6D);
-    }
-
-    @media (max-width: 700px) {
-
-        .input-group button {
-            margin: 0.1rem auto;
-            padding: 0.1rem 2rem;
-            background: linear-gradient(to left, #CDF2CA, #FE7E6D);
-            border: none;
-            color: #ffffff;
-            font-size: 1rem;
-            cursor: pointer;
-            border-radius: 0.4rem;
-        }
-
-        form {
-            border-radius: initial;
-            transition: initial;
-            box-shadow: none;
-            margin-right: 0;
-            padding-right: 0;
-            padding-left: 0;
-            transform: translateX(0.1rem);
-        }
-    }
-</style>
+</head>
 
 
 <!--popup-->
@@ -496,7 +285,7 @@
 
 <section class="display" id="myForm">
 
-    <div id="wrapper" class="wrapper">
+<!--    <div id="wrapper" class="wrapper">-->
         <div class="form-containers">
             <span class="form-headings">ลงทะเบียนเพื่อเข้าสู่ระบบ</span>
 
@@ -533,6 +322,7 @@
         </div>
     </div>
 </section>
+</header>
 
 <style>
     * {
@@ -542,49 +332,63 @@
     }
 
     html {
-        font-size: 1rem;
-        font-family: 'Prompt', sans-serif;
+        font-size: 0.9rem;
+        font-family: 'Roboto', sans-serif;
     }
 
     body {
-        /*background-color: rgba(218, 34, 255, 0.1);*/
-        background-color: whitesmoke;
+        background-color: rgba(218, 34, 255, 0.1);
+    }
+    .display {
+        font-size: 0.6rem;
     }
 
-    .close {
-        /*position: absolute;*/
-        /*position: initial;*/
-        display: inline-block;
-        /*margin-left: 15rem;*/
-        color: green;
-        cursor: pointer;
-        font-size: 15px;
-        width: 100%;
-        text-align: right;
-        padding-right: 30px;
-        margin-bottom: 0;
-        margin-top: 0;
-    }
+            /*.col-sm-3, .col-sm-9, dt dl dt {*/
+            /*    font-size: 10px;*/
+            /*}*/
+            dl {
+            display: grid;
+            flex-flow: row wrap;
+            width: 170%;
+            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            /*background: #ff0;*/
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
 
-    .fa-3x {
-        margin-bottom: 1rem;
-    }
+        dt {
+            float: left;
+            flex-basis: 100%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            width: 50%;
+            /* adjust the width; make sure the total of both is 100% */
+            /*background: #cc0;*/
+            padding: 0;
+            margin: 0
+        }
 
-    .close:hover {
-        color: #2a66b3;
-    }
-
-
-    #myForm {
-        display: none;
-        /*position: fixed;*/
-        /*z-index: 9;*/
-    }
+        dd {
+            flex-basis: 100%;
+            float: left;
+            width: 100%;
+            /*adjust the width; make sure the total of both is 100%*/
+            /*background: #dd0;*/
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            overflow-scrolling: auto;
+        }
 
 
     #wrapper {
-        width: 29%;
-        height: 80vh;
+        font-size: 0.6rem;
+        width: 100%;
+        height: 100vh;
         margin: 0 auto;
         display: flex;
         justify-content: center;
@@ -592,56 +396,49 @@
         background: url("./images/img_7.jpeg");
     }
 
-    .form-containers {
+    .form-container {
         width: 100%;
         max-width: 40rem;
-        height: 90%;
+        height: 50%;
         background-color: #ffffff;
         position: relative;
-        padding: 5rem 0 0;
+        padding: 10rem 0;
         box-shadow: 0 1px 1.5rem rgb(0, 0, 0, .1);
         border-radius: 1rem;
         z-index: 1;
     }
 
-    .form-containers::before {
+    .form-container::before {
         content: '';
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 10rem;
+        height: 30rem;
         background: linear-gradient(to left, #CDF2CA, #FE7E6D);
         border-bottom-right-radius: 100%;
         border-bottom-left-radius: 100%;
         z-index: -1;
     }
 
-    .form-headings {
+    .form-heading {
         color: #ffffff;
-        width: 100%;
-        font-weight: 1000;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         position: absolute;
-        top: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-        /*padding-left: 20px;*/
+        top: 3.5rem;
+        /*left: 1rem;*/
         text-align: center;
-        /*border: solid 0.1rem green;*/
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
     }
 
     form {
-        transform: translateX(5rem);
+        transform: translateX(10rem);
         padding: 2rem 0;
         background-color: #ffffff;
         border-radius: 1rem;
         box-shadow: 0 1px 1.5rem rgba(0, 0, 0, .1);
-    }
-
-    /*button to open the form*/
-    .open-button {
-
     }
 
     .input-group {
@@ -659,13 +456,13 @@
         margin-top: .5rem;
         border: none;
         outline: none;
-        font-size: 1rem;
+        font-size: 18px;
         color: #65C18C;
     }
 
     .input-group > i {
         font-size: 2rem;
-        margin-right: 1rem;
+        /*margin-right: 1rem;*/
         color: #65C18C;
     }
 
@@ -692,15 +489,12 @@
     }
 
     .input-group button {
-        margin: 2rem auto;
-        padding-right: 2rem;
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-left: 2rem;
+        margin: 1rem auto;
+        padding: 0.4rem 3rem;
         background: linear-gradient(to left, #CDF2CA, #FE7E6D);
         border: none;
         color: #ffffff;
-        /*font-size: rem;*/
+        font-size: 1rem;
         cursor: pointer;
         border-radius: 0.4rem;
     }
@@ -708,187 +502,326 @@
     .input-group button:focus,
     .input-group button:hover {
         background: linear-gradient(to right, #CDF2CA, #FE7E6D);
+
+        .fa-chalkboard-teacher
+
     }
+
+    .navbar-expand-lg {
+            /*position: sticky;*/
+            /*top: 0;*/
+            z-index: 100;
+            background-color: white;
+        }
+
+        .nav-link {
+            color: dimgrey;
+            border-bottom: none;
+        }
+
+        .nav-link:hover {
+            color: white;
+            background-color: grey;
+            border-radius: 10px;
+        }
 
     @media (max-width: 700px) {
-
-        .fa-3x {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-
-
-        #wrapper {
-            width: 100%;
-            height: 50vh;
-            margin-bottom: 4rem;
-        }
-
-        .form-containers::before {
-            height: 6rem;
+        .form-container::before {
+            height: 10rem;
             /*margin-left: 0;*/
         }
 
-        .form-headings {
+        .form-heading {
+            left: 8%;
+            transform: translateY(-50%);
+        }
+
+        form {
+            border-radius: initial;
+            transition: initial;
+            box-shadow: none;
+            margin-right: 0;
+            padding-right: 0;
+            padding-left: 0;
+            transform: translateX(0.1rem);
+
+        }
+    }
+
+
+
+        @media all and (orientation: portrait) {
+            /* Target device in portrait mode */
+            h6 {
+                border-bottom: 5px solid green;
+                margin-top: 1rem;
+                width: 72%;
+                justify-content: center;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .footer p {
+                font-size: 0.9rem;
+                text-align: center;
+            }
+        }
+
+        .navbar-expand-lg {
+            /*position: sticky;*/
+            /*top: 0;*/
+            z-index: 100;
+            background-color: white;
+        }
+
+        .nav-link {
+            color: dimgrey;
+            border-bottom: none;
+        }
+
+        .nav-link:hover {
+            color: white;
+            background-color: grey;
+            border-radius: 10px;
+        }
+
+
+        /* dt {*/
+        /*    float: left;*/
+        /*    clear: left;*/
+        /*    width: 110px;*/
+        /*    font-weight: bold;*/
+        /*    color: green;*/
+        /*}*/
+        /*dt::after {*/
+        /*    content: ":";*/
+        /*}*/
+        /*dd {*/
+        /*    margin: 0 0 0 80px;*/
+        /*    padding: 0 0 0.5em 0;*/
+        /*}*/
+        /*.col-sm-3, .col-sm-9 {*/
+        /*    font-size: 10px;*/
+        /*}*/
+        /*dl {*/
+        /*    overflow-y: hidden;*/
+        /*    overflow-x: hidden;*/
+        /*    overflow: hidden;*/
+        /*}*/
+        .fa-chevron-circle-down:hover {
+            color: darkseagreen;
+            font-size: 3.2rem;
+        }
+
+        /*dl {*/
+        /*    display: grid;*/
+        /*    flex-flow: row wrap;*/
+        /*    width: 130%;*/
+        /*    overflow: hidden;*/
+        /*    overflow-x: hidden;*/
+        /*    overflow-y: hidden;*/
+        /*    !*background: #ff0;*!*/
+        /*    padding: 0;*/
+        /*    margin: 0;*/
+        /*    text-align: center;*/
+        /*}*/
+
+        /*dt {*/
+        /*    float: left;*/
+        /*    flex-basis: 100%;*/
+        /*    overflow-x: hidden;*/
+        /*    overflow-y: hidden;*/
+        /*    width: 50%;*/
+        /*    !* adjust the width; make sure the total of both is 100% *!*/
+        /*    !*background: #cc0;*!*/
+        /*    padding: 0;*/
+        /*    margin: 0*/
+        /*}*/
+
+        /*dd {*/
+        /*    flex-basis: 100%;*/
+        /*    float: left;*/
+        /*    width: 100%;*/
+        /*    !*adjust the width; make sure the total of both is 100%*!*/
+        /*    !*background: #dd0;*!*/
+        /*    padding: 0;*/
+        /*    margin: 0;*/
+        /*    overflow-x: hidden;*/
+        /*    overflow-y: hidden;*/
+        /*    overflow-scrolling: auto;*/
+        /*}*/
+
+        @media (max-width: 500px) {
+        .col-sm-3,.col-sm-9 {
+            font-size: 16px;
+            display: inline-block;
+        }
+                 dl {
+            /*display: grid;*/
+            /*flex-flow: row wrap;*/
             width: 100%;
+            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            /*background: #ff0;*/
+            padding: 0;
+            margin: 0;
             text-align: center;
-            transform: translateY(-50%);
-            font-size: 1rem;
-            /*overflow: hidden;*/
         }
 
-        form {
-            border-radius: initial;
-            transition: initial;
-            box-shadow: none;
-            margin-right: 0;
-            padding-right: 0;
-            padding-left: 0;
-            transform: translateX(0.1rem);
-        }
-
-        .input-group {
-            height: 90px;
-            margin-top: 0;
-            padding-top: 0;
-            margin-bottom: 0;
-            font-size: 10px;
-            overflow: hidden;
-        }
-
-        .input-group input {
-            font-size: 18px;
-            margin-top: 0;
-        }
-
-        .input-group button {
-            font-size: 1rem;
-            margin-bottom: 0;
-            /*display: none;*/
-        }
-
-        .input-group > i {
-            font-size: 19px;
-            margin-top: 10px;
+        dt {
+            float: left;
+            /*flex-basis: 100%;*/
+            overflow-x: hidden;
+            overflow-y: hidden;
+            /*width: 50%;*/
+            /* adjust the width; make sure the total of both is 100% */
+            /*background: #cc0;*/
             padding: 0;
-            line-height: 0;
-
-            /*display: none;*/
+            margin: 0
         }
 
-        .mb-3 {
-            font-size: 1rem;
-        }
-    }
-
-    /*media query for ipad Air*/
-    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-        #wrapper {
-            width: 100%;
-            height: 50vh;
-            margin-bottom: 4rem;
-        }
-
-        .form-containers::before {
-            height: 6rem;
-            /*margin-left: 0;*/
-        }
-
-        .form-headings {
-            left: 4%;
-            transform: translateY(-50%);
-            font-size: 1rem;
-            /*overflow: hidden;*/
-        }
-
-        form {
-            border-radius: initial;
-            transition: initial;
-            box-shadow: none;
-            margin-right: 0;
-            padding-right: 0;
-            padding-left: 0;
-            transform: translateX(0.1rem);
-        }
-
-        .input-group {
-            height: 90px;
-            margin-top: 0;
-            padding-top: 0;
-            margin-bottom: 0;
-            font-size: 10px;
-            overflow: hidden;
-        }
-
-        .input-group input {
-            font-size: 18px;
-            margin-top: 0;
-        }
-
-        .input-group button {
-            font-size: 1rem;
-            margin-bottom: 0;
-            /*display: none;*/
-        }
-
-        .input-group > i {
-            font-size: 19px;
-            margin-top: 10px;
+        dd {
+            /*flex-basis: 100%;*/
+            /*float: left;*/
+            /*width: 100%;*/
+            /*adjust the width; make sure the total of both is 100%*/
+            /*background: #dd0;*/
             padding: 0;
-            line-height: 0;
-
-            /*display: none;*/
+            margin: 0;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            overflow-scrolling: auto;
+        }
+        .navbar-expand-lg {
+            /*position: sticky;*/
+            /*top: 0;*/
+            z-index: 100;
+            background-color: white;
         }
 
-        .footer p {
-        font-size: 0.9rem;
-        text-align: left;
-    }
-    }
+        .nav-link {
+            color: dimgrey;
+            border-bottom: none;
+        }
+
+        .nav-link:hover {
+            color: white;
+            background-color: grey;
+            border-radius: 10px;
+        }
+
+            /*.col-sm-3 {*/
+            /*    font-size: 10px;*/
+            /*    float: left;*/
+            /*    !*width: 30%;*!*/
+            /*    !*text-align: right;*!*/
+            /*}*/
+            /*.col-sm-9 {*/
+            /*    font-size: 10px;*/
+            /*    display: inline-block;*/
+            /*    width: 1%;*/
+            /*    text-align: left;*/
+            /*    float: left;*/
+            /*}*/
+            .line {
+                height: 1px;
+                /*margin-top: 2rem;*/
+                width: 20rem;
+                border-bottom: #ffffff solid 5px;
+                width: 40%;
+                margin-right: auto;
+                margin-top: 15px;
+                margin-left: auto;
+                margin-bottom: 0;
+            }
 
 
-  @media all and (orientation: landscape) {
-    /* Target device in landscape mode */
+            .calls {
+                font-size: 16px;
+                /*line-height: 1.3rem;*/
+                padding: 3px;
+                margin-top: 1.8rem;
+                /*margin-left: 1rem;*/
+                /*margin-top: 0;*/
+
+            }
+
+            .call {
+                font-size: 1rem;
+                margin-top: 0;
+                margin: 0;
+                /*margin-left: 0.3rem;*/
+                /*margin-right: 0.3rem;*/
+            }
+
+            .card-text {
+                /*font-size: 26px;*/
+                margin: 0;
+                padding: 0;
+            }
+
+            .card-text p {
+                font-size: 10px;
+                line-height: 1.2rem;
+            }
+
+            h6 {
+                width: 90%;
+            }
+
+            .footer p {
+                font-size: 14px;
+                margin: 1.4rem;
+                text-align: left;
+            }
+
+            a {
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .line {
+                height: 1px;
+                /*margin-top: 2rem;*/
+                width: 20rem;
+                border-bottom: #ffffff solid 5px;
+                width: 40%;
+                margin-right: auto;
+                /*margin-top: 15px;*/
+                margin-left: auto;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            .input-group button {
+                /*padding: 10px;*/
+                padding-left: 23px;
+                padding-right: 23px;
+                justify-content: center;
+                padding-top: 0.3px;
+                padding-bottom: 0.3px;
+            }
+            h6 {
+                border-bottom: 5px solid green;
+                margin-top: 1rem;
+                width: 72%;
+                justify-content: center;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
 
 
-    h6 {
-        border-bottom: 5px solid green;
-        margin-top: 1rem;
-        width: 72%;
-        justify-content: center;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .footer p {
-        font-size: 0.9rem;
-        text-align: center;
-    }
-
-  }
-
-  @media all and (orientation: portrait) {
-    /* Target device in portrait mode */
-
-          h6 {
-        border-bottom: 5px solid green;
-        margin-top: 1rem;
-        width: 72%;
-        justify-content: center;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .footer p {
-        font-size: 0.9rem;
-        text-align: center;
-    }
-  }
+            .footer p {
+                font-size: 0.9rem;
+                text-align: center;
+            }
+        }
 
 </style>
-</section>
 
 
 <script>
@@ -933,9 +866,27 @@
     }
 
 </style>
+
+
+<!--pagination page-->
+<nav data-pagination>
+    <ul>
+        <a href=index.html><i class='fas fa-angle-double-left' style='font-size:24px'></i></a>
+        <li class=current><a href=main.html>2</a>
+        <li><a href=class_room.html>3</a>
+        <li><a href=class_room.html>4</a>
+            <!--    <li><a href=#4>4</a>-->
+        <li><a href=class_room.html><i class='fas fa-angle-double-right' style='font-size:24px'></i></a>
+    </ul>
+    <a href=class_room.html><i class=ion-chevron-right></i></a>
+</nav>
+
+
+
+<!--footer-->
 <h6></h6>
 
-<footer class="footer">
+<footer id="footer" class="footer">
     <div>
         <p style="font-family: 'Prompt', sans-serif;">
             โครงการวิจัยเรื่อง การพัฒนานวัตกรรมหลักสูตรท้องถิ่นออนไลน์:
