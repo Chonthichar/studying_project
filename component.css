@@ -19,6 +19,10 @@ h2, p {
     color: black;
 }
 
+.click {
+    width: 30%;
+    height: 20%;
+}
 .name-text h1 {
     margin-top: 2rem;
     line-height: 6rem;
@@ -212,6 +216,18 @@ h2, p {
     transition: all 1s ease;
 }
 
+.pdf-text {
+    font-size: 3rem;
+    color:green;
+    padding: 1rem;
+    margin-bottom: 0;
+    /*margin-top: 2rem;*/
+    /*top: 10rem?;*/
+}
+.pdf-text:hover {
+    color: white;
+}
+
 /*.nav-side-menu .menu-list .menu-content {*/
 /*        display: block;*/
 /*    }*/
@@ -339,7 +355,14 @@ body {
     .footer {
         font-size: 0.8rem;
     }
+    .pdf-file {
+        display: block;
+    }
+    .pdf-text {
+        font-size: 2.2rem;
+        color: white;
 
+    }
 }
 
 /*media query for ipad Air*/
@@ -391,7 +414,7 @@ body {
         overflow-x: hidden;
     }
     .click {
-        width: 60%;
+        width:0%;
         height: 140px;
         /*display: none;*/
     }
@@ -482,13 +505,13 @@ dd {
     margin-left: auto;
     margin-right: auto;
     color: dimgrey;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Mali', cursive;
 "
 }
 
 .click {
-    width: 10%;
+    width: 30%;
     height: 120px;
     color: #93baf9;
 }
