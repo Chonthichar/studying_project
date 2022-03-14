@@ -15,6 +15,7 @@ body, html {
 h2, p {
     font-weight: inherit;
     font-family: 'Prompt', sans-serif;
+    font-size: 12px;
 }
 
 .name-text h1 {
