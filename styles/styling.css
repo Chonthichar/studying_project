@@ -12,6 +12,9 @@
 }
 
 
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,6 +25,8 @@
 body, html {
     font-family: Roboto, sans-serif;
     background: whitesmoke;
+    font-size: 1rem;
+
     /*line-height: 1.7em;*/
     /*color: darkslateblue;*/
     /*line-height: 1.6em;*/
@@ -42,7 +47,7 @@ body, html {
 
 #showcase:before {
     content: '';
-    background: url("../images/hintern_1.JPG") no-repeat center center/cover;
+    background: url("../images/cocogo_7.JPG") no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0%;
@@ -73,17 +78,33 @@ body, html {
     /*border: black solid 0.1rem;*/
     width: 100%;
     padding: 0.4rem 0.6rem;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     margin-bottom: 0.5rem;
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
+    border-bottom: solid white 10px;
+    text-align: center;
 }
 
 .texts {
+
+    font-size: 2rem;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.textss {
     position: absolute;
     top: 40%;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 2rem;
@@ -98,27 +119,31 @@ img {
     width: 100%;
     justify-content: center;
     align-items: center;
-    height: 60vh;
-    background-color: #A3DDCB;
+    height: 65vh;
+    background-color: #A3DDCB ;
     content: "";
 }
-
 
 
 p {
     width: 100%;
     /*border: 0.1rem solid black;*/
     text-align: left;
-    font-size: 1.1rem;
+    float: left;
+    font-size: 1rem;
     font-family: 'Prompt', sans-serif;
+    color: black;
+    margin-top: 0;
 }
 
 .fa-chevron-circle-right {
     color: green;
     font-size: 40px;
     margin: 0;
-    padding-right: 0.5rem;
+    padding-right: 0.4rem;
     border-bottom: none;
+    margin-left: 0;
+    padding-left: 0;
     /*padding-top: 1rem;*/
 }
 
@@ -215,10 +240,11 @@ p {
 .sty {
     margin-top: 3rem;
     text-align: center;
+    color: black;
 }
 
 .pradu {
-    margin-top: 0.5rem;
+    margin-top: 0;
     text-align: left;
     font-family: 'Prompt', sans-serif;
 }
@@ -286,10 +312,10 @@ p {
 
 @media (max-width: 500px) {
     /* stack grid item*/
-
     #showcase {
         width: 100%;
     }
+
     #showcase .showcase-container, #home-articles .articles-container, #home-articlee .articles-container {
         grid-template-columns: 1fr;
     }
@@ -308,8 +334,8 @@ p {
         /*border: solid 0.2rem green;*/
     }
 
-    .texts {
-        font-size: 0.9rem;
+    .texts, .textss {
+        font-size: 0.8rem;
         width: 100%;
         /*margin: 0;*/
         padding: 0.5rem;
@@ -318,46 +344,56 @@ p {
         top: 4.3rem;
 
     }
+
+
     p {
         font-size: 18px;
         /*padding: 0.3rem;*/
         margin: 0;
         text-align: left;
     }
+
     .sty {
         margin-top: 1rem;
     }
+
     #home-articles, #home-articlee {
         width: 100%;
         margin-right: 0;
         margin-left: 0;
         padding: 0;
     }
+
     .articles-container {
         width: 200%;
         margin-right: 0;
         margin-left: 0;
     }
+
     img {
         margin-right: 0;
         margin-left: 0;
         width: 100%;
         height: 100%;
     }
+
     .fa-chevron-circle-right {
         font-size: 20px;
         /*margin-left: 0.1rem;*/
         margin: 0;
 
     }
+
     .articles-container {
         border: 0.1rem solid whitesmoke;
         overflow: hidden;
     }
+
     .category {
         font-size: 2rem;
     }
 }
+
 
 
 
