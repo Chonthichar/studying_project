@@ -73,12 +73,14 @@
                  style="font-family: 'Prompt', sans-serif;">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" style="font-family: 'Mali', cursive;" href="#!">รูปภาพ</a>
+                        <a class="nav-link" style="font-family: 'Mali', cursive;" href="">รูปภาพ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">ติดต่อ</a>
+                        <a class="nav-link" href="contact.html">ข้อสงสัย</a>
                     </li>
-                    <a href="class_room.html"><button type="button" class="btn btn-dark ms-3">ห้องเรียน</button></a>
+                    <a href="class_room.html">
+                        <button type="button" class="btn btn-dark ms-3">กลับสู่ห้องเรียน</button>
+                    </a>
                 </ul>
             </div>
         </div>
@@ -91,7 +93,7 @@
         <div class="container">
             <div class="showcase-container">
                 <div class="showcase-content">
-                    <div class="category category-sports">ห้องเรียน</div>
+                    <div class="category category-sports">ถาม - ตอบ</div>
                 </div>
             </div>
         </div>
@@ -106,9 +108,9 @@
             <div class="column-1">
                 <!--                    <p class="lead">Here is how you can reach me</p>-->
                 <!--                    <img src="./images/" alt="contact-photo">-->
-                <form action="https://formsubmit.co/ed.rmutr@gmail.com" method="POST"
-                      style="padding-top: 2rem; padding-bottom: 2rem">
-                    <input type="email" name="email" placeholder="อีเมล์สำหรับติดต่อกลับ" required style="
+                <form class="names" action="https://formsubmit.co/ed.rmutr@gmail.com" method="POST"
+                      style="padding-top: 2rem; padding-bottom: 2rem; font-family: 'Prompt', sans-serif;">
+                    <input type="email" name="email" placeholder="อีเมล์สำหรับติดต่อกลับ.." required style="
                         width: 90%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -118,7 +120,7 @@
   border-radius: 30px;
 
  ">
-                    <input type="text" name="name" placeholder="ลงชื่อของคุณที่นี่" required style="
+                    <input type="text" name="name" placeholder="ลงชื่อและนามสกุล.." required style="
                         width: 90%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -130,7 +132,7 @@ border-radius: 30px;
                     <input type="hidden" name="_subject" value="New submission!">
                     <input type="hidden" name="_next" value="https://chonthichar.github.io/thank_page/">
                     <input type="hidden" name="_template" value="table">
-                    <textarea input type="text" name="message" placeholder="ใส่ข้อความของคุณที่นี่" required style="
+                    <textarea input type="text" name="message" placeholder="ใส่ข้อความที่นี่.." required style="
                         width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -141,14 +143,7 @@ border-radius: 30px;
   height: 200px;
 border-radius: 50px;
  "></textarea>
-                    <button type="submit" style="  background-color: #04AA6D;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 80%;
-  opacity: 0.9;">ส่งคำถาม
+                    <button class="btns" type="submit">ส่งคำถาม
                     </button>
                 </form>
             </div>
@@ -206,6 +201,21 @@ border-radius: 50px;
             color: #262626;
         }
 
+        .btns {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;   
+            cursor: pointer;
+            width: 15%;
+            opacity: 0.9;
+            border-radius: 30px;
+        }
+        .btns:hover {
+            background-color: green;
+        }
+
         h6 {
             border-bottom: 5px solid green;
             margin-top: 1rem;
@@ -226,6 +236,7 @@ border-radius: 50px;
             .section-title {
                 font-size: 1rem;
             }
+
             h6 {
                 width: 90%;
             }
@@ -237,9 +248,16 @@ border-radius: 50px;
                 /*margin: 1.4rem;*/
                 text-align: left;
             }
+
+            .names {
+                font-size: 0.8rem;
+            }
+
+            .btns {
+                /*width: 30%;*/
+            }
         }
     </style>
-
 
 
     <script src="./scripts/script.js"></script>
@@ -250,12 +268,12 @@ border-radius: 50px;
     </div>
 </header>
 
-    <footer id="footer" class="mountain">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#0099ff" fill-opacity="0.1"
-                  d="M0,224L205.7,224L411.4,96L617.1,224L822.9,96L1028.6,0L1234.3,96L1440,128L1440,320L1234.3,320L1028.6,320L822.9,320L617.1,320L411.4,320L205.7,320L0,320Z"></path>
-        </svg>
-    </footer>
+<footer id="footer" class="mountain">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="0.1"
+              d="M0,224L205.7,224L411.4,96L617.1,224L822.9,96L1028.6,0L1234.3,96L1440,128L1440,320L1234.3,320L1028.6,320L822.9,320L617.1,320L411.4,320L205.7,320L0,320Z"></path>
+    </svg>
+</footer>
 </body>
 </html>
 

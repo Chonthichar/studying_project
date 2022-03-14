@@ -14,7 +14,6 @@
 
 
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -257,12 +256,15 @@ p {
     }
 
     .category {
-        font-size: 1rem;
+        font-size: 3rem;
         margin-top: 4rem;
         /*text-align: center;*/
         margin-left: auto;
         margin-right: auto;
     }
+   .texts, .textss {
+       font-size: 1rem;
+   }
 
     #home-articles .articles-container, #home-articlee .articles-container {
         grid-template-columns: repeat(1, 1fr);
@@ -335,7 +337,7 @@ p {
     }
 
     .texts, .textss {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         width: 100%;
         /*margin: 0;*/
         padding: 0.5rem;
