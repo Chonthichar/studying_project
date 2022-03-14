@@ -15,7 +15,8 @@ body, html {
 h2, p {
     font-weight: inherit;
     font-family: 'Prompt', sans-serif;
-    font-size: 12px;
+    font-size: 222px;
+    color: black;
 }
 
 .name-text h1 {
@@ -259,11 +260,13 @@ body {
 
 @media (max-width: 500px) {
 
+    body, html {
+            font-size: 8px;
+        }
     body {
         overflow-x: hidden;
         /*overflow: hidden;*/
     }
-
     .container {
         /*border: solid 0.1rem black;*/
         text-align: center;
@@ -320,7 +323,7 @@ body {
     }
 
     .name-text h1 {
-        font-size: 8rem;
+        font-size: 1rem;
         /*line-height: 2.9rem;*/
         margin-top: 2rem;
         margin-bottom: 0;
