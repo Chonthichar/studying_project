@@ -51,7 +51,7 @@
   color: green;
 }
 [data-pagination] li.current {
-  background: lightblue;
+  background: rgb(151, 219, 174);
   padding: 0.3rem;
 }
 /* Disabled & Hidden Styles */
