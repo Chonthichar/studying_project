@@ -206,31 +206,7 @@
         </div>
     </section>
 
-    <!--pagination page-->
-    <nav data-pagination>
-        <ul>
-            <a href=main.html><i class='fas fa-angle-double-left' style='font-size:20px'></i></a>
-            <li class=current><a href=main.html>3</a>
-            <li><a href=chapter_1.html>4</a>
-            <li><a href=chapter_2.html>5</a>
-                <!--    <li><a href=#4>4</a>-->
-            <li><a href=chapter_1.html><i class='fas fa-angle-double-right' style='font-size:20px'></i></a>
-        </ul>
-        <a href=class_room.html><i class=ion-chevron-right></i></a>
-    </nav>
 
-    <h6></h6>
-    <footer class="footer">
-        <div>
-            <p style="font-family: 'Prompt', sans-serif;">
-                โครงการวิจัยเรื่อง การพัฒนานวัตกรรมหลักสูตรท้องถิ่นออนไลน์:
-                <br>การจัดการท่องเที่ยววิถีพร้าวโดยชุมชนเชิงสร้างสรรค์อย่างยั่งยืน
-                <br>บนฐานสหวิทยาและภูมิปัญญาท้องถิ่น
-                <br>มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์ คณะอุตสาหกรรมการโรงแรมและการท่องเที่ยว
-                <br>สนับสนุนโดย สำนักงานคณะกรรมการวิทยาศาสตร์ วิจัยและนวัตกรรม (สกสว.)
-            </p>
-        </div>
-    </footer>
 
     <style>
         body {
@@ -255,33 +231,36 @@
             color: #262626;
         }
 
+         h6 {
+        border-bottom: 5px solid green;
+        margin-top: 1rem;
+        width: 72%;
+        justify-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #footer p {
+        font-family: 'Prompt', sans-serif;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    @media (max-width: 500px) {
         h6 {
-            border-bottom: 5px solid green;
-            margin-top: 1rem;
-            width: 89%;
-            justify-content: center;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
+            width: 90%;
         }
 
         .footer p {
-            font-size: 0.9rem;
+            margin-top: 0;
+            margin-left: 0.8rem;
+            font-size: 8px;
+            /*margin: 1.4rem;*/
             text-align: center;
         }
-
-        @media (max-width: 500px) {
-            h6 {
-                width: 90%;
-            }
-
-            .footer p {
-                margin-top: 0;
-                margin-left: 0.8rem;
-                font-size: 8px;
-                /*margin: 1.4rem;*/
-                text-align: left;
-            }
         }
     </style>
 
@@ -297,6 +276,37 @@
     ></script>
 
 </header>
+
+
+ <!--pagination page-->
+    <nav data-pagination>
+        <ul>
+            <a href=main.html><i class='fas fa-angle-double-left' style='font-size:20px'></i></a>
+            <li class=current><a href=main.html>3</a>
+            <li><a href=chapter_1.html>4</a>
+            <li><a href=chapter_2.html>5</a>
+                <!--    <li><a href=#4>4</a>-->
+            <li><a href=chapter_1.html><i class='fas fa-angle-double-right' style='font-size:20px'></i></a>
+        </ul>
+        <a href=class_room.html><i class=ion-chevron-right></i></a>
+    </nav>
+
+<!--footer-->
+<h6></h6>
+
+<footer id="footer" class="footer">
+    <div>
+        <p>
+            โครงการวิจัยเรื่อง การพัฒนานวัตกรรมหลักสูตรท้องถิ่นออนไลน์:
+            <br>การจัดการท่องเที่ยววิถีพร้าวโดยชุมชนเชิงสร้างสรรค์อย่างยั่งยืน
+            <br>บนฐานสหวิทยาและภูมิปัญญาท้องถิ่น
+            <br>มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์ คณะอุตสาหกรรมการโรงแรมและการท่องเที่ยว
+            <br>สนับสนุนโดย สำนักงานคณะกรรมการวิทยาศาสตร์ วิจัยและนวัตกรรม (สกสว.)
+        </p>
+    </div>
+</footer>
+
+
 </body>
 </html>
 
