@@ -22,7 +22,7 @@
 body, html {
     font-family: Roboto, sans-serif;
     background: white;
-    font-size: 1rem;
+    /*font-size: 1rem;*/
 
     /*line-height: 1.7em;*/
     /*color: darkslateblue;*/
@@ -117,40 +117,51 @@ img {
     width: 100%;
     justify-content: center;
     /*align-items: center;*/
-    height: 65vh;
+    height: 60vh;
     background-color: #A3DDCB;
     content: "";
 }
 
 
-.component {
-    margin-left: 0;
+p {
+    /*margin-left: 0;*/
     left: 0;
-    width: 100%;
+    /*width: 100%;  */
     /*border: 0.1rem solid black;*/
-    text-align: left;
-    justify-content: left;
-    position: initial;
+    /*text-align: left;*/
+    /*justify-content: left;*/
+    /*position: initial;*/
     float: left;
-    font-size: 1.1rem;
+    font-size: 1rem;
     /*font-family: 'Prompt', sans-serif;*/
     color: black;
     margin-top:    0;
+    /*border-bottom: none;*/
+    text-decoration: none;
+    display: inline-block;
+
 }
+/*p:hover{*/
+/*    color: green;*/
+/*}*/
+
+
 
 .fa-chevron-circle-right {
     color: green;
-    font-size: 40px;
-    margin: 0;
-    padding-right: 0.4rem;
+    font-size: 60px;
+    /*margin: 0;*/
+    margin-right: 1rem;
+    /*padding-right: 2rem;*/
     border-bottom: none;
-    margin-left: 0;
+    /*border: solid green 2px;*/
+    /*margin-left: 0;*/
     padding-left: 0;
     /*padding-top: 1rem;*/
 }
 
 .fas:hover {
-    color: #94DAFF;
+    color: seagreen;
 }
 
 /*Home articles*/
@@ -211,7 +222,7 @@ img {
 }
 
 .bg-secondary {
-    background-color: dodgerblue;
+    /*background-color: dodgerblue;*/
     color: dimgrey;
 }
 
@@ -247,9 +258,11 @@ img {
 }
 
 .pradu {
-    margin-top: 0;
+    /*margin-top: 0;*/
+    margin: 8px;
     text-align: left;
-    font-family: 'Prompt', sans-serif;
+    /*font-family: 'Prompt', sans-serif;*/
+
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
@@ -268,8 +281,25 @@ img {
         width: 100%;
     }
 
+
     .texts, .textss {
         font-size: 1rem;
+    }
+
+    p{
+        float: left;
+        font-size: 18px;
+    }
+    .fa-chevron-circle-right {
+        margin-right: 2rem;
+        font-size: 2rem;
+        margin-left: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    img {
+        height: 30vh;
     }
 
     #home-articles .articles-container, #home-articlee .articles-container {
@@ -359,7 +389,9 @@ img {
         /*padding: 0.3rem;*/
         margin: 0;
         text-align: left;
+        float: left;
     }
+
 
     .sty {
         margin-top: 1rem;
@@ -378,23 +410,24 @@ img {
         margin-left: 0;
     }
 
-    img {
+   .card img {
         margin-right: 0;
         margin-left: 0;
         width: 100%;
-        height: 100%;
+        height: 24vh;
     }
 
     .fa-chevron-circle-right {
-        font-size: 20px;
+        font-size: 2rem;
+        margin-right: 1rem;
         /*margin-left: 0.1rem;*/
-        margin: 0;
+        /*margin: 0;*/
 
     }
 
     .articles-container {
         border: 0.1rem solid whitesmoke;
-        overflow: hidden;
+        /*overflow: hidden;*/
     }
 
     .category {
