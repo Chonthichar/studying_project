@@ -370,10 +370,10 @@ img {
         #home-articles .articles-container, #home-articlee .articles-container {
         width: 100%;
     }
-
-    #showcase .showcase-container, #home-articles .articles-container, #home-articlee .articles-container {
-        grid-template-columns: 1fr;
-    }
+    
+    /*#showcase .showcase-container, #home-articles .articles-container, #home-articlee .articles-container {*/
+    /*    grid-template-columns: 1fr;*/
+    /*}*/
 
     .articles-container, .articlee-container {
         width: 1000px;
