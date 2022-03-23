@@ -150,7 +150,7 @@ img {
     font-family: 'Prompt', sans-serif;
     color: black;
     margin-top:0;
-    padding: 10px;
+    padding-left: 10px;
 
     /*border-bottom: none;*/
     /*display: flex;*/
@@ -177,7 +177,7 @@ img {
     margin-left: 0;
     /*padding-top: 1rem;*/
     /*text-decoration: none;*/
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     /*position: relative;*/
 }
 
@@ -282,6 +282,9 @@ img {
     /*margin-top: 0;*/
     /*margin: 8px;*/
     text-align: left;
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid black;*/
     /*font-family: 'Prompt', sans-serif;*/
 
 }
@@ -308,7 +311,7 @@ img {
 
 
     .texts, .textss {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     p{
@@ -405,7 +408,7 @@ img {
 
 
     .texts, .textss {
-        font-size: 0.9rem;
+        font-size: 1rem;
         /*width: 100%;*/
         /*margin: 0;*/
         padding: 0.5rem;
@@ -416,7 +419,7 @@ img {
     }
 
 
-    .card p, .pradu {
+    .card p {
         font-size: 16px;
         /*padding: 0.3rem;*/
         margin: 0;
@@ -466,7 +469,10 @@ img {
     }
 
     .category {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        width: 110%;
+        /*border: 1px solid black;*/
+        text-align:center;
     }
 
       #home-articles .articles-container, #home-articlee .articles-container {
