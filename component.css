@@ -20,18 +20,22 @@ h2, p {
 }
 
 .click {
-    width: 30%;
+    width: 10%;
     height: 20%;
 }
 .name-text h1 {
     margin-top: 2rem;
     line-height: 6rem;
     margin-bottom: 4rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 128, 0, 0.6);
     opacity: 1;
     padding: 2rem;
     width: 100%;
     text-align: center;
+    border-radius: 5px;
+}
+.name-text h1:hover {
+    color: white;
 }
 
 /*important box for styling a whole page*/
@@ -49,7 +53,7 @@ h2, p {
 
 
 .hero-image {
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url('./images/cocogo_7.JPG');
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url('./images/cocogo_7.JPG');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.5); /* Used if the image is unavailable */
     height: 300px; /* You must set a specified height */
@@ -96,6 +100,7 @@ h2, p {
     height: 100%;
     color: #e1ffff;
     padding: 0.5rem;
+    /*display: block;*/
 
 }
 
@@ -167,7 +172,7 @@ h2, p {
 
 .nav-side-menu ul .sub-menu li,
 .nav-side-menu li .sub-menu li {
-    background-color: #181c20;
+    background-color: #9aa0a6;
     border: none;
     line-height: 28px;
     border-bottom: 1px solid #23282e;
@@ -218,7 +223,7 @@ h2, p {
 
 .pdf-text {
     font-size: 3rem;
-    color:green;
+    color: #EDEDED;
     padding: 1rem;
     margin-bottom: 0;
     /*margin-top: 2rem;*/
@@ -232,6 +237,7 @@ h2, p {
 /*        display: block;*/
 /*    }*/
 
+/*hover for ipad and tablet*/
 
 @media (max-width: 767px) {
     .nav-side-menu {
@@ -239,7 +245,7 @@ h2, p {
         width: 100%;
         margin-bottom: 10px;
     }
-
+}
     .nav-side-menu .toggle-btn {
         display: block;
         cursor: pointer;
@@ -260,7 +266,8 @@ h2, p {
         padding-left: 20px;
         line-height: 50px !important;
     }
-}
+
+
 
 @media (min-width: 768px) {
     .nav-side-menu .menu-list .menu-content {
@@ -414,8 +421,8 @@ body {
         overflow-x: hidden;
     }
     .click {
-        width:0%;
-        height: 140px;
+        width:20%;
+        height: 90px;
         /*display: none;*/
     }
 
@@ -490,7 +497,7 @@ dd {
     color: dimgray;
     border-radius: 10px;
     border: whitesmoke;
-    background-color: lightblue;
+    background-color: rgba(0, 128, 0, 0.6);
     line-height: 3rem;
 }
 
@@ -510,11 +517,11 @@ dd {
 "
 }
 
-.click {
-    width: 30%;
-    height: 120px;
-    color: #93baf9;
-}
+/*.click {*/
+/*    width: 30%;*/
+/*    height: 120px;*/
+/*    color: #93baf9;*/
+/*}*/
 /*.fa-chevron-circle-down {*/
 /*    display: none;*/
 /*    width: 10%;*/

@@ -74,33 +74,31 @@
         style="background-color: whitesmoke; font-family: 'Prompt', sans-serif;">
 
 
-    <nav class="navbar navbar-expand-lg navbar-scroll shadow-0 container bg-light">
-        <div class="container" style="border-bottom: green">
-            <a class="navbar-brand" href="index.html"><i class="fa fa-leaf fa-1x" style="color: black"></i></a>
+    <nav class="navbar navbar-expand-lg navbar-scroll fixed-top shadow-0 container">
+        <div class="container" >
+            <a class="navbar-brand" href="main.html"><i class="fa fa-leaf fa-1x" style="color: black"></i></a>
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
                     data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false"
                     aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"
+                 style="font-family: 'Prompt', sans-serif;">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#section-1">รายละเอียดหลักสูตร</a>
+                    </li>  <li class="nav-item">
+                        <a class="nav-link" href="#section-1">วัตถุประสงค์หลักสูตร</a>
+                    </li>  <li class="nav-item">
+                        <a class="nav-link" href="#section-2">โครงสร้างหลักสูตร</a>
+                    </li>  <li class="nav-item">
+                        <a class="nav-link" href="#section-3">รายวิชา</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section-2">วัตถุประสงค์หลักสูตร</a>
+                        <a class="nav-link" href="#footer">ลงทะเบียน</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#section-3">โครงสร้างหลักสูตร</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#section-4">รายวิชา</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="background-color: black; color: white; border-radius: 10px"
-                           href="#footer">ลงทะเบียน</a>
-                    </li>
+                    <a href="index.html"><button style="background-color: black; color: white; padding: 0.5rem; border-radius: 4px">กลับสู่หน้าแรก</button></a>
                 </ul>
             </div>
         </div>
@@ -116,7 +114,8 @@
         -o-background-size: cover;
          -background-size: cover;">
 
-        <h2 class="text-center text-white fw-bolder mb-0 mx-auto text-break calls" style="font-family: 'Mali', cursive" ;>
+        <h2 class="text-center text-white fw-bolder mb-0 mx-auto text-break calls" style="font-family: 'Mali', cursive"
+            ;>
             <br>
             <br>
             หลักสูตรท้องถิ่นออนไลน์</h2>
@@ -178,7 +177,8 @@
             โครงสร้างหลักสูตร</h4>
 
         <dl class="row mb-3 card-text p-1 text-dark text-start fs-6 text-normal">
-            <dt class="col-sm-3 fs-6 card-text text-dark d-flex kit" style="text-align: left; font-family:'Mali', cursive;">
+            <dt class="col-sm-3 fs-6 card-text text-dark d-flex kit"
+                style="text-align: left; font-family:'Mali', cursive;">
                 จำนวนหน่วยกิตรวมตลอดหลักสูตร
             </dt>
             <dd class="col-sm-9">30 ชั่วโมง</dd>
@@ -265,27 +265,26 @@
     </div>
 
 
+    </head>
 
-</head>
 
-
-<!--popup-->
-<div class="process container" id="section-button">
-    <div class="p-1 text-center" style="background-color: whitesmoke">
-        <i class="fas fa-chevron-circle-down fa-3x process-icon open-button" onclick="openForm()"></i>
-        <h4 class="mb-3">ลงทะเบียนเพื่อเข้าสู่บทเรียน</h4>
-        <div class="input-group">
-            <!--                <button type="submit" class="open-button" onclick="openForm()">-->
-            <!--                    เข้าสู่บทเรียน-->
-            <!--                </button>-->
+    <!--popup-->
+    <div class="process container" id="section-button">
+        <div class="p-1 text-center" style="background-color: whitesmoke">
+            <i class="fas fa-chevron-circle-down fa-3x process-icon open-button" onclick="openForm()"></i>
+            <h4 class="mb-3">ลงทะเบียนเพื่อเข้าสู่บทเรียน</h4>
+            <div class="input-group">
+                <!--                <button type="submit" class="open-button" onclick="openForm()">-->
+                <!--                    เข้าสู่บทเรียน-->
+                <!--                </button>-->
+            </div>
         </div>
     </div>
-</div>
 
 
-<section class="display" id="myForm">
+    <section class="display" id="myForm">
 
-<!--    <div id="wrapper" class="wrapper">-->
+        <!--    <div id="wrapper" class="wrapper">-->
         <div class="form-containers">
             <span class="form-headings">ลงทะเบียนเพื่อเข้าสู่ระบบ</span>
 
@@ -320,8 +319,8 @@
                     ปิดหน้าลงทะเบียน</p>
             </form>
         </div>
-    </div>
-</section>
+        </div>
+    </section>
 </header>
 
 <style>
@@ -341,46 +340,46 @@
     }
 
 
-            /*.col-sm-3, .col-sm-9, dt dl dt {*/
-            /*    font-size: 10px;*/
-            /*}*/
-            dl {
-            display: grid;
-            flex-flow: row wrap;
-            width: 170%;
-            overflow: hidden;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            /*background: #ff0;*/
-            padding: 0;
-            margin: 0;
-            text-align: center;
-        }
+    /*.col-sm-3, .col-sm-9, dt dl dt {*/
+    /*    font-size: 10px;*/
+    /*}*/
+    dl {
+        display: grid;
+        flex-flow: row wrap;
+        width: 170%;
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        /*background: #ff0;*/
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
 
-        dt {
-            float: left;
-            flex-basis: 100%;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            width: 50%;
-            /* adjust the width; make sure the total of both is 100% */
-            /*background: #cc0;*/
-            padding: 0;
-            margin: 0
-        }
+    dt {
+        float: left;
+        flex-basis: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 50%;
+        /* adjust the width; make sure the total of both is 100% */
+        /*background: #cc0;*/
+        padding: 0;
+        margin: 0
+    }
 
-        dd {
-            flex-basis: 100%;
-            float: left;
-            width: 100%;
-            /*adjust the width; make sure the total of both is 100%*/
-            /*background: #dd0;*/
-            padding: 0;
-            margin: 0;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            overflow-scrolling: auto;
-        }
+    dd {
+        flex-basis: 100%;
+        float: left;
+        width: 100%;
+        /*adjust the width; make sure the total of both is 100%*/
+        /*background: #dd0;*/
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        overflow-scrolling: auto;
+    }
 
 
     #wrapper {
@@ -432,7 +431,7 @@
     }
 
     form {
-        transform: translateX(10rem);
+        transform: translateX(6rem);
         padding: 2rem 0;
         background-color: #ffffff;
         border-radius: 1rem;
@@ -440,7 +439,7 @@
     }
 
     .input-group {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
         position: relative;
         display: flex;
@@ -459,7 +458,7 @@
     }
 
     .input-group > i {
-        font-size: 2rem;
+        font-size: 1rem;
         /*margin-right: 1rem;*/
         color: #65C18C;
     }
@@ -501,27 +500,27 @@
     .input-group button:hover {
         background: linear-gradient(to right, #CDF2CA, #FE7E6D);
 
-        .fa-chalkboard-teacher
+    . fa-chalkboard-teacher
 
     }
 
     .navbar-expand-lg {
-            /*position: sticky;*/
-            /*top: 0;*/
-            z-index: 100;
-            background-color: white;
-        }
+        /*position: sticky;*/
+        /*top: 0;*/
+        z-index: 100;
+        background-color: white;
+    }
 
-        .nav-link {
-            color: dimgrey;
-            border-bottom: none;
-        }
+    .nav-link {
+        color: dimgrey;
+        border-bottom: none;
+    }
 
-        .nav-link:hover {
-            color: white;
-            background-color: grey;
-            border-radius: 10px;
-        }
+    .nav-link:hover {
+        color: white;
+        background-color: grey;
+        border-radius: 10px;
+    }
 
     @media (max-width: 700px) {
         .form-container::before {
@@ -547,115 +546,115 @@
     }
 
 
-
-        @media all and (orientation: portrait) {
-            /* Target device in portrait mode */
-            h6 {
-                border-bottom: 5px solid green;
-                margin-top: 1rem;
-                width: 72%;
-                justify-content: center;
-                text-align: center;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            .footer p {
-                font-size: 0.9rem;
-                text-align: center;
-            }
+    @media all and (orientation: portrait) {
+        /* Target device in portrait mode */
+        h6 {
+            border-bottom: 5px solid green;
+            margin-top: 1rem;
+            width: 72%;
+            justify-content: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .navbar-expand-lg {
-            /*position: sticky;*/
-            /*top: 0;*/
-            z-index: 100;
-            background-color: white;
+        .footer p {
+            font-size: 0.9rem;
+            text-align: center;
         }
+    }
 
-        .nav-link {
-            color: dimgrey;
-            border-bottom: none;
-        }
+    .navbar-expand-lg {
+        /*position: sticky;*/
+        /*top: 0;*/
+        z-index: 100;
+        background-color: white;
+    }
 
-        .nav-link:hover {
-            color: white;
-            background-color: grey;
-            border-radius: 10px;
-        }
+    .nav-link {
+        color: dimgrey;
+        border-bottom: none;
+    }
+
+    .nav-link:hover {
+        color: white;
+        background-color: grey;
+        border-radius: 10px;
+    }
 
 
-        /* dt {*/
-        /*    float: left;*/
-        /*    clear: left;*/
-        /*    width: 110px;*/
-        /*    font-weight: bold;*/
-        /*    color: green;*/
-        /*}*/
-        /*dt::after {*/
-        /*    content: ":";*/
-        /*}*/
-        /*dd {*/
-        /*    margin: 0 0 0 80px;*/
-        /*    padding: 0 0 0.5em 0;*/
-        /*}*/
-        /*.col-sm-3, .col-sm-9 {*/
-        /*    font-size: 10px;*/
-        /*}*/
-        /*dl {*/
-        /*    overflow-y: hidden;*/
-        /*    overflow-x: hidden;*/
-        /*    overflow: hidden;*/
-        /*}*/
-        .fa-chevron-circle-down:hover {
-            color: darkseagreen;
-            font-size: 3.2rem;
-        }
+    /* dt {*/
+    /*    float: left;*/
+    /*    clear: left;*/
+    /*    width: 110px;*/
+    /*    font-weight: bold;*/
+    /*    color: green;*/
+    /*}*/
+    /*dt::after {*/
+    /*    content: ":";*/
+    /*}*/
+    /*dd {*/
+    /*    margin: 0 0 0 80px;*/
+    /*    padding: 0 0 0.5em 0;*/
+    /*}*/
+    /*.col-sm-3, .col-sm-9 {*/
+    /*    font-size: 10px;*/
+    /*}*/
+    /*dl {*/
+    /*    overflow-y: hidden;*/
+    /*    overflow-x: hidden;*/
+    /*    overflow: hidden;*/
+    /*}*/
+    .fa-chevron-circle-down:hover {
+        color: darkseagreen;
+        font-size: 3.2rem;
+    }
 
-        /*dl {*/
-        /*    display: grid;*/
-        /*    flex-flow: row wrap;*/
-        /*    width: 130%;*/
-        /*    overflow: hidden;*/
-        /*    overflow-x: hidden;*/
-        /*    overflow-y: hidden;*/
-        /*    !*background: #ff0;*!*/
-        /*    padding: 0;*/
-        /*    margin: 0;*/
-        /*    text-align: center;*/
-        /*}*/
+    /*dl {*/
+    /*    display: grid;*/
+    /*    flex-flow: row wrap;*/
+    /*    width: 130%;*/
+    /*    overflow: hidden;*/
+    /*    overflow-x: hidden;*/
+    /*    overflow-y: hidden;*/
+    /*    !*background: #ff0;*!*/
+    /*    padding: 0;*/
+    /*    margin: 0;*/
+    /*    text-align: center;*/
+    /*}*/
 
-        /*dt {*/
-        /*    float: left;*/
-        /*    flex-basis: 100%;*/
-        /*    overflow-x: hidden;*/
-        /*    overflow-y: hidden;*/
-        /*    width: 50%;*/
-        /*    !* adjust the width; make sure the total of both is 100% *!*/
-        /*    !*background: #cc0;*!*/
-        /*    padding: 0;*/
-        /*    margin: 0*/
-        /*}*/
+    /*dt {*/
+    /*    float: left;*/
+    /*    flex-basis: 100%;*/
+    /*    overflow-x: hidden;*/
+    /*    overflow-y: hidden;*/
+    /*    width: 50%;*/
+    /*    !* adjust the width; make sure the total of both is 100% *!*/
+    /*    !*background: #cc0;*!*/
+    /*    padding: 0;*/
+    /*    margin: 0*/
+    /*}*/
 
-        /*dd {*/
-        /*    flex-basis: 100%;*/
-        /*    float: left;*/
-        /*    width: 100%;*/
-        /*    !*adjust the width; make sure the total of both is 100%*!*/
-        /*    !*background: #dd0;*!*/
-        /*    padding: 0;*/
-        /*    margin: 0;*/
-        /*    overflow-x: hidden;*/
-        /*    overflow-y: hidden;*/
-        /*    overflow-scrolling: auto;*/
-        /*}*/
+    /*dd {*/
+    /*    flex-basis: 100%;*/
+    /*    float: left;*/
+    /*    width: 100%;*/
+    /*    !*adjust the width; make sure the total of both is 100%*!*/
+    /*    !*background: #dd0;*!*/
+    /*    padding: 0;*/
+    /*    margin: 0;*/
+    /*    overflow-x: hidden;*/
+    /*    overflow-y: hidden;*/
+    /*    overflow-scrolling: auto;*/
+    /*}*/
 
-        @media (max-width: 500px) {
-        .col-sm-3,.col-sm-9 {
+    @media (max-width: 500px) {
+        .col-sm-3, .col-sm-9 {
             font-size: 16px;
             display: inline-block;
         }
-                 dl {
+
+        dl {
             /*display: grid;*/
             /*flex-flow: row wrap;*/
             width: 100%;
@@ -692,6 +691,7 @@
             overflow-y: hidden;
             overflow-scrolling: auto;
         }
+
         .navbar-expand-lg {
             /*position: sticky;*/
             /*top: 0;*/
@@ -710,114 +710,121 @@
             border-radius: 10px;
         }
 
-            /*.col-sm-3 {*/
-            /*    font-size: 10px;*/
-            /*    float: left;*/
-            /*    !*width: 30%;*!*/
-            /*    !*text-align: right;*!*/
-            /*}*/
-            /*.col-sm-9 {*/
-            /*    font-size: 10px;*/
-            /*    display: inline-block;*/
-            /*    width: 1%;*/
-            /*    text-align: left;*/
-            /*    float: left;*/
-            /*}*/
-            .line {
-                height: 1px;
-                /*margin-top: 2rem;*/
-                width: 20rem;
-                border-bottom: #ffffff solid 5px;
-                width: 40%;
-                margin-right: auto;
-                margin-top: 15px;
-                margin-left: auto;
-                margin-bottom: 0;
-            }
-
-
-            .calls {
-                font-size: 16px;
-                /*line-height: 1.3rem;*/
-                padding: 3px;
-                margin-top: 1.8rem;
-                /*margin-left: 1rem;*/
-                /*margin-top: 0;*/
-
-            }
-
-            .call {
-                font-size: 1rem;
-                margin-top: 0;
-                margin: 0;
-                /*margin-left: 0.3rem;*/
-                /*margin-right: 0.3rem;*/
-            }
-
-            .card-text {
-                /*font-size: 26px;*/
-                margin: 0;
-                padding: 0;
-            }
-
-            .card-text p {
-                font-size: 10px;
-                line-height: 1.2rem;
-            }
-
-            h6 {
-                width: 90%;
-            }
-
-            .footer p {
-                font-size: 14px;
-                margin: 1.4rem;
-                text-align: left;
-            }
-
-            a {
-                text-align: center;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            .line {
-                height: 1px;
-                /*margin-top: 2rem;*/
-                width: 20rem;
-                border-bottom: #ffffff solid 5px;
-                width: 40%;
-                margin-right: auto;
-                /*margin-top: 15px;*/
-                margin-left: auto;
-                margin-top: 0;
-                margin-bottom: 0;
-            }
-
-            .input-group button {
-                /*padding: 10px;*/
-                padding-left: 23px;
-                padding-right: 23px;
-                justify-content: center;
-                padding-top: 0.3px;
-                padding-bottom: 0.3px;
-            }
-            h6 {
-                border-bottom: 5px solid green;
-                margin-top: 1rem;
-                width: 72%;
-                justify-content: center;
-                text-align: center;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-
-            .footer p {
-                font-size: 0.9rem;
-                text-align: center;
-            }
+        .navbar-scroll .nav-link,
+        .navbar-scroll .navbar-toggler-icon,
+        .navbar-scroll .navbar-brand {
+            color: #262626;
         }
+
+        /*.col-sm-3 {*/
+        /*    font-size: 10px;*/
+        /*    float: left;*/
+        /*    !*width: 30%;*!*/
+        /*    !*text-align: right;*!*/
+        /*}*/
+        /*.col-sm-9 {*/
+        /*    font-size: 10px;*/
+        /*    display: inline-block;*/
+        /*    width: 1%;*/
+        /*    text-align: left;*/
+        /*    float: left;*/
+        /*}*/
+        .line {
+            height: 1px;
+            /*margin-top: 2rem;*/
+            width: 20rem;
+            border-bottom: #ffffff solid 5px;
+            width: 40%;
+            margin-right: auto;
+            margin-top: 15px;
+            margin-left: auto;
+            margin-bottom: 0;
+        }
+
+
+        .calls {
+            font-size: 16px;
+            /*line-height: 1.3rem;*/
+            padding: 3px;
+            margin-top: 1.8rem;
+            /*margin-left: 1rem;*/
+            /*margin-top: 0;*/
+
+        }
+
+        .call {
+            font-size: 1rem;
+            margin-top: 0;
+            margin: 0;
+            /*margin-left: 0.3rem;*/
+            /*margin-right: 0.3rem;*/
+        }
+
+        .card-text {
+            /*font-size: 26px;*/
+            margin: 0;
+            padding: 0;
+        }
+
+        .card-text p {
+            font-size: 10px;
+            line-height: 1.2rem;
+        }
+
+        h6 {
+            width: 90%;
+        }
+
+        .footer p {
+            font-size: 14px;
+            margin: 1.4rem;
+            text-align: left;
+        }
+
+        a {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .line {
+            height: 1px;
+            /*margin-top: 2rem;*/
+            width: 20rem;
+            border-bottom: #ffffff solid 5px;
+            width: 40%;
+            margin-right: auto;
+            /*margin-top: 15px;*/
+            margin-left: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .input-group button {
+            /*padding: 10px;*/
+            padding-left: 23px;
+            padding-right: 23px;
+            justify-content: center;
+            padding-top: 0.3px;
+            padding-bottom: 0.3px;
+        }
+
+        h6 {
+            border-bottom: 5px solid green;
+            margin-top: 1rem;
+            width: 72%;
+            justify-content: center;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        .footer p {
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    }
 
 </style>
 
@@ -878,7 +885,6 @@
     </ul>
     <a href=class_room.html><i class=ion-chevron-right></i></a>
 </nav>
-
 
 
 <!--footer-->
