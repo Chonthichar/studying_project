@@ -472,7 +472,7 @@ img {
     .category {
         font-size: 1.3rem;
         width: 100%;
-        display: flex;
+        /*display: flex;*/
         /*border: 1px solid black;*/
         /*text-align:center;*/
 
