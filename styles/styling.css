@@ -95,8 +95,8 @@ body, html {
     text-decoration: none;
 }
 .pum-s:hover {
-    color: black;
-    background-color: whitesmoke;
+    color: green;
+    background-color: green;
 }
 
 .texts {
@@ -276,6 +276,7 @@ img {
     margin-top: 3rem;
     text-align: center;
     color: black;
+    font-size: 1.2rem;
 }
 
 .pradu {
@@ -469,10 +470,12 @@ img {
     }
 
     .category {
-        font-size: 1.2rem;
-        width: 120%;
+        font-size: 1.3rem;
+        width: 100%;
+        display: flex;
         /*border: 1px solid black;*/
-        text-align:center;
+        /*text-align:center;*/
+
     }
 
       #home-articles .articles-container, #home-articlee .articles-container {
