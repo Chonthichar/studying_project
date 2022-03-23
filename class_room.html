@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
-      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <!--    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">-->
@@ -86,7 +86,7 @@
                     <!--                    <li class="nav-item">-->
                     <!--                        <a class="nav-link" href="#!">รูปภาพ</a>-->
                     <!--                    </li>-->
-                    <li class="nav-item">
+                    <li class="nav-item text-center">
                         <a class="nav-link" href="contact.html">ติดต่อ</a>
                     </li>
                     <button type="button" class="btn btn-dark ms-3">ห้องเรียนชุมชน</button>
@@ -112,24 +112,17 @@
     <!-Home --->
 
 
-    <section id="home-articles" class="py-2">
+              <section id="home-articlee" class="py-2">
         <!--        <div class="container">-->
         <div class="articles-container bg-darks">
 
             <article class="card">
-
                 <img src="./images/hin_6.JPG" alt="">
-
-<!--                     <div class="wide">-->
+<!--                <div>-->
                     <div class="texts">ห้องเรียนบ้านหินเทิน</div>
-<!--                <div class="wide">-->
-                         <a href="hintern_details.html">
-                    <p class="pradu">ห้องเรียนบ้านหินเทิน หมู่ 5 ตำบลแสงอรุณ อำเภอทับสะแก จังหวัดประจวบคีรีขันธ์
-                        <i class='fas fa-chevron-circle-right'></i></p></a>
+               <p>ห้องเรียนบ้านหินเทิน หมู่ 5 ตำบลแสงอรุณ อำเภอทับสะแก จังหวัดประจวบคีรีขันธ์
+               </p><a href="hintern_details.html" style="text-decoration: none"><i class='fas fa-chevron-circle-right'></i></a>
 <!--                </div>-->
-
-
-
             </article>
 
 
@@ -152,12 +145,12 @@
 
             <article class="card">
                 <img src="./images/img_14.JPG" alt="">
-                <div>
-                    <div class="texts">ห้องเรียนบ้านทุ่งประดู่</div>
+<!--                <div style="border: solid red 2px; width: 100%">-->
+                    <div class="texts">ห้องเรียนบ้านทุ่งประดู่</div >
                     <p class="pradu">ห้องเรียนบ้านทุ่งประดู่ หมู่ 1 ตำบลทับสะแก
                         อำเภอทับสะแก จังหวัดประจวบคีรีขันธ์
-                        <i class='fas fa-chevron-circle-right'></i></p>
-                </div>
+                        </p><a href="hintern_details.html" style="text-decoration: none"><i class='fas fa-chevron-circle-right'></i></a>
+<!--                </div>-->
             </article>
 
 
@@ -172,33 +165,33 @@
 
             <article class="card">
                 <img src="./images/coco_2.JPG" alt="">
-                <div>
+<!--                <div>-->
                     <div class="texts">ห้องเรียนบ้านม้าร้อง</div>
                     <p>ห้องเรียนบ้านม้าร้อง หมู่ 4 ตำบลพงศประศาสน์ อำเภอบางสะพาน จังหวัดประจวบคีรีขันธ์
-                        <i class='fas fa-chevron-circle-right'></i></p>
-                </div>
+                        </p><a href="hintern_details.html" style="text-decoration: none"><i class='fas fa-chevron-circle-right'></i></a>
+<!--                </div>-->
             </article>
 
 
             <article class="card">
-                <img src="./images/coco_3.JPG" alt="" style="height: 40vh">
-                <div>
+                <img src="./images/coco_3.JPG" alt="">
+<!--                <div>-->
                     <div class="texts">ห้องเรียนบ้านทุ่งสะท้อน</div>
                     <p class="pradu">ห้องเรียนบ้านทุ่งสะท้อน หมู่ 6 ตำบลปากแพรก อำเภอบางสะพานน้อย
                         จังหวัดประจวบคีรีขันธ์
-                        <i class='fas fa-chevron-circle-right'></i></p>
-                </div>
+                       </p><a href="hintern_details.html" style="text-decoration: none"><i class='fas fa-chevron-circle-right'></i></a>
+<!--                </div>-->
             </article>
 
 
             <article class="card">
-                <img src="./images/bee_1.JPG" alt="" style="height: 40vh">
-                <div>
+                <img src="./images/bee_1.JPG" alt="">
+<!--                <div>-->
                     <div class="texts">ห้องเรียนรวม</div>
                     <p>ห้องเรียนรวม เป็นการรวมทั้ง 4 ชุมชน
                         ไว้ในห้องเดียวกัน
-                        <i class='fas fa-chevron-circle-right'></i></p>
-                </div>
+                        </p><a href="hintern_details.html" style="text-decoration: none"><i class='fas fa-chevron-circle-right'></i></a>
+<!--                </div>-->
             </article>
 
 
@@ -242,11 +235,14 @@
 
     }
 
-    #footer p {
+    .footer p {
         font-family: 'Prompt', sans-serif;
-        width: 100%;
+        width: 50%;
         align-items: center;
         text-align: center;
+        /*border: black solid 2px;*/
+        margin-left: auto;
+        margin-right: auto;
     }
 
     @media (max-width: 500px) {
@@ -256,10 +252,12 @@
 
         .footer p {
             margin-top: 0;
-            margin-left: 0.8rem;
+            /*margin-left: 0.8rem;*/
             font-size: 8px;
             /*margin: 1.4rem;*/
-            text-align: center;
+            /*text-align: center;*/
+        /*border: black 1px solid;*/
+            width: 100%;
         }
         }
     </style>
@@ -281,12 +279,12 @@
  <!--pagination page-->
     <nav data-pagination>
         <ul>
-            <a href=main.html><i class='fas fa-angle-double-left' style='font-size:20px'></i></a>
+            <a href=main.html><i class='fas fa-angle-double-left' style='font-size:15px'></i></a>
             <li class=current><a href=main.html>3</a>
             <li><a href=chapter_1.html>4</a>
             <li><a href=chapter_2.html>5</a>
                 <!--    <li><a href=#4>4</a>-->
-            <li><a href=chapter_1.html><i class='fas fa-angle-double-right' style='font-size:20px'></i></a>
+            <li><a href=chapter_1.html><i class='fas fa-angle-double-right' style='font-size:15px'></i></a>
         </ul>
         <a href=class_room.html><i class=ion-chevron-right></i></a>
     </nav>

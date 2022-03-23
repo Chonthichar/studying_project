@@ -90,7 +90,7 @@ body, html {
 
     font-size: 2rem;
     position: absolute;
-    top: 35%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -117,47 +117,55 @@ img {
     width: 100%;
     justify-content: center;
     /*align-items: center;*/
-    height: 60vh;
+    height: 50vh;
     background-color: #A3DDCB;
     content: "";
 }
 
 
-p {
+.card p {
     /*margin-left: 0;*/
     left: 0;
-    /*width: 100%;  */
+    /*width: 100%;*/
     /*border: 0.1rem solid black;*/
     /*text-align: left;*/
     /*justify-content: left;*/
     /*position: initial;*/
     float: left;
-    font-size: 1rem;
-    /*font-family: 'Prompt', sans-serif;*/
+    margin-top: 0;
+    font-size: 1.1rem;
+    font-family: 'Prompt', sans-serif;
     color: black;
-    margin-top:    0;
+    margin-top:0;
+    padding: 10px;
+
     /*border-bottom: none;*/
+    display: flex;
+    margin-right: 0;
     text-decoration: none;
-    display: inline-block;
+
 
 }
 /*p:hover{*/
 /*    color: green;*/
 /*}*/
 
-
-
 .fa-chevron-circle-right {
     color: green;
     font-size: 60px;
     /*margin: 0;*/
-    margin-right: 1rem;
+    margin-right: 3rem;
     /*padding-right: 2rem;*/
-    border-bottom: none;
+    /*border-bottom: none;*/
     /*border: solid green 2px;*/
+    width: 100% ;
     /*margin-left: 0;*/
     padding-left: 0;
+    margin-left: 0;
     /*padding-top: 1rem;*/
+    text-decoration: none;
+    margin-bottom: 10px;
+    /*position: relative;*/
 }
 
 .fas:hover {
@@ -259,7 +267,7 @@ p {
 
 .pradu {
     /*margin-top: 0;*/
-    margin: 8px;
+    /*margin: 8px;*/
     text-align: left;
     /*font-family: 'Prompt', sans-serif;*/
 
@@ -289,10 +297,11 @@ p {
     p{
         float: left;
         font-size: 18px;
+        padding: 10px;
     }
     .fa-chevron-circle-right {
         margin-right: 2rem;
-        font-size: 2rem;
+        /*font-size: 2rem;*/
         margin-left: 0;
         padding: 0;
         text-align: left;
@@ -368,9 +377,11 @@ p {
         width: 120%;
         margin: 0;
         padding: 0;
-        /*overflow: hidden;*/
+        overflow: hidden;
         /*border: solid 0.2rem green;*/
     }
+
+
 
     .texts, .textss {
         font-size: 0.9rem;
@@ -384,12 +395,15 @@ p {
     }
 
 
-    p {
-        font-size: 18px;
+    .card p, .pradu {
+        font-size: 20px;
         /*padding: 0.3rem;*/
         margin: 0;
         text-align: left;
-        float: left;
+        /*float: left;*/
+        /*border: black solid 1px;*/
+        padding: 8px;
+        width: 100%;
     }
 
 
@@ -418,7 +432,7 @@ p {
     }
 
     .fa-chevron-circle-right {
-        font-size: 2rem;
+        font-size: 1.3rem;
         margin-right: 1rem;
         /*margin-left: 0.1rem;*/
         /*margin: 0;*/
@@ -427,7 +441,7 @@ p {
 
     .articles-container {
         border: 0.1rem solid whitesmoke;
-        /*overflow: hidden;*/
+        overflow: hidden;
     }
 
     .category {
