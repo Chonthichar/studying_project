@@ -75,8 +75,8 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-scroll fixed-top shadow-0 container">
-        <div class="container" >
-            <a class="navbar-brand" href="main.html"><i class="fa fa-leaf fa-1x" style="color: black"></i></a>
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fa fa-leaf fa-1x" style="color: black"></i></a>
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
                     data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false"
@@ -88,17 +88,24 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#section-1">รายละเอียดหลักสูตร</a>
-                    </li>  <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#section-1">วัตถุประสงค์หลักสูตร</a>
-                    </li>  <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#section-2">โครงสร้างหลักสูตร</a>
-                    </li>  <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#section-3">รายวิชา</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#footer">ลงทะเบียน</a>
                     </li>
-                    <a href="index.html"><button style="background-color: black; color: white; padding: 0.5rem; border-radius: 4px">กลับสู่หน้าแรก</button></a>
+                    <a href="index.html">
+                        <button style="background-color: black; color: white; padding: 0.5rem; border-radius: 4px">
+                            กลับสู่หน้าแรก
+                        </button>
+                    </a>
                 </ul>
             </div>
         </div>
@@ -743,10 +750,10 @@
 
 
         .calls {
-            font-size: 16px;
+            font-size: 14px;
             /*line-height: 1.3rem;*/
             padding: 3px;
-            margin-top: 1.8rem;
+            margin-top: 1.9rem;
             /*margin-left: 1rem;*/
             /*margin-top: 0;*/
 
@@ -823,6 +830,14 @@
         .footer p {
             font-size: 0.9rem;
             text-align: center;
+        }
+    }
+
+    /*media query for ipad Air*/
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        dl {
+            width: 290%;
+
         }
     }
 
