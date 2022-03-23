@@ -518,6 +518,9 @@ img {
     background: var(--dark-color);
     color: white;
 }
+.btn-dark:hover {
+    background-color: white;
+}
 
 .bg-dark {
     background: whitesmoke;
