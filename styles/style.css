@@ -1602,13 +1602,13 @@ section {
 }
 
 .section-title {
-    font-size: 3rem;
+    font-size: 2.3rem;
     display: block;
     padding-bottom: 0.5rem;
     text-align: center;
     font-weight: 100;
     text-transform: uppercase;
-    color: #2a66b3;
+    color: green;
     /*border: 0.1rem solid black;*/
     padding-top: 0;
     /*margin-top: 0;*/
