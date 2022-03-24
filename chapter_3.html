@@ -23,7 +23,7 @@
 
     <!--favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-<!--    <link rel="stylesheet" href="./styles/styling.css">-->
+    <!--    <link rel="stylesheet" href="./styles/styling.css">-->
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,6 +40,7 @@
     <!--    <link rel="stylesheet" media="screen and (max-width: 768px)" href="responsive.css">-->
     <!--    <link rel="stylesheet" href="responsive.css">-->
     <link rel="stylesheet" href="./component.css">
+    <link rel="stylesheet" href="./styles/pagination.css">
 
     <!-- CSS only -->
 
@@ -113,12 +114,12 @@
                 </li>
 
                 <li>
-                    <a href="chapter_3.html">
+                    <a href="chapter_3.html" class="active">
                         หมวดที่ 3 การศึกษาเรียนรู้
                     </a>
                 </li>
 
-                <li data-toggle="collapse" data-target="#products" class="collapsed active">
+                <li data-toggle="collapse" data-target="#products" class="collapsed">
                     <a href="chapter_4.html">หมวดที่ 4 การประเมินผลการศึกษาเรียนรู้
                         <span class="arrow"></span></a></li>
 
@@ -132,7 +133,8 @@
 
                 <ul>
                     <li data-toggle="collapse" data-target="#service-0" class="collapsed">
-                        <a href="hintern_details.html"><i class="fa fa-leaf fa-1x"></i>ห้องเรียนบ้านหินเทิน<span class="arrow"></span></a>
+                        <a href="hintern_details.html"><i class="fa fa-leaf fa-1x"></i>ห้องเรียนบ้านหินเทิน<span
+                                class="arrow"></span></a>
                     </li>
                 </ul>
 
@@ -146,7 +148,8 @@
                             </li>
                             <ul>
                                 <li data-toggle="collapse" data-target="#service-0" class="collapsed">
-                                    <a href="hintern_bee_test.html"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                                    <a href="hintern_bee_test.html"><i
+                                            class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
                                 </li>
                             </ul>
 
@@ -156,7 +159,8 @@
                             </li>
                             <ul>
                                 <li data-toggle="collapse" data-target="#service-0" class="collapsed">
-                                    <a href="hintern_namtan_test.html"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                                    <a href="hintern_namtan_test.html"><i
+                                            class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
                                 </li>
                             </ul>
 
@@ -212,7 +216,8 @@
                             </li>
                             <ul>
                                 <li data-toggle="collapse" data-target="#service-1" class="collapsed">
-                                    <a href="pradu_sangsan_test.html"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                                    <a href="pradu_sangsan_test.html"><i
+                                            class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
                                 </li>
                             </ul>
                         </ul>
@@ -238,7 +243,8 @@
 
                         <ul>
                             <li data-toggle="collapse" data-target="#service-2" class="collapsed">
-                                <a href="marong_reaceretion_test.html"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                                <a href="marong_reaceretion_test.html"><i
+                                        class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
                             </li>
                         </ul>
 
@@ -253,7 +259,8 @@
 
                         <ul>
                             <li data-toggle="collapse" data-target="#service-2" class="collapsed">
-                                <a href="marong_food_test.html"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                                <a href="marong_food_test.html"><i
+                                        class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
                             </li>
                         </ul>
 
@@ -265,7 +272,8 @@
                         </ul>
                         <ul>
                             <li data-toggle="collapse" data-target="#service-2" class="collapsed">
-                                <a href="marong_homestay.test.html"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                                <a href="marong_homestay.test.html"><i
+                                        class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
                             </li>
                         </ul>
                     </ul>
@@ -393,51 +401,80 @@
         </div>
     </div>
 
-    <section class="container">
+    <section class="container-xl">
         <div class="name-text">
             <h1>หมวดที่ 3 การศึกษาเรียนรู้</h1>
         </div>
 
-        <div
-                class="bg-image  text-center shadow-1-strong p-5 mb-3 text-white test note note-primary"
-                style="background-color: #EFFFFD;" id="section-1">
 
-            <h2 class="card-text text-dark d-flex fw-bolder p-1 note note-primary fs-1"
+        <div class="p-3 mb-3" style="background-color:  #EFFFFD;" id="section-3">
+            <h2 class=" card-text text-dark d-flex fw-bolder p-1 note note-primary fs-1"
                 style="text-align: left; font-family:'Mali', cursive;">
                 การให้ความรู้</h2>
             <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-1 p">
-                ดำเนินการใน 2 รูปแบบ ได้แก่
-                <br>  1. การให้ความรู้ที่เป็นข้อมูลเอกสารอิเลคทรอนิกส์
-                จะเป็นเนื้อหาของแต่ละรายวิชาในแบบกระฉับเข้าใจง่ายที่วิทยากรในแต่ละวิชาได้บรรยายและให้ความรู้ภูมิปัญญาท้องถิ่นไว้
-                โดยได้จากการสัมภาษณ์ผู้รู้โดยเฉพาะวิทยากรแต่ละท่าน จากนั้น นำมารวบรวมเป็นเนื้อหารายวิชา
-                และเพิ่มเติ่มตามความเหมาะสม โดยการพิจารณาของวิทยากรแต่ละท่าน
-                <br> 2. การให้ความรู้ที่เป็นภาพเคลื่อนไหวในลักษณะคลิปวีดีโอ
-                โดยการใช้เนื้อหาของแต่ละรายวิชามาบรรยายในพื้นที่ทำงานในวิถีชีวิตประจำวันของวิทยากรแต่ละท่าน
-                นำมาตัดต่อให้เห็นภาพการทำงานจริงและเสียงบรรยายประกอบตามขั้นตอนของแต่ละรายวิชา
-                เป็นการย้ำให้เกิดความเข้าใจจากความรู้ที่ได้รับจากข้อมูลที่เป็นเอกสารอิเลคทรอนิกส์
-            </p>
+                ดำเนินการใน 2 รูปแบบ ได้แก่ </p>
+
+            <table class="p-1" style="background-color: #EFFFFD;">
+                <tr>
+                    <td class="right col-sm-3  card-text text-dark fs-1"
+                        style="font-family: 'Prompt', sans-serif; vertical-align: top">
+                        1.
+                    </td>
+                    <td class=" textco col-sm-9 fw-normal fs-1" style="font-family: 'Prompt', sans-serif;">
+                        การให้ความรู้ที่เป็นข้อมูลเอกสารอิเลคทรอนิกส์
+                        จะเป็นเนื้อหาของแต่ละรายวิชาในแบบกระฉับเข้าใจง่ายที่วิทยากรในแต่ละวิชาได้บรรยายและให้ความรู้ภูมิปัญญาท้องถิ่นไว้
+                        โดยได้จากการสัมภาษณ์ผู้รู้โดยเฉพาะวิทยากรแต่ละท่าน จากนั้น นำมารวบรวมเป็นเนื้อหารายวิชา
+                        และเพิ่มเติ่มตามความเหมาะสม โดยการพิจารณาของวิทยากรแต่ละท่าน
+                        <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="right col-sm-3 fw-normal fs-1" style="vertical-align: top"> 2.</td>
+                    <td class="textco col-sm-9 fw-normal fs-1">การให้ความรู้ที่เป็นภาพเคลื่อนไหวในลักษณะคลิปวีดีโอ
+                        โดยการใช้เนื้อหาของแต่ละรายวิชามาบรรยายในพื้นที่ทำงานในวิถีชีวิตประจำวันของวิทยากรแต่ละท่าน
+                        นำมาตัดต่อให้เห็นภาพการทำงานจริงและเสียงบรรยายประกอบตามขั้นตอนของแต่ละรายวิชา
+                        เป็นการย้ำให้เกิดความเข้าใจจากความรู้ที่ได้รับจากข้อมูลที่เป็นเอกสารอิเลคทรอนิกส์
+                    </td>
+                </tr>
+            </table>
         </div>
 
-        <div
-                class="bg-image p-5 text-center shadow-1-strong rounded mb-3 text-white test"
-                style="background-color: #FFF9F9;" id="section-3">
-
-            <h2 class="fs-1 card-text text-dark d-flex fw-bolder p-1 note note-primary"
+        <div class="p-3 mb-3" style="background-color: #FFF9F9;" id="section-3">
+            <h2 class=" card-text text-dark d-flex fw-bolder p-1 note note-primary fs-1"
                 style="text-align: left; font-family:'Mali', cursive;">
-                การศึกษาเรียนรู้
-            </h2>
-            <p class="mb-3 card-text p-1 text-dark text-start text-break fs-1">
+                การศึกษาเรียนรู้</h2>
+            <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-1 p">
                 ผู้ศึกษาเรียนรู้ควรทำความเข้าใจรายละเอียดของหลักสูตรให้ชัดเจนก่อนเริ่มศึกษาเรียนรู้ในรายวิชาต่างๆ
                 เมื่อเข้าใจแล้ว ทำการเข้าสู่ห้องเรียนต่างๆ ที่บรรจุรายวิชาประจำในแต่ละห้องเรียนไว้
-                โดยผู้ศึกษาเรียนรู้ควรดำเนินการ ดังนี้
-                <br> 1. วางแผนการศึกษาเรียนรู้ โดยเรียงลำดับกลุ่มวิชาตามคำแนะนำ ซึ่งเริ่มจาก กลุ่มวิชาพื้นฐานมะพร้าว
-                กลุ่มวิชาชีพมะพร้าว กลุ่มวิชาส่งเสริมการท่องเที่ยว และกลุ่มวิชาการจัดการการท่องเที่ยววิถีพร้าวโดยชุมชน
-                <br> 2. เลือกรายวิชาในกลุ่มวิชา แล้วไปยังห้องเรียนชุมชนที่รับผิดชอบรายวิชานั้น จากนั้น
-                ศึกษาเรียนรู้เอกสารเนื้อหารายวิชา แล้วศึกษาเรียนรู้คลิปวีดีโอของรายวิชานั้น
-                ซึ่งผู้ศึกษาเรียนรู้สามารถศึกษาเรียนรู้ซ้ำกี่ครั้งก็ได้จนกว่าจะมั่นใจว่าเข้าใจในเนื้อหารายวิชานั้นแล้ว
-                จึงเข้าสู่การทำแบบทดสอบรายวิชาต่อไป
-            </p>
+                โดยผู้ศึกษาเรียนรู้ควรดำเนินการ ดังนี้ </p>
+
+            <table class="p-1" style="background-color: #FFF9F9;">
+                <tr>
+                    <td class="right col-sm-3  card-text text-dark fs-1"
+                        style="font-family: 'Prompt', sans-serif; vertical-align: top">
+                        1.
+                    </td>
+                    <td class=" textco col-sm-9 fw-normal fs-1" style="font-family: 'Prompt', sans-serif;">
+                        วางแผนการศึกษาเรียนรู้ โดยเรียงลำดับกลุ่มวิชาตามคำแนะนำ ซึ่งเริ่มจาก กลุ่มวิชาพื้นฐานมะพร้าว
+                        กลุ่มวิชาชีพมะพร้าว กลุ่มวิชาส่งเสริมการท่องเที่ยว
+                        และกลุ่มวิชาการจัดการการท่องเที่ยววิถีพร้าวโดยชุมชน
+                        <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="right col-sm-3 fw-normal fs-1" style="vertical-align: top"> 2.</td>
+                    <td class="textco col-sm-9 fw-normal fs-1">เลือกรายวิชาในกลุ่มวิชา
+                        แล้วไปยังห้องเรียนชุมชนที่รับผิดชอบรายวิชานั้น จากนั้น
+                        ศึกษาเรียนรู้เอกสารเนื้อหารายวิชา แล้วศึกษาเรียนรู้คลิปวีดีโอของรายวิชานั้น
+                        ซึ่งผู้ศึกษาเรียนรู้สามารถศึกษาเรียนรู้ซ้ำกี่ครั้งก็ได้จนกว่าจะมั่นใจว่าเข้าใจในเนื้อหารายวิชานั้นแล้ว
+                        จึงเข้าสู่การทำแบบทดสอบรายวิชาต่อไป
+                    </td>
+                </tr>
+            </table>
         </div>
+
 
         <div
                 class="bg-image  text-center shadow-1-strong p-5 mb-3 text-white test note note-primary"
@@ -470,92 +507,162 @@
             </p>
         </div>
 
-        <div
-                class="bg-image  text-center shadow-1-strong p-5 mb-3 text-white test note note-primary"
-                style="background-color: #EFFFFD;" id="section-1">
-
-            <h2 class="fs-1 card-text text-dark d-flex fw-bolder p-1 note note-primary"
+        <div class="p-3 mb-3" style="background-color: #EFFFFD;" id="section-3">
+            <h2 class=" card-text text-dark d-flex fw-bolder p-1 note note-primary fs-1"
                 style="text-align: left; font-family:'Mali', cursive;">
-                การพัฒนาผลการเรียนรู้
-                <br>
-                <br>1. กลุ่มวิชาพื้นฐานมะพร้าว
-            </h2>
-            <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-1">
+                การพัฒนาผลการเรียนรู้</h2>
+            <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-1 p">
+                <strong>1. กลุ่มวิชาพื้นฐานมะพร้าว</strong></p>
+
+            <table class="p-1" style="background-color: #EFFFFD;">
+                <tr>
+                    <td class="right col-sm-3  card-text text-dark fs-1"
+                        style="font-family: 'Prompt', sans-serif; vertical-align: top">
+                        (1)
+                    </td>
+                    <td class=" textco col-sm-9 fw-normal fs-1" style="font-family: 'Prompt', sans-serif;">
+                        เป็นองค์ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับความเป็นมา พฤกษศาสตร์มะพร้าว
+                        และการนำมะพร้าวมาใช้ในชีวิตประจำวันของคนไทย
+                        <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="right col-sm-3 fw-normal fs-1" style="vertical-align: top"> (2)</td>
+                    <td class="textco col-sm-9 fw-normal fs-1">
+                        เน้นการรับรู้ข้อมูลของมะพร้าวและทวนประสบการณ์ตรงที่ผู้ศึกษาเรียนรู้มีเกี่ยวกับการใช้ประโยชน์จากมะพร้าวในชีวิตประจำวัน
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="right col-sm-3 fw-normal fs-1" style="vertical-align: top"> (3)</td>
+                    <td class="textco col-sm-9 fw-normal fs-1">
+                        ผู้ศึกษาเรียนรู้เข้าใจเรื่องราวของมะพร้าวมากขึ้น นำไปสู่การอนุรักษ์มะพร้าว
+                        ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับมะพร้าว
+                        โดยเฉพาะความรู้และภูมิปัญญาท้องถิ่นในพื้นที่ที่เน้นการปลูกมะพร้าวเป็นพืชที่สร้างรายได้ในท้องถิ่น
+                    </td>
+                </tr>
 
 
-                <br> (1) เป็นองค์ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับความเป็นมา พฤกษศาสตร์มะพร้าว
-                และการนำมะพร้าวมาใช้ในชีวิตประจำวันของคนไทย
-                <br> (2)
-                เน้นการรับรู้ข้อมูลของมะพร้าวและทวนประสบการณ์ตรงที่ผู้ศึกษาเรียนรู้มีเกี่ยวกับการใช้ประโยชน์จากมะพร้าวในชีวิตประจำวัน
-                <br>(3) ผู้ศึกษาเรียนรู้เข้าใจเรื่องราวของมะพร้าวมากขึ้น นำไปสู่การอนุรักษ์มะพร้าว
-                ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับมะพร้าว
-                โดยเฉพาะความรู้และภูมิปัญญาท้องถิ่นในพื้นที่ที่เน้นการปลูกมะพร้าวเป็นพืชที่สร้างรายได้ในท้องถิ่น
+                <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-1 p">
+                    <strong>2. กลุ่มวิชาชีพมะพร้าว</strong></p>
+
+                <table class="p-1" style="background-color: #EFFFFD;">
+                    <tr>
+                        <td class="right col-sm-3  card-text text-dark fs-1"
+                            style="font-family: 'Prompt', sans-serif; vertical-align: top">
+                            (1)
+                        </td>
+                        <td class=" textco col-sm-9 fw-normal fs-1" style="font-family: 'Prompt', sans-serif;">
+                            เป็นองค์ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับอาชีพท้องถิ่นที่เกี่ยวข้องกับมะพร้าว
+                            การสร้างรายได้จากต้นมะพร้าว ผลมะพร้าว และการนำส่วนต่างๆ
+                            ของมะพร้าวมาผลิตเป็นผลิตภัณฑ์ที่ได้จากมะพร้าว โดยตรงและโดยอ้อม
+                            <br>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="right col-sm-3 fw-normal fs-1" style="vertical-align: top"> (2)</td>
+                        <td class="textco col-sm-9 fw-normal fs-1">
+                            เน้นการรับรู้ข้อมูลบางอาชีพที่เกี่ยวข้องกับมะพร้าว วิธีการประกอบอาชีพ
+                            และผลิตภัณฑ์ท้องถิ่นที่เกี่ยวข้องกับมะพร้าว
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="right col-sm-3 fw-normal fs-1" style="vertical-align: top"> (3)</td>
+                        <td class="textco col-sm-9 fw-normal fs-1">
+                            ผู้ศึกษาเรียนรู้เข้าใจเรื่องราวของอาชีพที่เกี่ยวข้องกับมะพร้าวมากขึ้น
+                            นำไปสู่การคิดหาช่องทางในการประกอบอาชีพที่เกี่ยวข้องกับมะพร้าวหรือสร้างรายได้จากผลิตภัณฑ์มะพร้าว
+                            ผลิตภัณฑ์แปรรูปมะพร้าว และผลิตภัณฑ์ที่เกี่ยวกับมะพร้าวทางอ้อม
+                        </td>
+                    </tr>
+                </table>
+
+
+                <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-1 p">
+                    <strong>3. กลุ่มวิชาส่งเสริมการท่องเที่ยว</strong></p>
+
+                <table class="p-1" style="background-color: #EFFFFD;">
+                    <tr>
+                        <td class="right col-sm-3  card-text text-dark fs-1"
+                            style="font-family: 'Prompt', sans-serif; vertical-align: top">
+                            (1)
+                        </td>
+                        <td class=" textco col-sm-9 fw-normal fs-1" style="font-family: 'Prompt', sans-serif;">
+                            เป็นองค์ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับการนำการประกอบอาชีพที่เกี่ยวข้องกับมะพร้าวมากใช้ในการส่งเสริมการท่องเที่ยวโดยชุมชน
+                            <br>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="right col-sm-3 fw-normal fs-1" style="vertical-align: top"> (2)</td>
+                        <td class="textco col-sm-9 fw-normal fs-1">
+                            เน้นการรับรู้ข้อมูลการดำเนินการที่ชุมชนสามารถนำมะพร้าวมาสร้างสรรค์เป็นกิจกรรมเพื่อส่งเสริมการท่องเที่ยวในรูปแบบต่างๆ
+                            เพื่ออำนวยความสะดวกและการเรียนรู้ชุมชนสำหรับนักท่องเที่ยว
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="right col-sm-3 fw-normal fs-1" style="vertical-align: top"> (3)</td>
+                        <td class="textco col-sm-9 fw-normal fs-1">
+                            ผู้ศึกษาเรียนรู้เข้าใจเรื่องราววิธีการนำการประกอบอาชีพมะพร้าวมาดัดแปลงเป็นกิจกรรมส่งเสริมการท่องเที่ยว
+                            และสร้างแนวคิดในการสร้างสรรค์ต่อยอดกิจกรรมส่งเสริมการท่องเที่ยวอื่นๆ
+                            เพื่อสนับสนุนการท่องเที่ยวโดยชุมชนได้
+                        </td>
+                    </tr>
+                </table>
+
+                <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-1 p">
+                    <strong>4. กลุ่มวิชาการจัดการการท่องเที่ยวิถีพร้าวโดยชุมชน</strong></p>
+
+                <table class="p-1" style="background-color: #EFFFFD;">
+                    <tr>
+                        <td class="right col-sm-3  card-text text-dark fs-1"
+                            style="font-family: 'Prompt', sans-serif; vertical-align: top">
+                            (1)
+                        </td>
+                        <td class=" textco col-sm-9 fw-normal fs-1" style="font-family: 'Prompt', sans-serif;">
+                            เป็นองค์ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับการจัดการการท่องเที่ยวโดยชุมชนที่ใช้มะพร้าวเป็นเนื้อหาหลักในการนำเสนอรูปแบบการท่องเที่ยวในชุมชนที่มีที่ตั้งอยู่ในถิ่นเพาะปลูกมะพร้าว
+                            <br>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="right col-sm-3 fw-normal fs-1" style="vertical-align: top"> (2)</td>
+                        <td class="textco col-sm-9 fw-normal fs-1">
+                            เน้นการรับรู้ข้อมูลการจัดการการท่องเที่ยวโดยชุมชนที่ชุมชนท่องเที่ยวได้ดำเนินการแล้วและประสบความสำเร็จจนเป็นที่ยอมรับ
+                            และมีนักท่องเที่ยวประเภทต่างๆ เข้ามาเยี่ยมชมและใช้บริการ
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="right col-sm-3 fw-normal fs-1" style="vertical-align: top"> (3)</td>
+                        <td class="textco col-sm-9 fw-normal fs-1">
+                            ผู้ศึกษาเรียนรู้เข้าใจเรื่องราวของการจัดการการท่องเที่ยววิถีพร้าวโดยชุมชน
+                            ที่สามารถใช้เป็นตัวอย่างในการประยุกต์ใช้เนื้อหาหลักอื่นๆ
+                            มาแทนการใช้มะพร้าวเพื่อส่งเสริมการท่องเที่ยวโดยชุมชน
+                        </td>
+                    </tr>
+                </table>
+
+            </table>
         </div>
 
 
-        <div
-                class="bg-image  text-center shadow-1-strong p-5 mb-3 text-white test note note-primary"
-                style="background-color:#FFF9F9;;" id="section-1">
 
-            <h2 class="fs-1 card-text text-dark d-flex fw-bolder p-1 note note-primary"
-                style="text-align: left; font-family:'Mali', cursive;">
-                2. กลุ่มวิชาชีพมะพร้าว
-            </h2>
-            <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-1">
-                <br>  (1) เป็นองค์ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับอาชีพท้องถิ่นที่เกี่ยวข้องกับมะพร้าว
-                การสร้างรายได้จากต้นมะพร้าว ผลมะพร้าว และการนำส่วนต่างๆ ของมะพร้าวมาผลิตเป็นผลิตภัณฑ์ที่ได้จากมะพร้าว
-                โดยตรงและโดยอ้อม
-                <br>  (2) เน้นการรับรู้ข้อมูลบางอาชีพที่เกี่ยวข้องกับมะพร้าว วิธีการประกอบอาชีพ
-                และผลิตภัณฑ์ท้องถิ่นที่เกี่ยวข้องกับมะพร้าว
-                <br> (3) ผู้ศึกษาเรียนรู้เข้าใจเรื่องราวของอาชีพที่เกี่ยวข้องกับมะพร้าวมากขึ้น
-                นำไปสู่การคิดหาช่องทางในการประกอบอาชีพที่เกี่ยวข้องกับมะพร้าวหรือสร้างรายได้จากผลิตภัณฑ์มะพร้าว
-                ผลิตภัณฑ์แปรรูปมะพร้าว และผลิตภัณฑ์ที่เกี่ยวกับมะพร้าวทางอ้อม
-        </div>
-
-
-        <div
-                class="bg-image  text-center shadow-1-strong p-5 mb-3 text-white test note note-primary"
-                style="background-color: #EFFFFD;" id="section-1">
-
-            <h2 class="fs-1 card-text text-dark d-flex fw-bolder p-1 note note-primary"
-                style="text-align: left; font-family:'Mali', cursive;">
-                3. กลุ่มวิชาส่งเสริมการท่องเที่ยว
-            </h2>
-            <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-1">
-                <br> (1)
-                เป็นองค์ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับการนำการประกอบอาชีพที่เกี่ยวข้องกับมะพร้าวมากใช้ในการส่งเสริมการท่องเที่ยวโดยชุมชน
-                <br>  (2)
-                เน้นการรับรู้ข้อมูลการดำเนินการที่ชุมชนสามารถนำมะพร้าวมาสร้างสรรค์เป็นกิจกรรมเพื่อส่งเสริมการท่องเที่ยวในรูปแบบต่างๆ
-                เพื่ออำนวยความสะดวกและการเรียนรู้ชุมชนสำหรับนักท่องเที่ยว
-                <br> (3)
-                ผู้ศึกษาเรียนรู้เข้าใจเรื่องราววิธีการนำการประกอบอาชีพมะพร้าวมาดัดแปลงเป็นกิจกรรมส่งเสริมการท่องเที่ยว
-                และสร้างแนวคิดในการสร้างสรรค์ต่อยอดกิจกรรมส่งเสริมการท่องเที่ยวอื่นๆ
-                เพื่อสนับสนุนการท่องเที่ยวโดยชุมชนได้
-        </div>
-
-
-        <div
-                class="bg-image  text-center shadow-1-strong p-5 mb-3 text-white test note note-primary"
-                style="background-color: #FFF9F9;;" id="section-1">
-
-            <h2 class="fs-1 card-text text-dark d-flex fw-bolder p-1 note note-primary"
-                style="text-align: left; font-family:'Mali', cursive;">
-                4. กลุ่มวิชาการจัดการการท่องเที่ยวิถีพร้าวโดยชุมชน
-            </h2>
-            <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-1">
-                <br>(1)
-                เป็นองค์ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับการจัดการการท่องเที่ยวโดยชุมชนที่ใช้มะพร้าวเป็นเนื้อหาหลักในการนำเสนอรูปแบบการท่องเที่ยวในชุมชนที่มีที่ตั้งอยู่ในถิ่นเพาะปลูกมะพร้าว
-                <br> (2)
-                เน้นการรับรู้ข้อมูลการจัดการการท่องเที่ยวโดยชุมชนที่ชุมชนท่องเที่ยวได้ดำเนินการแล้วและประสบความสำเร็จจนเป็นที่ยอมรับ
-                และมีนักท่องเที่ยวประเภทต่างๆ เข้ามาเยี่ยมชมและใช้บริการ
-                <br> (3) ผู้ศึกษาเรียนรู้เข้าใจเรื่องราวของการจัดการการท่องเที่ยววิถีพร้าวโดยชุมชน
-                ที่สามารถใช้เป็นตัวอย่างในการประยุกต์ใช้เนื้อหาหลักอื่นๆ
-                มาแทนการใช้มะพร้าวเพื่อส่งเสริมการท่องเที่ยวโดยชุมชน
-        </div>
-
-
-
-
+        <!--pagination page-->
+        <nav data-pagination>
+            <ul>
+                <a href=chapter_2.html><i class='fas fa-angle-double-left' style='font-size:15px'></i></a>
+                <li class=current><a href=chapter_3.html>5</a>
+                <li><a href=chapter_4.html>6</a>
+                <li><a href=hintern_details.html>7</a>
+                    <!--    <li><a href=#4>4</a>-->
+                <li><a href=chapter_4.html><i class='fas fa-angle-double-right' style='font-size:15px'></i></a>
+            </ul>
+            <!--            <a href=class_room.html><i class=ion-chevron-right></i></a>-->
+        </nav>
         <h6></h6>
         <p class="footer">
             โครงการวิจัยเรื่อง การพัฒนานวัตกรรมหลักสูตรท้องถิ่นออนไลน์:
@@ -564,9 +671,36 @@
             <br>มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์ คณะอุตสาหกรรมการโรงแรมและการท่องเที่ยว
             <br>สนับสนุนโดย สำนักงานคณะกรรมการวิทยาศาสตร์ วิจัยและนวัตกรรม (สกสว.)
         </p>
-        </div>
-        </div>
     </section>
+
+
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fas fa-chevron-circle-up'
+                                                                    style='font-size:30px'></i></button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 
 </header>
 
@@ -616,27 +750,36 @@
 
     p {
         font-size: 2rem;
-        text-align: left;
+        text-align: center;
         /*left: 500rem;*/
         margin-bottom: 2rem;
     }
 
-    .container {
-        margin-left: 30%;
+    .container-xl {
+        /*text-align: right;*/
+        float: right;
+        padding: 1rem;
+        /*margin-right: 1rem;*/
+        /*margin-left: 1rem;*/
+        /*margin-right: rem;*/
+        /*transform: translate(14%, 0%);*/
+        /*width: 80%*/
+
     }
 
     @media (max-width: 500px) {
-             body, html {
+        body, html {
             font-size: 8px;
         }
 
-          .name-text h1 {
-        font-size: 2rem;
-        /*line-height: 2.9rem;*/
-        margin-top: 2rem;
-        margin-bottom: 0;
-        text-align: center;
-    }
+        .name-text h1 {
+            font-size: 2rem;
+            /*line-height: 2.9rem;*/
+            margin-top: 2rem;
+            margin-bottom: 0;
+            text-align: center;
+        }
+
         h6 {
             width: 90%;
         }
@@ -652,6 +795,7 @@
             /*margin: 1.4rem;*/
             text-align: center;
         }
+
         .footer {
             margin-left: 2rem;
         }

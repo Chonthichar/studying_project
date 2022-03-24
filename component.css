@@ -745,7 +745,8 @@ display: none;
 
         margin-left: 0;
         font-family: 'Prompt', sans-serif;
-        line-height: 3rem;
+        line-height: 4rem;
+        vertical-align: top;
 
     }
 
