@@ -728,3 +728,101 @@ display: none;
     height: 5%;
 
 }
+
+/*table data chapter 2*/
+
+   /*TABLE LIST DATA*/
+    table {
+        margin-bottom: 0px;
+        /*border: solid 1px green;*/
+        table-layout: auto;
+        width: 299%;
+        margin-left: 0;
+        font-family: 'Prompt', sans-serif;
+        line-height: 3rem;
+
+    }
+
+    table tr .title {
+        table-layout: auto;
+        padding-left: 24px;
+        margin-bottom: 0;
+        /*font-weight: bold;*/
+        /*padding: 5px;*/
+        width: 70%;
+        /*border: solid 1px green;*/
+        text-align: left;
+        font-size: 24px;
+        /*line-height: 0;*/
+    }
+
+    table tr .text {
+        padding-left: 10px;
+        width: 80%;
+        font-size: 24px;
+        /*line-height: 4rem;*/
+    }
+
+
+    table tr .right {
+        table-layout: auto;
+        width: 5px;
+        text-align: left;
+        font-size: 24px;
+        margin-bottom: 0;
+        /*font-weight: bold;*/
+    }
+
+    table tr .textco {
+        table-layout: fixed;
+        width:1000px;
+        float: left;
+        text-align: left;
+        font-size: 24px;
+    }
+
+
+@media (max-width: 500px) {
+        /*TABLE LIST DATA*/
+        table {
+            /*margin-bottom: 50px;*/
+            width: 100%;
+        }
+
+        table tr .title {
+            font-size: 15px;
+            margin: 0;
+            padding-left: 10px;
+            /*width: 70%;*/
+            left: 0;
+            /*padding: 5px;*/
+            /*width: 100px;*/
+            width: 80%;
+        }
+
+        table tr .text {
+            font-size: 10px;
+            width: 100%;
+            padding-right: 0;
+            margin-right: 0;
+            margin-left: 0;
+            margin: 0;
+
+            /*padding-left: 10px;*/
+        }
+
+            table tr .titles {
+                font-size: 12.7px;
+                /*width: 10%;*/
+            }
+
+              table tr .titless {
+                font-size: 13px;
+            }
+
+
+                table tr .titlesss {
+                font-size: 15px;
+            }
+
+}
