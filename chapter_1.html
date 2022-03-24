@@ -80,12 +80,12 @@
 </head>
 
 <body id="Home" class=".selector-for-some-widget font-family-base"
-      style="font-family: 'Mali', cursive; background-color: ghostwhite">
+      style="font-family: 'Mali', cursive;">
 
 <header>
     <!--  navbar sidebar-->
 
-    <div class="nav-side-menu">
+    <div class="nav-side-menu .container-fluid.scrollable">
         <div class="brand"><i class="fa fa-leaf fa-1x sty" style="font-size: 3rem"></i>
             <h2 class="mains">
                 หลักสูตรท้องถิ่นออนไลน์</h2></div>
@@ -402,7 +402,7 @@
         </div>
     </div>
 
-    <section class="container">
+    <section class="container-xl ">
         <div class="name-text">
             <h1>หมวดที่ 1 ข้อมูลทั่วไปหลักสูตร</h1>
         </div>
@@ -753,9 +753,15 @@
         margin-bottom: 2rem;
     }
 
-    .container {
-        margin-left: 25%;
-        width: 100%;
+   .container-xl {
+       /*text-align: right;*/
+       float: right;
+       padding: 1rem;
+       /*margin-right: 1rem;*/
+       /*margin-left: 1rem;*/
+       /*margin-right: rem;*/
+            /*transform: translate(14%, 0%);*/
+       /*width: 80%*/
 
     }
 
@@ -803,10 +809,11 @@
         }
     }
 
-    @media screen and (orientation:landscape) {
+@media screen and (orientation:landscape)
+ {
    .container {
-       margin-left: 8.5%;
-       width: 100%;
+       /*margin-right: 10rem;*/
+       /*margin-left: 20%;*/
    }
 }
 

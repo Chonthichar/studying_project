@@ -378,8 +378,8 @@ h2, p {
     }
       #myBtn {
             /*width: 10px;*/
-            opacity: 0.5;
-            width: 13%;
+            opacity:    0.5;
+            width: 10%;
             padding: 8px;
             border-radius: 50px;
         }
@@ -416,7 +416,7 @@ h2, p {
       #myBtn {
             /*width: 10px;*/
             opacity: 0.5;
-            width: 13%;
+            width: 10%;
             padding: 8px;
             border-radius: 50px;
         }
@@ -546,7 +546,7 @@ h2, p {
 /*media query for ipad Air*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
     .name-text h1 {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
         line-height: 2.5rem;
         /*display: none;*/
     }
