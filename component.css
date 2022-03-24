@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+
 body, html {
     background-color: whitesmoke;
     /*overflow: hidden;*/
@@ -12,6 +13,7 @@ body, html {
     /*font-size: 10px;*/
     font-weight: normal;
 }
+
 h2, p {
     font-weight: inherit;
     font-family: 'Prompt', sans-serif;
@@ -23,6 +25,7 @@ h2, p {
     width: 10%;
     height: 20%;
 }
+
 .name-text h1 {
     margin-top: 2rem;
     line-height: 6rem;
@@ -34,6 +37,7 @@ h2, p {
     text-align: center;
     border-radius: 5px;
 }
+
 .name-text h1:hover {
     color: white;
 }
@@ -46,46 +50,78 @@ h2, p {
     /*transform: translate(-50%, -50%);*/
     width: 100%;
     background-color: white;
-    gap: 5rem;
-    ;
+    gap: 5rem;;
     /*display: none;*/
 }
 
 
 .hero-image {
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url('./images/cocogo_7.JPG');
+    background-image: linear-gradient(to left, rgb(238, 238, 238, 0.4), rgba(0, 0, 0, 0.8)), url('./images/cocogo_7.JPG');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.5); /* Used if the image is unavailable */
-    height: 300px; /* You must set a specified height */
+    height: 200px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     /*position: relative;*/
 
 }
 
-.main h2 {
-    font-size: 4rem;
+.nav-side-menu .mains {
+    font-size: 2.5rem;
+    /*font-size: 2rem;*/
+    font-family: 'Mali', cursive;
+    /*font-family: 'Nunito', sans-serif;*/
+    /*font-family: 'Prompt', sans-serif;*/
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center
     /*margin-bottom: 2rem;*/
 }
 
+/*bCK TO TOP*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 30px;
+}
+
+#myBtn:hover {
+  background-color: darkseagreen;
+
+}
 .hero-text {
     text-align: center;
     position: absolute;
     top: 15%;
-    left: 55%;
+    left: 60%;
     margin-right: 0;
     transform: translate(-50%, -50%);
     color: white;
-    width: 60%;
+    width: 65%;
 
 }
 
 .hero-text h1 {
-    font-size: 7rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 5rem;
+    background-color: rgb(133, 200, 138, 0.8);
     background-size: cover;
-    padding: 4rem;
+    padding: 3.5rem;
     width: 100%;
+}
+
+.hero-text h1:hover {
+    color: dimgrey;
 }
 
 .nav-side-menu {
@@ -115,22 +151,28 @@ h2, p {
     display: block;
     text-align: center;
     font-size: 16px;
+    margin-left: auto;
+    margin-left: auto;
 }
+/*.nav-side-menu .menu-list .menu-content {*/
+/*        display: block;*/
+/*    }*/
 
 .nav-side-menu .toggle-btn {
-    display: none;
+    /*display: grid;*/
+    /*display: none;*/
 }
 
-.toggle-btn {
-    display: none;
-}
+/*.toggle-btn {*/
+/*    display: none;*/
+/*}*/
 
 .nav-side-menu ul,
 .nav-side-menu li {
     list-style: none;
     padding: 0px;
     margin: 0px;
-    line-height: 48px;
+    line-height: 45px;
     cursor: pointer;
     /*
       .collapsed{
@@ -162,7 +204,8 @@ h2, p {
 .nav-side-menu ul .active,
 .nav-side-menu li .active {
     border-left: 3px solid #d19b3d;
-    background-color: mediumseagreen;
+    color: #aecbfa;
+    /*padding-right: 1rem;*/
 
 }
 
@@ -235,6 +278,7 @@ h2, p {
     /*margin-top: 2rem;*/
     /*top: 10rem?;*/
 }
+
 .pdf-text:hover {
     color: white;
 }
@@ -243,15 +287,52 @@ h2, p {
 /*        display: block;*/
 /*    }*/
 
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+.div {....}
+
+}
+
+
+
 /*hover for ipad and tablet*/
 
-@media (max-width: 767px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .nav-side-menu .menu-list .menu-content {
+        /*display: none;*/
+    }
+
+    .nav-side-menu .toggle-btn {
+        display: block;
+    }
+    .nav-side-menu .mains {
+        font-size: 2.3rem;
+        margin-bottom: 5px;
+        bottom: 0;
+        padding: 0;
+        text-align: center;
+    }
+      #myBtn {
+            /*width: 10px;*/
+            opacity: 0.5;
+            width: 8%;
+            padding: 8px;
+            /*border-radius: 50px;*/
+        }
+}
+
+/*thorttling*/
+@media (max-width: 769px) {
     .nav-side-menu {
         position: relative;
         width: 100%;
         margin-bottom: 10px;
     }
-}
+
     .nav-side-menu .toggle-btn {
         display: block;
         cursor: pointer;
@@ -273,29 +354,80 @@ h2, p {
         line-height: 50px !important;
     }
 
-
-
-@media (min-width: 768px) {
     .nav-side-menu .menu-list .menu-content {
-        display: block;
+        /*display: block;*/
     }
+
+    .nav-side-menu ul,
+    .nav-side-menu li {
+        line-height: 35px;
+    }
+
+    .nav-side-menu .mains {
+        /*bottom: 10px;*/
+        /*margin-bottom: 10px;*/
+        padding-bottom: 15px;
+        /*font-size: 3rem;*/
+    }
+      #myBtn {
+            /*width: 10px;*/
+            opacity: 0.5;
+            width: 13%;
+            padding: 8px;
+            border-radius: 50px;
+        }
 }
 
-body {
-    margin: 0px;
-    padding: 0px;
-}
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav-side-menu .menu-list .menu-content {
+        /*display: block;*/
+    }
+
+    .nav-side-menu .mains {
+        /*margin-bottom: 1rem;*/
+        padding-bottom: 15px;
+        font-size: 3rem;
+    }
+
+    .nav-side-menu ul,
+    .nav-side-menu li {
+        line-height: 35px;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+      #myBtn {
+            /*width: 10px;*/
+            opacity: 0.5;
+            width: 13%;
+            padding: 8px;
+            border-radius: 50px;
+        }
+
+}
 
 @media (max-width: 500px) {
 
     body, html {
-            font-size: 8px;
+        font-size: 8px;
+    }
+      #myBtn {
+            /*width: 10px;*/
+            opacity: 0.5;
+            width: 13%;
+            padding: 8px;
+            border-radius: 50px;
         }
+
     body {
         overflow-x: hidden;
         /*overflow: hidden;*/
     }
+
     .container {
         /*border: solid 0.1rem black;*/
         text-align: center;
@@ -341,14 +473,32 @@ body {
         position: -ms-device-fixed;
     }
 
-    .main {
-        font-size: 2rem;
+    .hero-image {
+        height: 120px;
+    }
+
+    .mains {
+        font-size: 1.1rem;
         width: 100%;
+        padding: 0;
         /*border: solid 0.1rem red;*/
         text-align: center;
         margin-top: 0;
         margin-bottom: 0;
         padding-bottom: 1px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /*navbar*/
+    .nav-side-menu {
+        font-size: 1.7rem;
+    }
+
+    .nav-side-menu ul,
+    .nav-side-menu li {
+        line-height: 35px;
     }
 
     .name-text h1 {
@@ -357,8 +507,8 @@ body {
         margin-top: 2rem;
         margin-bottom: 0;
         text-align: center;
-
     }
+
 
     h6 {
         width: 100%;
@@ -368,9 +518,11 @@ body {
     .footer {
         font-size: 0.8rem;
     }
+
     .pdf-file {
         display: block;
     }
+
     .pdf-text {
         font-size: 2.2rem;
         color: white;
@@ -426,8 +578,9 @@ body {
         /*padding: 0px;*/
         overflow-x: hidden;
     }
+
     .click {
-        width:20%;
+        width: 20%;
         height: 90px;
         /*display: none;*/
     }
@@ -440,13 +593,11 @@ body {
 
 
 /*chapter 2*/
-
 /*dr {*/
 /*    overflow-y: hidden;*/
 /*    overflow-x: hidden;*/
 /*    overflow: hidden;*/
 /*}*/
-
 .fa-chevron-circle-down:hover {
     color: darkseagreen;
     font-size: 3.2rem;
@@ -534,10 +685,24 @@ dd {
 /*    height: 120px;*/
 /*    background-color: whitesmoke;*/
 /*}*/
-
 .line {
     border-bottom: solid #93baf9 0.3rem;
     width: 24%;
     margin-right: auto;
     margin-left: auto;
+}
+
+/*back to top*/
+#btn-back-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+display: none;
+    border: none;
+}
+
+#btn-back-to-top:hover {
+    background-color: black;
+    height: 5%;
+
 }

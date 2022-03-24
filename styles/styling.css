@@ -457,11 +457,15 @@ img {
     }
 
     .fa-chevron-circle-right {
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-right: 1rem;
         /*margin-left: 0.1rem;*/
         /*margin: 0;*/
 
+    }
+
+    .sty{
+        font-size: 1.1rem;
     }
 
     .articles-container {

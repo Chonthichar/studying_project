@@ -18,11 +18,14 @@
   font-weight: 400;
   font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
-  margin: 1em auto;
+  /*margin: 1em auto;*/
   text-align: center;
   transition: font-size .2s ease-in-out;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  /*margin-bottom: 1rem;*/
+  margin-bottom: 0;
+  /*border: solid #93baf9 1px;*/
+  bottom: 0;
 }
 [data-pagination] ul {
   list-style-type: none;
@@ -30,6 +33,7 @@
   font-size: 100%;
   margin: 0.2rem;
   padding: 1rem;
+
 }
 [data-pagination] ul li {
   display: inline-block;
