@@ -759,17 +759,6 @@
 
     }
 
-    @media only screen
-    and (min-device-width: 768px)
-    and (max-device-width: 1024px)
-    and (orientation: portrait) {
-
-        .container {
-            margin-left: 90%;
-            width: 100%;
-        }
-
-    }
 
     @media (max-width: 500px) {
         body, html {
@@ -799,26 +788,27 @@
         .container {
             margin-left: 0;
         }
-
-        /*.footer p {*/
-        /*    margin-top: 0;*/
-        /*    !*margin-left: 1rem;*!*/
-        /*    font-size: 10px;*/
-        /*    !*margin: 1.4rem;*!*/
-        /*    text-align: center;*/
-        /*}*/
-        /*.footer {*/
-        /*    margin-left: 2rem;*/
-        /*}*/
     }
 
+
     /*media query for ipad Air*/
-    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    @media only screen and (-webkit-min-device-pixel-ratio: 2)
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait) {
+
         .container {
-            margin-left: 0%;
+            margin-left:5.2%;
             width: 100%;
         }
     }
+
+    @media screen and (orientation:landscape) {
+   .container {
+       margin-left: 8.5%;
+       width: 100%;
+   }
+}
 
 </style>
 

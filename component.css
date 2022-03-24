@@ -288,14 +288,19 @@ h2, p {
 /*    }*/
 
 
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
+    /*!*media query for ipad Air*!*/
+    /*@media only screen and (-webkit-min-device-pixel-ratio: 2)*/
+    /*and (min-device-width: 768px)*/
+    /*and (max-device-width: 1024px)*/
+    /*and (orientation: portrait) {*/
 
-.div {....}
-
-}
+    /*    .container {*/
+    /*        !*margin-left:5.2%;*!*/
+    /*        width: 100%;*/
+    /*        margin-left: 0;*/
+    /*        float: left;*/
+    /*    }*/
+    /*}*/
 
 
 
@@ -324,6 +329,8 @@ and (orientation : landscape) {
             /*border-radius: 50px;*/
         }
 }
+
+
 
 /*thorttling*/
 @media (max-width: 769px) {
@@ -376,10 +383,15 @@ and (orientation : landscape) {
             padding: 8px;
             border-radius: 50px;
         }
+
+
 }
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+
     .nav-side-menu .menu-list .menu-content {
         /*display: block;*/
     }
@@ -389,6 +401,7 @@ and (orientation : landscape) {
         padding-bottom: 15px;
         font-size: 3rem;
     }
+
 
     .nav-side-menu ul,
     .nav-side-menu li {
@@ -533,7 +546,7 @@ and (orientation : landscape) {
 /*media query for ipad Air*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
     .name-text h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         line-height: 2.5rem;
         /*display: none;*/
     }
