@@ -23,7 +23,7 @@
 
     <!--favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="./styles/styling.css">
+<!--    <link rel="stylesheet" href="./styles/styling.css">-->
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,10 +36,11 @@
     <!--text scroll down qujery-->
     <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
 
-    <link href="./styles/style.css" rel="stylesheet">
+<!--    <link href="./styles/style.css" rel="stylesheet">-->
     <!--    <link rel="stylesheet" media="screen and (max-width: 768px)" href="responsive.css">-->
     <!--    <link rel="stylesheet" href="responsive.css">-->
     <link rel="stylesheet" href="./component.css">
+    <link rel="stylesheet" href="./styles/pagination.css">
 
     <!-- CSS only -->
 
@@ -85,8 +86,8 @@
 
 
     <div class="nav-side-menu">
-        <div class="brand"><i class="fa fa-leaf fa-1x sty" style="font-size: 3rem"></i>
-            <h2 class="main" style="font-size: 2rem; font-family: 'Mali', cursive;">หลักสูตรท้องถิ่นออนไลน์</h2></div>
+        <div class="brand"><i class="fa fa-leaf fa-1x sty" style="font-size: 4rem; margin-top: 1rem"></i>
+            <h2 class="main" style="font-size: 2rem; font-family: 'Mali', cursive; text-align: center; padding-bottom: 2rem">หลักสูตรท้องถิ่นออนไลน์</h2></div>
         <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
 
         <div class="menu-list">
@@ -393,7 +394,7 @@
         </div>
     </div>
 
-    <section class="container">
+    <section class="container-xl">
         <div class="name-text">
             <h1>หมวดที่ 4 การประเมินผลการศึกษาเรียนรู้
             </h1>
@@ -418,6 +419,7 @@
                 ซึ่งผู้ศึกษาเรียนรู้จะสามารถทำแบบทดสอบได้ไม่จำกัดจำนวนครั้ง
                 โดยสามารถเข้าไปทบทวนความรู้และความเข้าใจในเนื้อหาและคลิปวีดีโอซ้ำได้ เมื่อได้คะแนนเป็นที่พอใจแล้ว
                 จึงไปเริ่มศึกษาเรียนรู้และทำแบบทดสอบในรายวิชาต่อไป จนครบทุกรายวิชา
+            </p>
         </div>
 
         <div
@@ -442,6 +444,18 @@
 
 
 
+        <!--pagination page-->
+        <nav data-pagination>
+            <ul>
+                <a href=chapter_3.html><i class='fas fa-angle-double-left' style='font-size:15px'></i></a>
+                <li class=current><a href=chapter_4.html>6</a>
+                <li><a href=hintern_details.html>7</a>
+                <li><a href=hintern_bee_sub.html>8</a>
+                    <!--    <li><a href=#4>4</a>-->
+                <li><a href=hintern_details.html><i class='fas fa-angle-double-right' style='font-size:15px'></i></a>
+            </ul>
+            <!--            <a href=class_room.html><i class=ion-chevron-right></i></a>-->
+        </nav>
         <h6></h6>
         <p class="footer">
             โครงการวิจัยเรื่อง การพัฒนานวัตกรรมหลักสูตรท้องถิ่นออนไลน์:
@@ -450,9 +464,36 @@
             <br>มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์ คณะอุตสาหกรรมการโรงแรมและการท่องเที่ยว
             <br>สนับสนุนโดย สำนักงานคณะกรรมการวิทยาศาสตร์ วิจัยและนวัตกรรม (สกสว.)
         </p>
-        </div>
-        </div>
     </section>
+
+
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fas fa-chevron-circle-up'
+                                                                    style='font-size:30px'></i></button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 
 </header>
 
@@ -502,13 +543,21 @@
 
     p {
         font-size: 2rem;
-        text-align: left;
+        text-align: center;
         /*left: 500rem;*/
         margin-bottom: 2rem;
     }
 
-    .container {
-        margin-left: 30%;
+    .container-xl {
+        /*text-align: right;*/
+        float: right;
+        padding: 1rem;
+        /*margin-right: 1rem;*/
+        /*margin-left: 1rem;*/
+        /*margin-right: rem;*/
+        /*transform: translate(14%, 0%);*/
+        /*width: 80%*/
+
     }
 
     @media (max-width: 500px) {
@@ -541,15 +590,15 @@
     }
 
     /*media query for ipad Air*/
-    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-        .container {
-            margin-left: 0;
-            width: 100%;
-        }
-        .footer {
-            margin-left: 2rem;
-        }
-    }
+    /*@media only screen and (-webkit-min-device-pixel-ratio: 2) {*/
+    /*    .container {*/
+    /*        margin-left: 0;*/
+    /*        width: 100%;*/
+    /*    }*/
+    /*    .footer {*/
+    /*        margin-left: 2rem;*/
+    /*    }*/
+    /*}*/
 
 </style>
 
