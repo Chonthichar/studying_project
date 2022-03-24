@@ -136,12 +136,13 @@ h2, p {
     height: 100%;
     color: #e1ffff;
     padding: 1rem 1rem 0.5rem 3rem;
-    line-height: 50px;
+    /*line-height: 50px;*/
 }
 
 .fa-globe, .fa-leaf {
     /*margin-right: 1rem;*/
     color: white;
+    margin-right: 1rem;
 }
 
 
@@ -214,6 +215,7 @@ h2, p {
 .nav-side-menu ul .sub-menu li.active,
 .nav-side-menu li .sub-menu li.active {
     color: #d19b3d;
+    /*padding-right: 2rem;*/
 }
 
 .nav-side-menu ul .sub-menu li.active a,
@@ -499,14 +501,14 @@ h2, p {
         height: 120px;
     }
 
-    .mains {
+   .nav-side-menu .mains {
         font-size: 1.1rem;
         width: 100%;
         padding: 0;
         /*border: solid 0.1rem red;*/
         text-align: center;
         margin-top: 0;
-        margin-bottom: 0;
+        /*margin-bottom: 5rem;*/
         padding-bottom: 1px;
         text-align: center;
         margin-right: auto;
@@ -516,6 +518,8 @@ h2, p {
     /*navbar*/
     .nav-side-menu {
         font-size: 1.7rem;
+        bottom: 0;
+        margin-bottom: 0;
     }
 
     .nav-side-menu ul,
@@ -524,7 +528,7 @@ h2, p {
     }
 
     .name-text h1 {
-        font-size: 1.3rem;
+        font-size: 2rem;
         /*line-height: 2.9rem;*/
         margin-top: 2rem;
         margin-bottom: 0;
@@ -736,7 +740,9 @@ display: none;
         margin-bottom: 0px;
         /*border: solid 1px green;*/
         table-layout: auto;
-        width: 299%;
+        display: inline;
+        width: 1100px;
+
         margin-left: 0;
         font-family: 'Prompt', sans-serif;
         line-height: 3rem;
@@ -744,7 +750,7 @@ display: none;
     }
 
     table tr .title {
-        table-layout: auto;
+        /*table-layout: auto;*/
         padding-left: 24px;
         margin-bottom: 0;
         /*font-weight: bold;*/
@@ -765,7 +771,7 @@ display: none;
 
 
     table tr .right {
-        table-layout: auto;
+        /*table-layout: auto;*/
         width: 5px;
         text-align: left;
         font-size: 24px;
@@ -774,8 +780,8 @@ display: none;
     }
 
     table tr .textco {
-        table-layout: fixed;
-        width:1000px;
+        /*table-layout: fixed;*/
+        width:100%;
         float: left;
         text-align: left;
         font-size: 24px;
