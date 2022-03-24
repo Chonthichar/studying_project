@@ -132,7 +132,7 @@ h2, p {
     background-color: #2e353d;
     position: fixed;
     top: 0;
-    width: 400px;
+    width: 450px;
     height: 100%;
     color: #e1ffff;
     padding: 1rem 1rem 0.5rem 3rem;
@@ -140,7 +140,7 @@ h2, p {
 }
 
 .fa-globe, .fa-leaf {
-    margin-right: 1rem;
+    /*margin-right: 1rem;*/
     color: white;
 }
 
@@ -152,7 +152,7 @@ h2, p {
     text-align: center;
     font-size: 16px;
     margin-left: auto;
-    margin-left: auto;
+    /*margin-left: auto;*/
 }
 /*.nav-side-menu .menu-list .menu-content {*/
 /*        display: block;*/
@@ -161,14 +161,16 @@ h2, p {
 .nav-side-menu .toggle-btn {
     /*display: grid;*/
     /*display: none;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-/*.toggle-btn {*/
-/*    display: none;*/
-/*}*/
+
 
 .nav-side-menu ul,
 .nav-side-menu li {
+    /*display: block;*/
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -284,7 +286,7 @@ h2, p {
 }
 
 /*.nav-side-menu .menu-list .menu-content {*/
-/*        display: block;*/
+/*        display: contents;*/
 /*    }*/
 
 
@@ -311,9 +313,9 @@ h2, p {
         /*display: none;*/
     }
 
-    .nav-side-menu .toggle-btn {
-        display: block;
-    }
+    /*.nav-side-menu .toggle-btn {*/
+    /*    display: block;*/
+    /*}*/
     .nav-side-menu .mains {
         font-size: 2.3rem;
         margin-bottom: 5px;
@@ -393,7 +395,7 @@ h2, p {
 
 
     .nav-side-menu .menu-list .menu-content {
-        /*display: block;*/
+        /*display:;*/
     }
 
     .nav-side-menu .mains {
@@ -428,6 +430,13 @@ h2, p {
     body, html {
         font-size: 8px;
     }
+
+    /*.nav-side-menu .menu-list .menu-content {*/
+    /*    display: none;*/
+    /*}*/
+
+
+
       #myBtn {
             /*width: 10px;*/
             opacity: 0.5;
@@ -515,7 +524,7 @@ h2, p {
     }
 
     .name-text h1 {
-        font-size: 1rem;
+        font-size: 1.3rem;
         /*line-height: 2.9rem;*/
         margin-top: 2rem;
         margin-bottom: 0;
