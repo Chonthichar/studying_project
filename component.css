@@ -68,12 +68,12 @@ h2, p {
 }
 
 .nav-side-menu .mains {
-    font-size: 2.5rem;
+    font-size: 2rem;
     /*font-size: 2rem;*/
     font-family: 'Mali', cursive;
     /*font-family: 'Nunito', sans-serif;*/
     /*font-family: 'Prompt', sans-serif;*/
-    padding-bottom: 30px;
+    padding-bottom: 16px;
     margin-right: auto;
     margin-left: auto;
     text-align: center
@@ -87,7 +87,7 @@ h2, p {
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    font-size: 18px;
+    font-size: 20px;
     border: none;
     outline: none;
     background-color: green;
@@ -428,7 +428,7 @@ h2, p {
     #myBtn {
         /*width: 10px;*/
         opacity: 0.5;
-        width: 10%;
+        width: 6%;
         padding: 8px;
         border-radius: 50px;
     }
@@ -451,7 +451,7 @@ h2, p {
     #myBtn {
         /*width: 10px;*/
         opacity: 0.5;
-        width: 13%;
+        width: 14%;
         padding: 8px;
         border-radius: 50px;
     }
@@ -511,19 +511,23 @@ h2, p {
     }
 
     .nav-side-menu .mains {
-        font-size: 1.1rem;
+        font-size: 1.7rem;
         width: 100%;
         padding: 0;
         /*border: solid 0.1rem red;*/
         text-align: center;
         margin-top: 0;
         /*margin-bottom: 5rem;*/
-        padding-bottom: 1px;
+        padding-bottom: 14px;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
     }
 
+    .nav-side-menu .brand {
+        margin-left: auto;
+        margin-right: auto;
+    }
     /*navbar*/
     .nav-side-menu {
         font-size: 1.7rem;
