@@ -715,11 +715,13 @@ dd {
 
 .test-text {
     /*width: 100%;*/
-    margin:  1rem;
+    /*margin:  1rem;*/
     text-align: left;
     color: black;
+    font-weight: normal;
     font-size: 2.5rem;
-    font-family: 'Mali', cursive;
+    /*font-family: 'Mali', cursive;*/
+    /*margin-left: 1rem;*/
 }
 
 .textbut {
@@ -730,21 +732,20 @@ dd {
     background-color: rgb(253, 93, 93);
     border: none;
     font-size: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
     padding-top: 1rem;
-    padding-bottom: 0;
-    padding-right: 4rem;
-    padding-left: 4rem;
     cursor: pointer;
-}
-
-.textbut:hover {
-    background-color: #D1E8E4;
-}
-.textbut p {
-    font-size: 3rem;
+     /*font-size: 3rem;*/
     color: white;
     font-weight: bold;
 }
+
+.textbut:hover {
+    background-color: red;
+}
+
 
 /*.click {*/
 /*    width: 30%;*/
@@ -1030,6 +1031,8 @@ table tr .textco {
     margin-bottom: 2rem;
     color: white;
     /*border: 2px blue solid;*/
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -1065,8 +1068,12 @@ table tr .textco {
     }
 
     .pdf-file {
+        margin-top: 1rem;
     font-size: 2rem;
         line-height: 2.5rem;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
 
 }
 
@@ -1076,28 +1083,16 @@ table tr .textco {
 }
 
 .test-text {
-    /*width: 100%;*/
-    /*padding: 0.5rem;*/
-    /*text-align: left;*/
-    /*color: black;*/
-    font-size: 1.7rem;
+   margin: 0;
+    font-size: 1.5rem;
     /*font-family: 'Mali', cursive;*/
 }
 
 .textbut {
-    /*text-align: left;*/
+    margin-left: 0;
+    font-size: 1.3rem;
+}
 
-    padding-top: 1px;
-    padding-bottom: 0;
-    height: 45px;
-    padding-right: 20px;
-    padding-left: 20px;
-    cursor: pointer;
-    margin-top: 0;
-}
-.textbut p {
-    font-size: 1.5rem;
-}
 
 }
 

@@ -1,10 +1,594 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <!--    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">-->
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon%20.ico">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="This is my website description">
+    <meta name="keywords" content="lifestyle, health care, workout">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"
+          CROSSORIGIN="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="./styles/styling.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--text scroll down qujery-->
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+
+    <link href="./styles/style.css" rel="stylesheet">
+    <!--    <link rel="stylesheet" media="screen and (max-width: 768px)" href="responsive.css">-->
+    <!--    <link rel="stylesheet" href="responsive.css">-->
+    <link rel="stylesheet" href="./component.css">
+    <link rel="stylesheet" href="./styles/pagination.css">
+
+    <!-- CSS only -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@600&family=Prompt:wght@200&display=swap"
+          rel="stylesheet">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    <link rel="stylesheet" media="screen and (max-width: 768px)" href="responsive.css">-->
+    <script src="https://kit.fontawesome.com/d5930ea29d.js" crossorigin="anonymous"></script>
+    <head>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    </head>
+    <title style="font-family: 'Mali', cursive;">หลักสูตรท้องถิ่นออนไลน์ </title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body>
+
+<body id="Home" class=".selector-for-some-widget font-family-base"
+      style="font-family: 'Mali', cursive;">
+
+<header>
+    <!--  navbar sidebar-->
+
+
+    <div class="nav-side-menu">
+        <div class="brand"><i class="fa fa-leaf fa-1x sty" style="font-size: 3rem"></i>
+            <h2 class="main" style="font-size: 2rem; font-family: 'Mali', cursive;">หลักสูตรท้องถิ่นออนไลน์</h2></div>
+        <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+        <div class="menu-list">
+
+
+            <ul id="menu-content" class="menu-content collapse out">
+                <li>
+                    <a href="class_room.html" style="font-size: 2rem">
+                        ห้องเรียน
+                    </a>
+                </li>
+
+                <li>
+                    <a href="chapter_1.html">
+                        </i> หมวดที่ 1 ข้อมูลทั่วไปของหลักสูตร
+                    </a>
+                </li>
+
+                <li>
+                    <a href="chapter_2.html">
+                        หมวดที่ 2 โครงสร้างหลักสูตร
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="chapter_3.html">
+                        หมวดที่ 3 การศึกษาเรียนรู้
+                    </a>
+                </li>
+
+                <li data-toggle="collapse" data-target="#products" class="collapsed active">
+                    <a href="">หมวดที่ 4 การประเมินผลการศึกษาเรียนรู้
+                        <span class="arrow"></span></a></li>
+
+
+                <!--ห้องเรียนบ้านหินเทิน-->
+                <ul>
+                    <li data-toggle="collapse" data-target="#services" class="collapsed">
+                        <a href="class_room.html"><i class="fa fa-leaf fa-1x"></i>ห้องเรียนและรายวิชา</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li data-toggle="collapse" data-target="#service-0" class="collapsed">
+                        <a href="hintern_details.html"><i class="fa fa-leaf fa-1x"></i>ห้องเรียนบ้านหินเทิน<span
+                                class="arrow"></span></a>
+                    </li>
+                </ul>
+
+
+                <ul class="sub-menu collapse" id="service-0">
+                    <ul>
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service" class="collapsed">
+                                <a href="hintern_bee_sub.html">วิชาเลี้ยงผึ้งโพรง<span
+                                        class="arrow"></span></a>
+                            </li>
+                            <ul>
+                                <li data-toggle="collapse" data-target="#service-0" class="collapsed">
+                                    <a href="hintern_bee_test.html"><i
+                                            class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                                </li>
+                            </ul>
+
+                            <li data-toggle="collapse" data-target="#service-0" class="collapsed">
+                                <a href="#">วิชาทำน้ำตาลมะพร้าว<span
+                                        class="arrow"></span></a>
+                            </li>
+                            <ul>
+                                <li data-toggle="collapse" data-target="#service-0" class="collapsed">
+                                    <a href="hintern_namtan_test.html"><i
+                                            class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                                </li>
+                            </ul>
+
+
+                            <li data-toggle="collapse" data-target="#service-0" class="collapsed">
+                                <a href="#">วิชาร้อยเรียงกะลามะพร้าว<span
+                                        class="arrow"></span></a>
+                            </li>
+                            <ul>
+                                <li data-toggle="collapse" data-target="#service-0" class="collapsed">
+                                    <a href="#"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </ul>
+                </ul>
+
+                <!--ห้องเรียนบ้านทุ่งประดู่-->
+
+                <ul>
+                    <li data-toggle="collapse" data-target="#service-1" class="collapsed">
+                        <a href="#"><i class="fa fa-leaf fa-1x"></i>ห้องเรียนบ้านทุ่งประดู่
+                            <span class="arrow"></span></a>
+                    </li>
+                </ul>
+
+                <ul class="sub-menu collapse" id="service-1">
+                    <ul>
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-1" class="collapsed">
+                                <a href="#">วิชาพงศาวดารมะพร้าว<span class="arrow"></span></a>
+                            </li>
+                            <ul>
+                                <li data-toggle="collapse" data-target="#service-1" class="collapsed">
+                                    <a href="#"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                                </li>
+                            </ul>
+
+                            <li data-toggle="collapse" data-target="#service-1" class="collapsed">
+                                <a href="#">วิชามะพร้าวในชีวิตประจำวัน<span
+                                        class="arrow"></span></a>
+                            </li>
+                            <ul>
+                                <li data-toggle="collapse" data-target="#service-1" class="collapsed">
+                                    <a href="#"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                                </li>
+                            </ul>
+
+
+                            <li data-toggle="collapse" data-target="#service-1" class="collapsed">
+                                <a href="pradu_sangsan_test.html">วิชามะพร้าวเชิงสร้างสรรค์<span
+                                        class="arrow"></span></a>
+                            </li>
+                            <ul>
+                                <li data-toggle="collapse" data-target="#service-1" class="collapsed">
+                                    <a href="#"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </ul>
+                </ul>
+
+
+                <ul>
+                    <li data-toggle="collapse" data-target="#service-2" class="collapsed">
+                        <a href="#"><i class="fa fa-leaf fa-1x"></i>ห้องเรียนบ้านม้าร้อง
+
+                            <span class="arrow"></span></a>
+                    </li>
+                </ul>
+
+                <ul class="sub-menu collapse" id="service-2">
+                    <ul>
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-2" class="collapsed">
+                                <a href="">วิชานันทนาการมะพร้าว<span class="arrow"></span></a>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-2" class="collapsed">
+                                <a href="marong_reaceretion_test.html"><i
+                                        class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                            </li>
+                        </ul>
+
+
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-2" class="collapsed">
+                                <a href="#">วิชาการจัดการอาหารสำหรับนักท่องเที่ยว<span
+                                        class="arrow"></span></a>
+                            </li>
+                        </ul>
+
+
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-2" class="collapsed">
+                                <a href="marong_food_test.html"><i
+                                        class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-2" class="collapsed">
+                                <a href="#">วิชาโฮมสเตย์ถิ่นมะพร้าว<span
+                                        class="arrow"></span></a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-2" class="collapsed">
+                                <a href="marong_homestay.test.html"><i
+                                        class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                            </li>
+                        </ul>
+                    </ul>
+                </ul>
+
+
+                <ul>
+                    <li data-toggle="collapse" data-target="#service-3" class="collapsed">
+                        <a href="#"><i class="fa fa-leaf fa-1x"></i>ห้องเรียนบ้านทุ่งสะท้อน
+                            <span class="arrow"></span></a>
+                    </li>
+                </ul>
+
+                <ul class="sub-menu collapse" id="service-3">
+                    <ul>
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-3" class="collapsed">
+                                <a href="#"> วิชาล้งมะพร้าว<span class="arrow"></span></a>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-3" class="collapsed">
+                                <a href="#"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-3" class="collapsed">
+                                <a href="#">วิชาเทคโนโลยีชาวบ้านสวนมะพร้าว<span
+                                        class="arrow"></span></a>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-3" class="collapsed">
+                                <a href="#"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-3" class="collapsed">
+                                <a href="#">วิชาการจัดการผลิตภัณฑ์มะพร้าว<span
+                                        class="arrow"></span></a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-3" class="collapsed">
+                                <a href="#"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-3" class="collapsed">
+                                <a href="#">วิชาเมนูมะพร้าว<span
+                                        class="arrow"></span></a>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-3" class="collapsed">
+                                <a href="#"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                            </li>
+                        </ul>
+                    </ul>
+                </ul>
+
+
+                <ul>
+                    <li data-toggle="collapse" data-target="#service-4" class="collapsed">
+                        <a href="#"><i class="fa fa-leaf fa-1x"></i>ห้องเรียนรวม
+                            <span class="arrow"></span></a>
+                    </li>
+                </ul>
+
+                <ul class="sub-menu collapse" id="service-4">
+                    <ul>
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-4" class="collapsed">
+                                <a href="#">วิชาการจัดการการท่องเที่ยววิถีพร้าวโดยชุมชน
+                                    <span class="arrow"></span></a>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li data-toggle="collapse" data-target="#service-4" class="collapsed">
+                                <a href="#"><i class="fa fa-globe fa-lg"></i>แบบทดสอบ<span></span></a>
+                            </li>
+                        </ul>
+
+                    </ul>
+                </ul>
+
+
+                <li data-toggle="collapse" data-target="#service" class="collapsed">
+                    <a href="#">หมวดที่ 5 การประเมินและปรับปรุงหลักสูตร</a>
+                </li>
+                <!--            <ul class="sub-menu collapse" id="service">-->
+                <!--                <li>New Service 1</li>-->
+                <!--                <li>New Service 2</li>-->
+                <!--                <li>New Service 3</li>-->
+                <!--            </ul>-->
+
+
+                <li data-toggle="collapse" data-target="#new" class="collapsed">
+                    <a href="#">ภาคผนวก</a>
+                </li>
+                <!--            <ul class="sub-menu collapse" id="new">-->
+                <!--                <li>New New 1</li>-->
+                <!--                <li>New New 2</li>-->
+                <!--                <li>New New 3</li>-->
+                <!--            </ul>-->
+
+            </ul>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- main photo-->
+    <!--showcase-->
+    <div class="hero-image">
+        <div class="hero-text">
+
+        </div>
+    </div>
+
+    <section class="container-xl">
+        <div class="name-text">
+            <h1>วิชาร้อยเรียงกะลามะพร้าว
+
+            </h1>
+        </div>
+
+        <div
+                class="bg-image  text-center shadow-1-strong p-5 mb-3 text-white test note note-primary"
+                style="background-color: #EFFFFD;" id="section-1">
+
+            <h2 class="card-text text-dark d-flex fw-bolder p-1 note note-primary fs-1 text-center"
+                style="text-align: left; font-family:'Mali', cursive;">
+                <!--                วิชาเลี้ยงผึ้งโพรง-->
+
+            </h2>
+
+            <!--   video -->
+            <iframe class="video" width="95%" height="500" src="https://www.youtube.com/embed/4pHay-6Kuqg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+        </div>
+
+        <div
+                class="bg-image p-5 text-center shadow-1-strong rounded mb-3 text-white test"
+                style="background-color: whitesmoke;" id="section-3">
+
+            <div class="container bac">
+
+
+                <h1 class=" pdf-file">
+                    เอกสารประกอบบทเรียน<i class="fa fa-file-pdf-o"
+                                          style="padding-left: 1rem; font-size: 3rem; color: black "></i>
+                </h1>
+
+                <p class="test-text"><i>เข้าสู่แบบทดสอบวิชาร้อยเรียงกะลามะพร้าว</i></p>
+                <a href="hintern_bee_test.html" style="text-decoration: none">
+                    <button class="textbut">เข้าสู่แบบทดสอบ</button>
+                </a>
+            </div>
+        </div>
+
+
+        <!--pagination page-->
+        <nav data-pagination>
+            <ul>
+                <a href=hintern_namtan_test.html><i class='fas fa-angle-double-left' style='font-size:15px'></i></a>
+                <li class=current><a href=hintern_roiriang_sub.html>12</a>
+                <li><a href=hintern_roiriang_test.html>13</a>
+                <li><a href=pradu_details.html>14</a>
+                    <!--    <li><a href=#4>4</a>-->
+                <li><a href=hintern_roiriang_test.html><i class='fas fa-angle-double-right' style='font-size:15px'></i></a>
+            </ul>
+            <!--            <a href=class_room.html><i class=ion-chevron-right></i></a>-->
+        </nav>
+        <h6></h6>
+        <p class="footer">
+            โครงการวิจัยเรื่อง การพัฒนานวัตกรรมหลักสูตรท้องถิ่นออนไลน์:
+            <br>การจัดการท่องเที่ยววิถีพร้าวโดยชุมชนเชิงสร้างสรรค์อย่างยั่งยืน
+            <br>บนฐานสหวิทยาและภูมิปัญญาท้องถิ่น
+            <br>มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์ คณะอุตสาหกรรมการโรงแรมและการท่องเที่ยว
+            <br>สนับสนุนโดย สำนักงานคณะกรรมการวิทยาศาสตร์ วิจัยและนวัตกรรม (สกสว.)
+        </p>
+    </section>
+
+
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fas fa-chevron-circle-up'
+                                                                    style='font-size:30px'></i></button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</header>
+
+
+<script src="./scripts/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+<script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
+></script>
+
+<!--for navbar sidebar-->
+
+
+<style>
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /*height: 60px; !* Height of the footer *!*/
+        /*background: #6cf;*/
+        /*top: 500rem;*/
+        left: 38rem;
+        margin-bottom: 1rem;
+    }
+
+    h6 {
+        border-bottom: 5px solid green;
+        margin-top: 1rem;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        /*bottom: 0;*/
+        /*position: absolute;*/
+        /*width: 100%;*/
+        height: 60px; /* Height of the footer */
+        /*background: #6cf;*/
+        /*top: 492rem;*/
+        left: 37rem;
+    }
+
+    p {
+        font-size: 2rem;
+        text-align: center;
+        /*left: 500rem;*/
+        margin-bottom: 2rem;
+    }
+
+    .container-xl {
+        /*text-align: right;*/
+        float: right;
+        padding: 1rem;
+        /*margin-right: 1rem;*/
+        /*margin-left: 1rem;*/
+        /*margin-right: rem;*/
+        /*transform: translate(14%, 0%);*/
+        /*width: 80%*/
+
+    }
+
+    @media (max-width: 500px) {
+        h6 {
+            width: 90%;
+        }
+
+        .container {
+            margin-left: 0;
+        }
+
+        .footer p {
+            margin-top: 0;
+            margin-left: 0.8rem;
+            font-size: 9px;
+            /*margin: 1.4rem;*/
+            text-align: center;
+        }
+    }
+
+    /*media query for ipad Air*/
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+        .container {
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+
+</style>
+
 
 </body>
 </html>
