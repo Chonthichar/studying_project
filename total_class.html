@@ -24,6 +24,7 @@
     <!--favicon-->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!--    <link rel="stylesheet" href="./styles/styling.css">-->
+    <link rel="stylesheet" href="./styles/pagination.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -342,7 +343,7 @@
 
 
                 <ul>
-                    <li data-toggle="collapse" data-target="#service-4" class="collapsed">
+                    <li data-toggle="collapse" data-target="#service-4" class="collapsed active">
                         <a href="#"><i class="fa fa-leaf fa-1x"></i>ห้องเรียนรวม
                             <span class="arrow"></span></a>
                     </li>
@@ -400,10 +401,9 @@
         </div>
     </div>
 
-    <section class="container">
+    <section class="container-xl">
         <div class="name-text">
             <h1>ห้องเรียนรวม
-
 
 
             </h1>
@@ -418,31 +418,94 @@
                 ห้องเรียนรวม
 
 
-
             </h2>
             <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-1" id="type-text">
+                ห้องเรียนรวม
                 ห้องเรียนรวม ไม่ได้เป็นห้องเรียนในชุมชน
                 แต่เป็นการรวมองค์ความรู้เกี่ยวกับการจัดการการท่องเที่ยวโดยชุมชนของชุมชนทั้ง 4 ชุมชน ได้แก่ บ้านหินเทิน
                 บ้านทุ่งประดู่ บ้านม้าร้อง และบ้านทุ่งสะท้อน โดยให้ผู้นำชุมชนและผู้นำการท่องเที่ยวของแต่ละชุมชน
                 มาร่วมให้ความรู้เกี่ยวกับแนวทางการจัดการการท่องเที่ยวโดยชุมชนที่เกี่ยวข้องกับมะพร้าวของแต่ละชุมชน
                 เพื่อเป็นการแลกเปลี่ยนและเรียนรู้สิ่งที่เป็นไปและความสำเร็จด้านการท่องเที่ยวโดยชุมชนของแต่ละชุมชน
-                ซึ่งห้องเรียนรวมประกอบด้วย 1 รายวิชา ได้แก่ วิชาการจัดการการท่องเที่ยววิถีพร้าวโดยชุมชน
+                ซึ่งห้องเรียนรวมประกอบด้วย 1 รายวิชา ได้แก่<strong>วิชาการจัดการการท่องเที่ยววิถีพร้าวโดยชุมชน</strong>
             <p>
-
         </div>
 
 
+        <div
+                class="bg-image  text-center shadow-1-strong mb-3 text-white test note note-primary"
+                style="background-color: #EFFFFD">
+
+            <!--        photo-->
+            <section id="work-a" class="container-sm">
+                <!--                <div class="container-xxl">-->
+                <h1 class="section-title"
+                    style="font-family:'Mali', cursive; ">เข้าสู่ห้องเรียนรวม</h1>
+                <div class="bottom-line"></div>
+
+
+                <div class="itemsss">
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="./images/bee_1.JPG" alt="picture">
+                        </div>
+                        <div class="item-text">
+                            <div class="item-text-wrap">
+                                <a href="total_class_kanjadkan.html" class="item-text-category">เข้าสู่บทเรียน</a>
+                                <h2 class="item-text-title">1. วิชาการจัดการการท่องเที่ยววิถีพร้าวโดยชุมชน</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                </div>-->
+            </section>
+        </div>
+
+        <!--pagination page-->
+        <nav data-pagination>
+            <ul>
+                <a href=tungsatorn_food_test.html><i class='fas fa-angle-double-left' style='font-size:15px'></i></a>
+                <li class=current><a href=total_class.html>37</a>
+                <li><a href=total_class_kanjadkan.html>38</a>
+                <li><a href=chapter_5.html>39</a>
+                    <!--    <li><a href=#4>4</a>-->
+                <li><a href=total_class_kanjadkan.html><i class='fas fa-angle-double-right'
+                                                      style='font-size:15px'></i></a>
+            </ul>
+            <!--            <a href=class_room.html><i class=ion-chevron-right></i></a>-->
+        </nav>
         <h6></h6>
-        <p class="footer" style="color: black">
+        <p class="footer">
             โครงการวิจัยเรื่อง การพัฒนานวัตกรรมหลักสูตรท้องถิ่นออนไลน์:
             <br>การจัดการท่องเที่ยววิถีพร้าวโดยชุมชนเชิงสร้างสรรค์อย่างยั่งยืน
             <br>บนฐานสหวิทยาและภูมิปัญญาท้องถิ่น
             <br>มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์ คณะอุตสาหกรรมการโรงแรมและการท่องเที่ยว
             <br>สนับสนุนโดย สำนักงานคณะกรรมการวิทยาศาสตร์ วิจัยและนวัตกรรม (สกสว.)
         </p>
-        </div>
-        </div>
     </section>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 
 </header>
 
@@ -494,13 +557,21 @@
 
     p {
         font-size: 2rem;
-        text-align: left;
+        text-align: center;
         /*left: 500rem;*/
         margin-bottom: 2rem;
     }
 
-    .container {
-        margin-left: 28%;
+    .container-xl {
+        /*text-align: right;*/
+        float: right;
+        padding: 1rem;
+        /*margin-right: 1rem;*/
+        /*margin-left: 1rem;*/
+        /*margin-right: rem;*/
+        /*transform: translate(14%, 0%);*/
+        /*width: 80%*/
+
     }
 
     #type-text {

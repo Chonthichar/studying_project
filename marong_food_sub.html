@@ -40,6 +40,7 @@
     <!--    <link rel="stylesheet" media="screen and (max-width: 768px)" href="responsive.css">-->
     <!--    <link rel="stylesheet" href="responsive.css">-->
     <link rel="stylesheet" href="./component.css">
+    <link rel="stylesheet" href="./styles/pagination.css">
 
     <!-- CSS only -->
 
@@ -78,7 +79,7 @@
 </head>
 
 <body id="Home" class=".selector-for-some-widget font-family-base"
-      style="font-family: 'Mali', cursive; background-color: ghostwhite">
+      style="font-family: 'Mali', cursive;">
 
 <header>
     <!--  navbar sidebar-->
@@ -224,7 +225,7 @@
 
 
                 <ul>
-                    <li data-toggle="collapse" data-target="#service-2" class="collapsed">
+                    <li data-toggle="collapse" data-target="#service-2" class="collapsed active">
                         <a href="#"><i class="fa fa-leaf fa-1x"></i>ห้องเรียนบ้านม้าร้อง
 
                             <span class="arrow"></span></a>
@@ -399,16 +400,16 @@
         </div>
     </div>
 
-    <section class="container">
+    <section class="container-xl">
         <div class="name-text">
-            <h1>วิชาการจัดการอาหารนักท่องเที่ยว
+            <h1>2. วิชาการจัดการอาหารสำหรับนักท่องเที่ยว
 
             </h1>
         </div>
 
         <div
                 class="bg-image  text-center shadow-1-strong p-5 mb-3 text-white test note note-primary"
-                 id="section-1">
+                style="background-color: #EFFFFD;" id="section-1">
 
             <h2 class="card-text text-dark d-flex fw-bolder p-1 note note-primary fs-1 text-center"
                 style="text-align: left; font-family:'Mali', cursive;">
@@ -417,36 +418,45 @@
             </h2>
 
             <!--   video -->
-            <p class=" mb-3 card-text p-1 text-dark text-start text-break fs-1 p">
+            <iframe class="video" width="95%" height="500" src="https://www.youtube.com/embed/TohjwgkRwD8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
 
-                <iframe width="100%" height="500" src="https://www.youtube.com/embed/TohjwgkRwD8"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
         </div>
 
         <div
                 class="bg-image p-5 text-center shadow-1-strong rounded mb-3 text-white test"
-                style="background-color: white;" id="section-3">
+                style="background-color: whitesmoke;" id="section-3">
 
-            <h2 class="fs-1 card-text text-dark d-flex fw-bolder p-1 note note-primary"
-                style="text-align: left; font-family:'Mali', cursive;">
+            <div class="container bac">
 
-                <br>
-                <button class="pdf-file"><p class="pdf-text">ดาวโหลดน์บทเรียน
-                </p>
-                </button>
-            </h2>
-            <div class="line"></div>
-            <h2 class="test-text ">
-                เข้าสู่แบบทดสอบ
-                <div style="border-bottom: #7CD1B8; margin-bottom: 3rem"></div>
-                <!--                <i class='fas fa-chevron-circle-down' style='font-size:6rem'></i>-->
-                <a href="hintern_bee_test.html"><img class="click" src="images/click.gif"></a>
-            </h2>
+
+                <h1 class=" pdf-file">
+                    เอกสารประกอบบทเรียน<i class="fa fa-file-pdf-o"
+                                          style="padding-left: 1rem; font-size: 3rem; color: black "></i>
+                </h1>
+
+                <p class="test-text"><i>เข้าสู่แบบทดสอบวิชาการจัดการอาหารสำหรับนักท่องเที่ยว</i></p>
+                    <button class="textbut"><a href="marong_food_test.html">เข้าสู่แบบทดสอบ</a></button>
+
+            </div>
         </div>
 
 
+        <!--pagination page-->
+        <nav data-pagination>
+            <ul>
+                <a href=marong_details.html><i class='fas fa-angle-double-left' style='font-size:15px'></i></a>
+                <li class=current><a href=marong_food_sub.html>24</a>
+                <li><a href=marong_food_test.html>25</a>
+                <li><a href=marong_homestay_sub.html>26</a>
+                    <!--    <li><a href=#4>4</a>-->
+                <li><a href=marong_food_test.html><i class='fas fa-angle-double-right'
+                                                            style='font-size:15px'></i></a>
+            </ul>
+            <!--            <a href=class_room.html><i class=ion-chevron-right></i></a>-->
+        </nav>
         <h6></h6>
         <p class="footer">
             โครงการวิจัยเรื่อง การพัฒนานวัตกรรมหลักสูตรท้องถิ่นออนไลน์:
@@ -455,9 +465,36 @@
             <br>มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์ คณะอุตสาหกรรมการโรงแรมและการท่องเที่ยว
             <br>สนับสนุนโดย สำนักงานคณะกรรมการวิทยาศาสตร์ วิจัยและนวัตกรรม (สกสว.)
         </p>
-        </div>
-        </div>
     </section>
+
+
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fas fa-chevron-circle-up'
+                                                                    style='font-size:30px'></i></button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 
 </header>
 
@@ -507,13 +544,21 @@
 
     p {
         font-size: 2rem;
-        text-align: left;
+        text-align: center;
         /*left: 500rem;*/
         margin-bottom: 2rem;
     }
 
-    .container {
-        margin-left: 30%;
+    .container-xl {
+        /*text-align: right;*/
+        float: right;
+        padding: 1rem;
+        /*margin-right: 1rem;*/
+        /*margin-left: 1rem;*/
+        /*margin-right: rem;*/
+        /*transform: translate(14%, 0%);*/
+        /*width: 80%*/
+
     }
 
     @media (max-width: 500px) {

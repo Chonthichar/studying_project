@@ -724,28 +724,38 @@ dd {
     /*margin-left: 1rem;*/
 }
 
-.textbut {
+.textbut  {
     /*text-align: left;*/
     float: left;
     margin: 1rem;
     /*padding: 1rem;*/
     background-color: rgb(253, 93, 93);
     border: none;
-    font-size: 3rem;
+    font-size: 2.8rem;
     padding-left: 2rem;
     padding-bottom: 1rem;
     padding-right: 2rem;
     padding-top: 1rem;
     cursor: pointer;
      /*font-size: 3rem;*/
-    color: white;
+    color: #D1E8E4;
     font-weight: bold;
+    text-decoration: none;
+}
+.textbut a {
+    color: white;
+    text-decoration: none;
 }
 
 .textbut:hover {
     background-color: red;
+    color: white;
 }
 
+.textbut a:hover {
+    color: white;
+    text-decoration: none;
+}
 
 /*.click {*/
 /*    width: 30%;*/
@@ -898,6 +908,34 @@ table tr .textco {
     font-size: 3rem;
 }
 
+.itemsss {
+       display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 1rem;
+    box-shadow: none;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+
+    /*margin-left: 1rem;*/
+    /*margin: 1rem;*/
+    /*border: 2px red solid;*/
+    /*padding: 1rem;*/
+    cursor: pointer;
+}
+
+.itemss {
+      display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 1rem;
+    box-shadow: none;
+    grid-gap: 1rem;
+    /*margin-left: 1rem;*/
+    /*margin: 1rem;*/
+    /*border: 2px red solid;*/
+    /*padding: 1rem;*/
+    cursor: pointer;
+}
 .items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1055,8 +1093,11 @@ table tr .textco {
     }
 
     /*make to one element section 3 gallery*/
-    .items {
+    .items, .itemss, .itemsss {
         grid-template-columns: 1fr;
+    }
+    .itemsss {
+        width: 100%;
     }
 
     .item {
