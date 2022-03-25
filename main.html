@@ -157,26 +157,49 @@
     </div>
     <!-- Jumbotron -->
 
-    <div
-            class="bg-image p-3 text-center shadow-1-strong rounded mb-3 text-white test"
-            style="background-color: #FFF9F9;" id="section-2">
 
-        <h2 class="h4 card-text text-dark d-flex fw-bolder p-1 note note-primary"
-            style="text-align: left; font-family:'Mali', cursive;">
-            วัตถุประสงค์หลักสูตร</h2>
-        <p class="mb-3 card-text p-1 text-dark text-start text-break fs-6 text-break">
-            1. ส่งเสริมผู้ศึกษาเรียนรู้ให้มีความเข้าใจในวิถีชาวสวนมะพร้าวในพื้นที่
-            อำเภอทับสะแก บางสะพาน และ บางสะพานน้อยจังหวัด
-            ประจวบคีรีขันธ์ <br>
-            2. ส่งเสริมให้เกิดการอนุรักษ์องค์ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับ
-            วิถีชาวสวนมะพร้าว ที่สามารถถ่ายทอดไปยังบุคคลที่สนใจได้ในเชิง
-            สาธารณะ <br>
-            3. ส่งเสริมให้เกิดการท่องเที่ยวในพื้นที่เป้าหมาย จะเป็นการกระจาย
-            รายได้สู่ท้องถิ่นชาวสวนมะพร้าว จากกิจกรรมการท่องเที่ยวโดย
-            ชุมชน ซึ่งจะสามารถช่วยลดปัญหามะพร้าวได้ด้วยเศรษฐกิจฐานราก
-        </p>
-    </div>
     <!-- Jumbotron -->
+
+
+    <div class="p-3 mb-3" style="background-color:  #FFF9F9;">
+            <h2 class=" card-text text-dark d-flex fw-bolder p-1 note note-primary h4"
+                style="text-align: left; font-family:'Mali', cursive;">
+                วัตถุประสงค์ของหลักสูตร</h2>
+
+
+            <table class="p-1" style="background-color: #FFF9F9;">
+                <tr>
+                    <td class="right col-sm-3  card-text text-dark fs-6"
+                        style="font-family: 'Prompt', sans-serif; vertical-align: top">
+                        1.
+                    </td>
+                    <td class=" textco col-sm-9 fw-normal fs-6" style="font-family: 'Prompt', sans-serif;">
+                        ส่งเสริมผู้ศึกษาเรียนรู้ให้มีความเข้าใจในวิถีชาวสวนมะพร้าวในพื้นที่อำเภอทับสะแก บางสะพาน
+                        และบางสะพานน้อย จังหวัดประจวบคีรีขันธ์
+                        <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="right col-sm-3 fw-normal fs-6" style="vertical-align: top"> 2.</td>
+                    <td class="textco col-sm-9 fw-normal fs-6">
+                        ส่งเสริมให้เกิดการอนุรักษ์องค์ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับ วิถีชาวสวนมะพร้าว
+                        ที่สามารถถ่ายทอดไปยังบุคคลที่สนใจได้ในเชิง สาธารณะ
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="right col-sm-3 fw-normal fs-6" style="vertical-align: top"> 3.</td>
+                    <td class="textco col-sm-9 fw-normal fs-6">ส่งเสริมให้เกิดการท่องเที่ยวในพื้นที่เป้าหมาย
+                        ซึ่งจะเป็นการกระจายรายได้สู่ท้องถิ่นชาวสวนมะพร้าว
+                        จากกิจกรรมการท่องเที่ยวโดยชุมชน ซึ่งจะสามารถช่วยลดปัญหามะพร้าวได้ด้วยเศรษฐกิจฐานราก
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+
 
     <div class="p-3 mb-3" style="background-color: #FFDDEE;" id="section-3">
         <h4 class="h4 card-text text-dark d-flex fw-bolder p-1 note note-primary"
@@ -369,6 +392,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        line-height: 1.4rem;
     }
 
 
@@ -378,6 +402,9 @@
         /*border: solid 1px green;*/
         width: 100%;
         margin-left: 0;
+        display: inline-block;
+        /*line-height: 0;*/
+        line-height: 1rem;
 
     }
 
@@ -392,7 +419,7 @@
         /*border: solid 1px green;*/
         text-align: left;
         font-size: 22px;
-        /*line-height: 0;*/
+        /*line-height: 1rem;*/
     }
 
     table tr .text {
@@ -634,6 +661,7 @@
         .footer p {
             font-size: 0.9rem;
             text-align: center;
+            line-height: 16px;
         }
     }
 
@@ -968,6 +996,106 @@
 
     }
 
+    /*table data chapter 2*/
+
+/*TABLE LIST DATA*/
+table {
+    margin-bottom: 0px;
+    /*border: solid 1px green;*/
+    table-layout: auto;
+    display: inline;
+    /*width: 1100px;*/
+
+    margin-left: 0;
+    font-family: 'Prompt', sans-serif;
+    line-height: 1px;
+    vertical-align: top;
+
+}
+
+table tr .title {
+    /*table-layout: auto;*/
+    padding-left: 24px;
+    margin-bottom: 0;
+    /*font-weight: bold;*/
+    /*padding: 5px;*/
+    width: 70%;
+    /*border: solid 1px green;*/
+    text-align: left;
+    font-size: 24px;
+    /*line-height: 0;*/
+}
+
+table tr .text {
+    padding-left: 10px;
+    width: 80%;
+    font-size: 24px;
+    /*line-height: 4rem;*/
+}
+
+
+table tr .right {
+    /*table-layout: auto;*/
+    width: 5px;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 0;
+    /*font-weight: bold;*/
+}
+
+table tr .textco {
+    /*table-layout: fixed;*/
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 24px;
+}
+
+
+@media (max-width: 500px) {
+    /*TABLE LIST DATA*/
+    table {
+        /*margin-bottom: 50px;*/
+        width: 100%;
+    }
+
+    table tr .title {
+        font-size: 15px;
+        margin: 0;
+        padding-left: 10px;
+        /*width: 70%;*/
+        left: 0;
+        /*padding: 5px;*/
+        /*width: 100px;*/
+        width: 80%;
+    }
+
+    table tr .text {
+        font-size: 10px;
+        width: 100%;
+        padding-right: 0;
+        margin-right: 0;
+        margin-left: 0;
+        margin: 0;
+
+        /*padding-left: 10px;*/
+    }
+
+    table tr .titles {
+        font-size: 12.7px;
+        /*width: 10%;*/
+    }
+
+    table tr .titless {
+        font-size: 13px;
+    }
+
+
+    table tr .titlesss {
+        font-size: 15px;
+    }
+
+}
 </style>
 
 
