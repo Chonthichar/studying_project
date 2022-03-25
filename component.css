@@ -156,6 +156,7 @@ h2, p {
     font-size: 16px;
     margin-left: auto;
     /*margin-left: auto;*/
+    margin-bottom: 0;
 }
 
 /*.nav-side-menu .menu-list .menu-content {*/
@@ -528,6 +529,7 @@ h2, p {
         margin-left: auto;
         margin-right: auto;
     }
+
     /*navbar*/
     .nav-side-menu {
         font-size: 1.7rem;
@@ -695,21 +697,22 @@ dd {
     /*opacity: 0.8;*/
     /*transition: word-spacing;*/
     margin: 30px;
-  /*background-color: #ffffff;*/
-  /*border: 1px solid black;*/
-  /*opacity: 0.6;*/
+    /*background-color: #ffffff;*/
+    /*border: 1px solid black;*/
+    /*opacity: 0.6;*/
 
 }
+
 .pdf-file {
     font-size: 3.5rem;
     color: black;
     border: none;
     /*background-color: grey;*/
     line-height: 4rem;
-  font-weight: bold;
+    font-weight: bold;
     text-align: left;
-    margin:  1rem;
-  /*color: #000000;*/
+    margin: 1rem;
+    /*color: #000000;*/
     cursor: pointer;
 }
 
@@ -729,7 +732,7 @@ dd {
     /*margin-left: 1rem;*/
 }
 
-.textbut  {
+.textbut {
     /*text-align: left;*/
     float: left;
     margin: 1rem;
@@ -742,11 +745,12 @@ dd {
     padding-right: 2rem;
     padding-top: 1rem;
     cursor: pointer;
-     /*font-size: 3rem;*/
+    /*font-size: 3rem;*/
     color: #D1E8E4;
     font-weight: bold;
     text-decoration: none;
 }
+
 .textbut a {
     color: white;
     text-decoration: none;
@@ -914,7 +918,7 @@ table tr .textco {
 }
 
 .itemsss {
-       display: grid;
+    display: grid;
     grid-template-columns: 1fr;
     margin-bottom: 1rem;
     box-shadow: none;
@@ -930,7 +934,7 @@ table tr .textco {
 }
 
 .itemss {
-      display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-bottom: 1rem;
     box-shadow: none;
@@ -941,6 +945,7 @@ table tr .textco {
     /*padding: 1rem;*/
     cursor: pointer;
 }
+
 .items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1101,6 +1106,7 @@ table tr .textco {
     .items, .itemss, .itemsss {
         grid-template-columns: 1fr;
     }
+
     .itemsss {
         width: 100%;
     }
@@ -1108,6 +1114,7 @@ table tr .textco {
     .item {
         height: 100%;
     }
+
     .video {
         height: 300px;
         width: 100%;
@@ -1115,32 +1122,37 @@ table tr .textco {
 
     .pdf-file {
         margin-top: 1rem;
-    font-size: 2rem;
+        font-size: 2rem;
         line-height: 2.5rem;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 0;
 
+    }
+
+    .pdf-file:hover {
+        /*background-color: lightsteelblue;*/
+        /*color: white;*/
+    }
+
+    .test-text {
+        margin: 0;
+        font-size: 1.5rem;
+        /*font-family: 'Mali', cursive;*/
+    }
+
+    .textbut {
+        margin-left: 0;
+        font-size: 1.3rem;
+    }
+    .widths-google {
+        width: 320px;
+        margin: 0;
+        height: 4600px;
+    }
 }
 
-.pdf-file:hover {
-    /*background-color: lightsteelblue;*/
-    /*color: white;*/
-}
 
-.test-text {
-   margin: 0;
-    font-size: 1.5rem;
-    /*font-family: 'Mali', cursive;*/
-}
-
-.textbut {
-    margin-left: 0;
-    font-size: 1.3rem;
-}
-
-
-}
 
 
 
