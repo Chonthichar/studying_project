@@ -549,6 +549,7 @@ h2, p {
         margin-bottom: 0;
         text-align: center;
         padding: 1.3rem;
+        /*line-height: 4rem;*/
     }
 
 
@@ -576,7 +577,7 @@ h2, p {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
     .name-text h1 {
         font-size: 2.1rem;
-        line-height: 2.5rem;
+        line-height: 3.2rem;
         /*display: none;*/
     }
 
