@@ -576,7 +576,7 @@ h2, p {
 /*media query for ipad Air*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
     .name-text h1 {
-        font-size: 2.1rem;
+        font-size: 1.7rem;
         line-height: 3.2rem;
         /*display: none;*/
     }
