@@ -40,7 +40,7 @@ h2, p {
 }
 
 .name-text h1:hover {
-    color: black;
+    color: dimgrey;
 }
 
 /*important box for styling a whole page*/
@@ -576,8 +576,8 @@ h2, p {
 /*media query for ipad Air*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
     .name-text h1 {
-        font-size: 1.7rem;
-        line-height: 3.2rem;
+        font-size: 2rem;
+        line-height: 4rem;
         /*display: none;*/
     }
 
