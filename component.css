@@ -328,12 +328,17 @@ h2, p {
         text-align: center;
     }
 
-    #myBtn {
-        /*width: 10px;*/
-        opacity: 0.5;
-        width: 30%;
-        padding: 8px;
-        /*border-radius: 50px;*/
+    /*#myBtn {*/
+    /*    !*width: 10px;*!*/
+    /*    opacity: 0.5;*/
+    /*    width: 66px;*/
+    /*    !*height: 44px;*!*/
+    /*    padding: 8px;*/
+    /*    !*border-radius: 50px;*!*/
+    /*}*/
+
+    #myBtn{
+        opacity: 0.8;
     }
 
     .item {
@@ -577,13 +582,13 @@ h2, p {
 /*media query for ipad Air*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 
-    #myBtn {
-          width: 7%;
-        opacity: 0.8;
+    /*#myBtn {*/
+    /*      width: 7%;*/
+    /*    opacity: 0.8;*/
 
-        font-size: 10px;
-        /*width: 13%;*/
-    }
+    /*    font-size: 10px;*/
+    /*    !*width: 13%;*!*/
+    /*}*/
     .name-text h1 {
         font-size: 2rem;
         line-height: 4rem;
@@ -1162,14 +1167,14 @@ table tr .textco {
         margin: 0;
         height: 4600px;
     }
-    #myBtn {
-        width: 44px;
-        bottom: 10px;
-        /*right: 25px;*/
-        /*background-color:;*/
-        /*height: 44px;*/
-        /*line-height: 44px;*/
-    }
+    /*#myBtn {*/
+    /*    width: 44px;*/
+    /*    bottom: 10px;*/
+    /*    !*right: 25px;*!*/
+    /*    !*background-color:;*!*/
+    /*    !*height: 44px;*!*/
+    /*    !*line-height: 44px;*!*/
+    /*}*/
 }
 
 
