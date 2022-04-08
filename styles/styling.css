@@ -188,7 +188,8 @@ img {
 /*Home articles*/
 #home-articles .articles-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-columns: repeat(3, 1fr);*/
+    grid-template-columns: repeat(2,1fr);
     grid-gap: 1rem;
     padding: 0.8rem;
 
@@ -273,13 +274,21 @@ img {
 
 
 .sty {
-    margin-top: 3rem;
+    /*margin-top: 3rem;*/
     text-align: left;
-    padding: 8px;
+    padding-top: 8px;
+    padding-left: 16px;
+    /*padding: 12px;*/
     color: black;
     font-size: 1.2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
+.card .textss {
+    padding-left: 0;
+    margin-left: 0;
+}
 .pradu {
     /*margin-top: 0;*/
     /*margin: 8px;*/
