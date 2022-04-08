@@ -276,7 +276,7 @@ img {
 .sty {
     /*margin-top: 3rem;*/
     text-align: left;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-left: 16px;
     /*padding: 12px;*/
     color: black;
@@ -289,6 +289,7 @@ img {
     padding-left: 0;
     margin-left: 0;
 }
+
 .pradu {
     /*margin-top: 0;*/
     /*margin: 8px;*/
