@@ -1167,6 +1167,9 @@ table tr .textco {
         margin: 0;
         height: 4600px;
     }
+    #myBtn{
+        opacity: 0.8 ;
+    }
     /*#myBtn {*/
     /*    width: 44px;*/
     /*    bottom: 10px;*/
