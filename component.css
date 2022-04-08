@@ -331,7 +331,7 @@ h2, p {
     #myBtn {
         /*width: 10px;*/
         opacity: 0.5;
-        width: 8%;
+        width: 30%;
         padding: 8px;
         /*border-radius: 50px;*/
     }
@@ -387,13 +387,13 @@ h2, p {
         /*font-size: 3rem;*/
     }
 
-    #myBtn {
-        /*width: 10px;*/
-        opacity: 0.5;
-        width: 10%;
-        padding: 8px;
-        border-radius: 50px;
-    }
+    /*#myBtn {*/
+    /*    !*width: 10px;*!*/
+    /*    opacity: 0.5;*/
+    /*    width: 14%;*/
+    /*    padding: 8px;*/
+    /*    border-radius: 50px;*/
+    /*}*/
 
     .item {
         height: 100%;
@@ -426,13 +426,13 @@ h2, p {
         padding: 0px;
     }
 
-    #myBtn {
-        /*width: 10px;*/
-        opacity: 0.5;
-        width: 6%;
-        padding: 8px;
-        border-radius: 50px;
-    }
+    /*#myBtn {*/
+    /*    !*width: 10px;*!*/
+    /*    opacity: 0.5;*/
+    /*    width: 6%;*/
+    /*    padding: 8px;*/
+    /*    border-radius: 50px;*/
+    /*}*/
 
     .item {
         height: 100%;
@@ -449,14 +449,14 @@ h2, p {
     /*.nav-side-menu .menu-list .menu-content {*/
     /*    display: none;*/
     /*}*/
-    #myBtn {
-        /*width: 10px;*/
-        opacity: 0.8;
-        font-size: 10px;
-        width: 13%;
-        /*padding: 8px;*/
-        /*border-radius: 50px;*/
-    }
+    /*#myBtn {*/
+    /*    !*width: 10px;*!*/
+    /*    opacity: 0.8;*/
+    /*    font-size: 10px;*/
+    /*    width: 30%;*/
+    /*    !*padding: 8px;*!*/
+    /*    !*border-radius: 50px;*!*/
+    /*}*/
 
     body {
         overflow-x: hidden;
@@ -1162,7 +1162,13 @@ table tr .textco {
         margin: 0;
         height: 4600px;
     }
+    #myBtn {
+        width: 44px;
+        height: 44px;
+        line-height: 44px;
+    }
 }
+
 
 
 
