@@ -137,25 +137,12 @@ body, html {
 
 
 .card p {
-    /*margin-left: 0;*/
-    left: 0;
-    /*width: 100%;*/
-    /*border: 0.1rem solid black;*/
-    /*text-align: left;*/
-    /*justify-content: left;*/
-    /*position: initial;*/
-    float: left;
-    margin-top: 0;
-    font-size: 1.1rem;
+    /*font-size: 1.1rem;*/
     font-family: 'Prompt', sans-serif;
     color: black;
-    margin-top:0;
-    padding-left: 10px;
+    margin: 10px;
 
-    /*border-bottom: none;*/
-    /*display: flex;*/
-    margin-right: 0;
-    /*text-decoration: none;*/
+
 
 
 }
