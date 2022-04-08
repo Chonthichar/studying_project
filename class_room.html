@@ -118,7 +118,7 @@
     <section id="home-articles" class="py-2  container">
         <!--        <div class="container">-->
         <div class="articles" style="  font-family: 'Prompt', sans-serif;">
-            <div class="item-0">
+            <div class="item-0" style="background: #EFFFFD ">
                 <h5 style="width: 30%; text-align: left; font-family: 'Mali', cursive;">ห้องเรียน</h5>
                <p>มะพร้าวทับสะแก เป็นมะพร้าวที่เป็นสิ่งบ่งชี้ทางภูมิศาสตร์ GI ที่ปลูกในพื้นที่จังหวัดประจวบคีรีขันธ์
                 ตั้งแต่ ตำบลห้วยทราย อำเภอเมืองประจวบคีรีขันธ์ ไปจนถึงอำเภอบางสะพานน้อย ห้องเรียนของหลักสูตร
@@ -133,7 +133,7 @@
                 ที่ไม่ได้กำหนดเป็นพื้นที่ชุมชน แต่ใช้การรวมผู้นำของทั้ง 4 ชุมชน
                 มาร่วมให้ความรู้ด้านการจัดการการท่องเที่ยวโดยชุมชนที่เกี่ยวข้องกับเนื้อหาของมะพร้าว</p>
             </div>
-            <div class="item-00">
+            <div class="item-00" style="background: rgb(255, 238, 238)">
                  <h5 style="width: 30%; text-align: left; font-family: 'Mali', cursive;">รายวิชา</h5>
                 <p>รายวิชาในหลักสูตร มีทั้งสิ้น จำนวน 14 รายวิชา เป็นรายวิชาที่ได้จากการศึกษาข้อมูลท้องถิ่นของทั้ง 4 ชุมชน
                 ที่จะสะท้อนความรู้และภูมิปัญญาท้องถิ่นที่เกี่ยวกับการใช้มะพร้าวเพื่อส่งเสริมการท่องเที่ยวโดยชุมชน
@@ -145,7 +145,7 @@
                 องค์ความรู้และภูมิปัญญาท้องถิ่นเหล่านี้ถูกเลือกให้กระจายไปในทั้ง 4 ชุมชน จำนวน 13 รายวิชา และรายวิชาที่
                 14 เป็นรายวิชาที่รวมองค์ความรู้และภูมิปัญญาท้องถิ่นของทั้ง 4 ชุมชน โดยผู้นำของทั้ง 4 ชุมชน</p>
             </div>
-            <div class="item-1"> <h5 style="width: 30%; text-align: left; font-family: 'Mali', cursive;">ผู้รับผิดชอบรายวิชา</h5>
+            <div class="item-1" style="background: rgb(202, 247, 227)"> <h5 style="width: 30%; text-align: left; font-family: 'Mali', cursive;">ผู้รับผิดชอบรายวิชา</h5>
                 <p>ผู้รับผิดชอบในแต่ละรายวิชา เป็นผู้นำชุมชนทั้ง 4 ชุมชน
                 และผู้ประกอบอาชีพที่เกี่ยวข้องกับมะพร้าวและการท่องเที่ยวโดยชุมชนในแต่ละชุมชน
                 ทำหน้าที่เป็นผู้บรรยายให้ความรู้และสร้างความเข้าใจในคลิปวีดีโอตามอาชีพที่แต่ละท่านทำ
@@ -278,8 +278,10 @@
             color: #262626;
         }
 
-        .item-0 {
+        .item-0, .item-0 p {
             grid-area: headers;
+            text-align: left;
+            font-size: 1rem;
         }
 
         .item-00 {
@@ -297,13 +299,15 @@
             'headers headers headers headers headers headers'
             'headerss headerss headerss headerss headerss headerss'
             'header header header header header header';
-            gap: 20px;
-            background-color: dodgerblue;
+            gap: 10px;
+            background-color: white;
             padding: 10px;
             width: 100%;
-            color: white;
+            color: black;
             font-size: 16px;
             font-style: normal;
+            text-align: left;
+            border: solid dimgray 1px;
         }
 
         .articles > div {
