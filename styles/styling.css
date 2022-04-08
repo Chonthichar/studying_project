@@ -126,6 +126,10 @@ body, html {
 /*    padding: 1.5rem;*/
 /*}*/
 
+.card {
+    /*margin: 0;*/
+}
+
 .card img {
     width: 100%;
     /*justify-content: center;*/
@@ -140,7 +144,7 @@ body, html {
     /*font-size: 1.1rem;*/
     font-family: 'Prompt', sans-serif;
     color: black;
-    padding-left: 1rem;
+    padding-left: 10px;
 }
 /*p:hover{*/
 /*    color: green;*/
@@ -148,19 +152,21 @@ body, html {
 
 .fa-chevron-circle-right {
     color: green;
-    font-size: 60px;
+    font-size: 50px;
+    float: right;
+    text-align: right;
+    display: inline-block;
+    padding-right: 1rem;
     /*margin: 0;*/
-    margin-right: 3rem;
+    /*margin-right: 3rem;*/
     /*padding-right: 2rem;*/
     /*border-bottom: none;*/
     /*border: solid green 2px;*/
     width: 100% ;
     /*margin-left: 0;*/
-    padding-left: 0;
-    margin-left: 0;
     /*padding-top: 1rem;*/
     /*text-decoration: none;*/
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
     /*position: relative;*/
 }
 
