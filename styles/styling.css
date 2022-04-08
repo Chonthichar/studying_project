@@ -126,13 +126,13 @@ body, html {
 /*    padding: 1.5rem;*/
 /*}*/
 
-img {
+.card img {
     width: 100%;
-    justify-content: center;
+    /*justify-content: center;*/
     /*align-items: center;*/
-    height: 50vh;
-    background-color: #A3DDCB;
-    content: "";
+    height: 500px;
+    /*background-color: #A3DDCB;*/
+    /*content: "";*/
 }
 
 
