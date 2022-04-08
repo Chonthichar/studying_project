@@ -140,11 +140,7 @@ body, html {
     /*font-size: 1.1rem;*/
     font-family: 'Prompt', sans-serif;
     color: black;
-    margin: 10px;
-
-
-
-
+    padding-left: 1rem;
 }
 /*p:hover{*/
 /*    color: green;*/
