@@ -86,7 +86,7 @@ body, html {
     /*width: 20%;*/
 }
 .pum-s {
-    background-color: black;
+    background-color: green;
     padding: 10px;
     color: white;
     border-radius: 10px;
@@ -96,7 +96,7 @@ body, html {
 }
 .pum-s:hover {
     color: green;
-    background-color: green;
+    background-color: mediumseagreen;
 }
 
 .texts {
