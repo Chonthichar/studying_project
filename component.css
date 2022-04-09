@@ -399,6 +399,8 @@ h2, p {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 
+
+
     .item-text-title  h2{
     font-size: 1px;
     }
@@ -439,6 +441,8 @@ h2, p {
 
 /*thorttling*/
 @media (max-width: 769px) {
+
+
     .nav-side-menu {
         position: relative;
         width: 100%;
@@ -671,6 +675,8 @@ h2, p {
     /*.item-text-title h2 {*/
     /*    font-size: 1px;*/
     /*}*/
+
+
        .test-text {
         /*margin-bottom: 2rem;*/
         margin-bottom: 0.5rem;
@@ -700,7 +706,7 @@ h2, p {
         /*background: whitesmoke;*/
     }
     .name-text h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 4rem;
         /*display: none;*/
     }
