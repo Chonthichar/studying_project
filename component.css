@@ -290,24 +290,108 @@ h2, p {
     color: white;
 }
 
-/*.nav-side-menu .menu-list .menu-content {*/
-/*        display: contents;*/
-/*    }*/
 
+.textbut {
+    /*text-align: left;*/
+    /*padding: 1rem;*/
+    float: left;
+    text-align: left;
+    justify-content: left;
+    background-color: rgb(253, 93, 93);
+    border: none;
+    border-radius: 5px;
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    /*font-size: 3rem;*/
+    color: #D1E8E4;
+    font-weight: bold;
+    /*text-decoration: none;*/
+}
 
-/*!*media query for ipad Air*!*/
-/*@media only screen and (-webkit-min-device-pixel-ratio: 2)*/
-/*and (min-device-width: 768px)*/
-/*and (max-device-width: 1024px)*/
-/*and (orientation: portrait) {*/
+.textbut a {
+    color: white;
+    text-decoration: none;
+}
 
-/*    .container {*/
-/*        !*margin-left:5.2%;*!*/
-/*        width: 100%;*/
-/*        margin-left: 0;*/
-/*        float: left;*/
-/*    }*/
-/*}*/
+.textbut:hover {
+    background-color: red;
+    color: white;
+}
+
+.textbut a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.bac-0 {
+    background: whitesmoke;
+    /*float: left;*/
+    margin-left: 0;
+    justify-content: left;
+    text-decoration: none;
+    margin-bottom: 1rem;
+
+}
+
+.pdf-button {
+    border: none;
+    float: left;
+    background: darkorange;
+    /*color: white;*/
+    padding: 1rem;
+    text-align: left;
+    margin-left: 0;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+}
+
+.pdf-button:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.pdf-file-0 {
+    color: white;
+    text-decoration: none;
+    /*margin-bottom: 1rem;*/
+}
+
+.bac {
+    background-color: whitesmoke;
+    /*opacity: 0.8;*/
+    /*transition: word-spacing;*/
+    margin: 30px;
+    /*background-color: #ffffff;*/
+    /*border: 1px solid black;*/
+    /*opacity: 0.6;*/
+
+}
+
+.pdf-file {
+    font-size: 3.5rem;
+    color: black;
+    border: none;
+    /*background-color: grey;*/
+    line-height: 4rem;
+    font-weight: bold;
+    text-align: left;
+    /*margin: 1rem;*/
+    /*color: #000000;*/
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.pdf-file:hover {
+    /*background-color: lightsteelblue;*/
+    /*color: white;*/
+}
 
 
 /*hover for ipad and tablet*/
@@ -336,14 +420,15 @@ h2, p {
     /*    padding: 8px;*/
     /*    !*border-radius: 50px;*!*/
     /*}*/
-
-    #myBtn{
+    #myBtn {
         opacity: 0.8;
     }
 
     .item {
         height: 100%;
     }
+
+
 }
 
 
@@ -399,7 +484,6 @@ h2, p {
     /*    padding: 8px;*/
     /*    border-radius: 50px;*/
     /*}*/
-
     .item {
         height: 100%;
     }
@@ -438,7 +522,6 @@ h2, p {
     /*    padding: 8px;*/
     /*    border-radius: 50px;*/
     /*}*/
-
     .item {
         height: 100%;
     }
@@ -462,7 +545,6 @@ h2, p {
     /*    !*padding: 8px;*!*/
     /*    !*border-radius: 50px;*!*/
     /*}*/
-
     body {
         overflow-x: hidden;
         /*overflow: hidden;*/
@@ -581,14 +663,34 @@ h2, p {
 
 /*media query for ipad Air*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+       .test-text {
+        /*margin-bottom: 2rem;*/
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+           /*margin: 3rem;*/
+        /*font-family: 'Mali', cursive;*/
+    }
 
-    /*#myBtn {*/
-    /*      width: 7%;*/
-    /*    opacity: 0.8;*/
+    .textbut {
+        margin-left: 0;
+        font-size: 3rem;
+        padding: 1rem;
 
-    /*    font-size: 10px;*/
-    /*    !*width: 13%;*!*/
-    /*}*/
+    }
+
+
+    .bac-0 {
+        /*padding: 0;*/
+    }
+    .pdf-file-0 {
+        font-size: 3rem;
+        /*padding: 1rem;*/
+    }
+
+    .pdf-button {
+        /*padding: 1rem;*/
+        /*background: whitesmoke;*/
+    }
     .name-text h1 {
         font-size: 2rem;
         line-height: 4rem;
@@ -707,39 +809,12 @@ dd {
 }
 
 
-.bac {
-    background-color: lightgray;
-    /*opacity: 0.8;*/
-    /*transition: word-spacing;*/
-    margin: 30px;
-    /*background-color: #ffffff;*/
-    /*border: 1px solid black;*/
-    /*opacity: 0.6;*/
-
-}
-
-.pdf-file {
-    font-size: 3.5rem;
-    color: black;
-    border: none;
-    /*background-color: grey;*/
-    line-height: 4rem;
-    font-weight: bold;
-    text-align: left;
-    margin: 1rem;
-    /*color: #000000;*/
-    cursor: pointer;
-}
-
-.pdf-file:hover {
-    /*background-color: lightsteelblue;*/
-    /*color: white;*/
-}
-
 .test-text {
     /*width: 100%;*/
     /*margin:  1rem;*/
     text-align: left;
+    margin-top: 0;
+    padding-top: 10px;
     color: black;
     font-weight: normal;
     font-size: 2.5rem;
@@ -747,39 +822,7 @@ dd {
     /*margin-left: 1rem;*/
 }
 
-.textbut {
-    /*text-align: left;*/
-    float: left;
-    margin: 1rem;
-    /*padding: 1rem;*/
-    background-color: rgb(253, 93, 93);
-    border: none;
-    font-size: 2.8rem;
-    padding-left: 2rem;
-    padding-bottom: 1rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    cursor: pointer;
-    /*font-size: 3rem;*/
-    color: #D1E8E4;
-    font-weight: bold;
-    text-decoration: none;
-}
 
-.textbut a {
-    color: white;
-    text-decoration: none;
-}
-
-.textbut:hover {
-    background-color: red;
-    color: white;
-}
-
-.textbut a:hover {
-    color: white;
-    text-decoration: none;
-}
 
 /*.click {*/
 /*    width: 30%;*/
@@ -1152,32 +1195,42 @@ table tr .textco {
         /*color: white;*/
     }
 
-    .test-text {
+    .bac-0 {
+
+    }
+
+    .pdf-file-0 {
+        /*padding: 5px;*/
+        font-size: 1.8rem;
         margin: 0;
+    }
+    .pdf-button {
+        padding: 5px;
+        margin-bottom: 1rem;
+    }
+
+    .test-text {
+        /*margin-bottom: 2rem;*/
+        margin-bottom: 0.5rem;
         font-size: 1.5rem;
         /*font-family: 'Mali', cursive;*/
     }
 
     .textbut {
         margin-left: 0;
-        font-size: 1.3rem;
+        font-size: 2rem;
+
     }
+
     .widths-google {
         width: 320px;
         margin: 0;
         height: 4600px;
     }
-    #myBtn{
-        opacity: 0.8 ;
+
+    #myBtn {
+        opacity: 0.8;
     }
-    /*#myBtn {*/
-    /*    width: 44px;*/
-    /*    bottom: 10px;*/
-    /*    !*right: 25px;*!*/
-    /*    !*background-color:;*!*/
-    /*    !*height: 44px;*!*/
-    /*    !*line-height: 44px;*!*/
-    /*}*/
 }
 
 
