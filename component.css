@@ -398,6 +398,10 @@ h2, p {
 /*hover for ipad and tablet*/
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    .item-text-title  h2{
+    font-size: 1px;
+    }
     .nav-side-menu .menu-list .menu-content {
         /*display: none;*/
     }
@@ -664,6 +668,9 @@ h2, p {
 
 /*media query for ipad Air*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /*.item-text-title h2 {*/
+    /*    font-size: 1px;*/
+    /*}*/
        .test-text {
         /*margin-bottom: 2rem;*/
         margin-bottom: 0.5rem;
@@ -693,7 +700,7 @@ h2, p {
         /*background: whitesmoke;*/
     }
     .name-text h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         line-height: 4rem;
         /*display: none;*/
     }
@@ -1127,23 +1134,27 @@ table tr .textco {
 }
 
 .item .item-text .item-text-title {
-    font-size: 2.8rem;
+    /*font-size: 2.8rem;*/
     padding: 0.1rem;
     margin: 5px 0 0 0;
     /*border: 2px blue solid;*/
 }
 
 .item-text-category {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 2rem;
+    /*padding: 2rem;*/
     opacity: 0.7;
-    margin-bottom: 2rem;
-    color: white;
+    /*margin-bottom: 10rem;*/
+    color: green;
     /*border: 2px blue solid;*/
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Mali', cursive;
 }
-
+.item-text-category:hover {
+    color: white;
+}
 
 .bottom-line {
     background-color: green;
@@ -1232,6 +1243,12 @@ table tr .textco {
     #myBtn {
         opacity: 0.8;
     }
+    .item-text-category {
+        font-size: 2rem;
+    }
+    /*.item-text-title {*/
+    /*    font-size: 4rem;*/
+    /*}*/
 }
 
 
