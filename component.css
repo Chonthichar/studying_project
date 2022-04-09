@@ -228,7 +228,7 @@ h2, p {
 
 .nav-side-menu ul .sub-menu li,
 .nav-side-menu li .sub-menu li {
-    background-color: rgb(153, 167, 153);
+    background-color: grey;
     border: none;
     line-height: 28px;
     border-bottom: 1px solid #23282e;

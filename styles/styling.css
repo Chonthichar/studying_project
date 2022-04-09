@@ -430,12 +430,7 @@ body, html {
 
     .card p {
         font-size: 16px;
-        /*padding: 0.3rem;*/
-        margin: 2rem;
-        /*text-align: left;*/
-        /*float: left;*/
-        /*border: black solid 1px;*/
-        /*padding: 8px;*/
+        padding: 8px;
         /*width: 100%;*/
     }
 
@@ -461,11 +456,11 @@ body, html {
         margin-right: 0;
         margin-left: 0;
         /*width: 100%;*/
-        /*height: 35vh;*/
+        height: 31vh;
     }
 
     .fa-chevron-circle-right {
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-right: 2px;
         /*margin-left: 0.1rem;*/
         /*margin: 0;*/
@@ -473,7 +468,8 @@ body, html {
     }
 
     .sty{
-        font-size: 1.1rem;
+        font-size: 1rem;
+        margin-bottom: 0;
     }
 
     .articles-container {
