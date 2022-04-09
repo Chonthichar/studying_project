@@ -30,7 +30,7 @@ h2, p {
     margin-top: 2rem;
     line-height: 2rem;
     margin-bottom: 4rem;
-    background-color: rgba(0, 128, 0, 0.6);
+    background-color: green;
     opacity: 1;
     padding: 4rem;
     width: 100%;
@@ -297,7 +297,7 @@ h2, p {
     float: left;
     text-align: left;
     justify-content: left;
-    background-color: rgb(253, 93, 93);
+       background: linear-gradient(to left, darkorange, orange);
     border: none;
     border-radius: 5px;
     font-size: 3rem;
@@ -319,7 +319,7 @@ h2, p {
 }
 
 .textbut:hover {
-    background-color: red;
+   background: linear-gradient(to right, darkorange, mediumseagreen);
     color: white;
 }
 
@@ -341,7 +341,7 @@ h2, p {
 .pdf-button {
     border: none;
     float: left;
-    background: darkorange;
+       background: linear-gradient(to right, green, mediumseagreen);
     /*color: white;*/
     padding: 1rem;
     text-align: left;
@@ -353,7 +353,8 @@ h2, p {
 }
 
 .pdf-button:hover {
-    opacity: 0.7;
+    background: linear-gradient(to right, lightskyblue, mediumseagreen);
+    /*opacity: 0.7;*/
     text-decoration: none;
 }
 
