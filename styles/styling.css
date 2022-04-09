@@ -129,7 +129,10 @@ body, html {
 .card {
     /*margin: 0;*/
     width: 100%;
-    height: 100%;
+    /*height: 300px;*/
+    /*margin: 10rem;*/
+    /*padding: 2rem;*/
+    /*gap: 3rem;*/
 }
 
 .card img {
@@ -137,7 +140,7 @@ body, html {
     /*justify-content: center;*/
     /*align-items: center;*/
     height: 100%;
-    margin-bottom: 1rem;
+    /*margin-bottom: 1rem;*/
     /*background-color: #A3DDCB;*/
     /*content: "";*/
 }
@@ -148,6 +151,7 @@ body, html {
     font-family: 'Prompt', sans-serif;
     color: black;
     padding: 14px;
+
 }
 /*p:hover{*/
 /*    color: green;*/
@@ -427,7 +431,7 @@ body, html {
     .card p {
         font-size: 16px;
         /*padding: 0.3rem;*/
-        margin: 0;
+        margin: 16px;
         text-align: left;
         /*float: left;*/
         /*border: black solid 1px;*/
@@ -456,13 +460,13 @@ body, html {
    .card img {
         margin-right: 0;
         margin-left: 0;
-        /*width: 100%;*/
-        /*height: 25vh;*/
+        width: 100%;
+        /*height: 35vh;*/
     }
 
     .fa-chevron-circle-right {
         font-size: 2rem;
-        margin-right: 1rem;
+        margin-right: 2px;
         /*margin-left: 0.1rem;*/
         /*margin: 0;*/
 
