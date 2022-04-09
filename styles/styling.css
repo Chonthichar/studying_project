@@ -128,6 +128,8 @@ body, html {
 
 .card {
     /*margin: 0;*/
+    width: 100%;
+    height: 100%;
 }
 
 .card img {
