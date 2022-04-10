@@ -103,7 +103,7 @@ body, html {
 
     font-size: 2rem;
     position: absolute;
-    top: 11.9%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -116,7 +116,7 @@ body, html {
 
     font-size: 2rem;
     position: absolute;
-    top: 11.9%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -129,7 +129,7 @@ body, html {
 
     font-size: 2rem;
     position: absolute;
-    top: 6.8%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -142,7 +142,7 @@ body, html {
 
     font-size: 2rem;
     position: absolute;
-    top: 18%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -155,7 +155,7 @@ body, html {
 
     font-size: 2rem;
     position: absolute;
-    top: 12%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -379,21 +379,21 @@ body, html {
          /*padding: 0.5rem;*/
     }
 
-    .texts-1 {
-        top: 9.5%;
-    }
-    .texts-2 {
-        top: 9.5%;
-    }
-    .texts-3 {
-     top: 9.2%;
-    }
-    .texts-4{
-        top: 9.9%;
-    }
-    .texts-5 {
-        top: 9.2%;
-    }
+    /*.texts-1 {*/
+    /*    top: 9.5%;*/
+    /*}*/
+    /*.texts-2 {*/
+    /*    top: 9.5%;*/
+    /*}*/
+    /*.texts-3 {*/
+    /* top: 9.2%;*/
+    /*}*/
+    /*.texts-4{*/
+    /*    top: 9.9%;*/
+    /*}*/
+    /*.texts-5 {*/
+    /*    top: 9.2%;*/
+    /*}*/
     p{
         float: left;
         font-size: 16px;
@@ -505,16 +505,19 @@ body, html {
     }
 
     .texts-1{
-        top: 16%;
+        top: 20%;
+    }
+    .texts-2 {
+        top: 20%;
     }
     .texts-3 {
-        top: 10.5%;
+        top: 20%;
     }
     .texts-4 {
-        top: 18%;
+        top: 20%;
     }
     .texts-5 {
-        top: 14%;
+        top: 20%;
     }
 
     .card p {
