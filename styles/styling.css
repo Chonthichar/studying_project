@@ -178,8 +178,10 @@ body, html {
 /*    padding: 1.5rem;*/
 /*}*/
 
-.card {
+.cards{
+    /*border: #93baf9 solid 5px;*/
     /*margin: 0;*/
+
     width: 100%;
     /*height: 300px;*/
     /*margin: 10rem;*/
@@ -188,6 +190,7 @@ body, html {
 }
 
 .card img {
+    /*border: red solid 5px;*/
     width: 100%;
     /*justify-content: center;*/
     /*align-items: center;*/
@@ -502,13 +505,16 @@ body, html {
     }
 
     .texts-1{
-        top: 12%;
+        top: 16%;
     }
     .texts-3 {
-        top: 11%;
+        top: 10.5%;
     }
     .texts-4 {
-        top: 16%;
+        top: 18%;
+    }
+    .texts-5 {
+        top: 14%;
     }
 
     .card p {
@@ -516,6 +522,7 @@ body, html {
         padding: 8px;
         /*width: 100%;*/
     }
+
 
 
     .sty {
