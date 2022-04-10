@@ -110,7 +110,7 @@ body, html {
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 1.5rem;
+    /*padding: 1.5rem;*/
 }
 .texts-2 {
 
@@ -123,7 +123,7 @@ body, html {
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 1.5rem;
+    /*padding: 1.5rem;*/
 }
 .texts-3 {
 
@@ -136,7 +136,7 @@ body, html {
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 1.5rem;
+    /*padding: 1.5rem;*/
 }
 .texts-4 {
 
@@ -149,7 +149,7 @@ body, html {
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 1.5rem;
+    /*padding: 1.5rem;*/
 }
 .texts-5 {
 
@@ -162,7 +162,7 @@ body, html {
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 1.5rem;
+    padding: 3px;
 }
 
 /*.textss {*/
