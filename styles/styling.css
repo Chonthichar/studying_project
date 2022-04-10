@@ -376,21 +376,21 @@ body, html {
          /*padding: 0.5rem;*/
     }
 
-    /*.texts-1 {*/
-    /*    top: 9.5%;*/
-    /*}*/
-    /*.texts-2 {*/
-    /*    top: 9.5%;*/
-    /*}*/
-    /*.texts-3 {*/
-    /* top: 9.2%;*/
-    /*}*/
-    /*.texts-4{*/
-    /*    top: 9.9%;*/
-    /*}*/
-    /*.texts-5 {*/
-    /*    top: 9.2%;*/
-    /*}*/
+    .texts-1 {
+        top: 9.5%;
+    }
+    .texts-2 {
+        top: 9.5%;
+    }
+    .texts-3 {
+     top: 9.2%;
+    }
+    .texts-4{
+        top: 9.9%;
+    }
+    .texts-5 {
+        top: 9.2%;
+    }
     p{
         float: left;
         font-size: 16px;
@@ -485,7 +485,7 @@ body, html {
 
 
     .texts, .textss {
-        /*font-size: 1rem;*/
+        font-size: 1rem;
         /*!*width: 100%;*!*/
         /*!*margin: 0;*!*/
         /*padding: 0.5rem;*/
@@ -495,6 +495,11 @@ body, html {
 
     }
 
+
+    .texts-1, .texts-2, .texts-3, .texts-4, .texts-5, .textss {
+        font-size: 1rem;
+         /*padding: 0.5rem;*/
+    }
 
     .texts-1{
         top: 12%;
