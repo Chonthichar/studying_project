@@ -103,66 +103,66 @@ body, html {
 
     font-size: 2rem;
     position: absolute;
-    top: 13%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    /*padding: 1.5rem;*/
+   padding: 5px;
 }
 .texts-2 {
 
     font-size: 2rem;
     position: absolute;
-    top: 13%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    /*padding: 1.5rem;*/
+     padding: 5px;
 }
 .texts-3 {
 
     font-size: 2rem;
     position: absolute;
-    top: 13%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    /*padding: 1.5rem;*/
+  padding: 5px;
 }
 .texts-4 {
 
     font-size: 2rem;
     position: absolute;
-    top: 13%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    /*padding: 1.5rem;*/
+   padding: 5px;
 }
 .texts-5 {
 
     font-size: 2rem;
     position: absolute;
-    top: 13%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 3px;
+    padding: 5px;
 }
 
 /*.textss {*/
@@ -505,19 +505,19 @@ body, html {
     }
 
     .texts-1{
-        top: 20%;
+        top: 10%;
     }
     .texts-2 {
-        top: 20%;
+        top: 10%;
     }
     .texts-3 {
-        top: 20%;
+        top: 10%;
     }
     .texts-4 {
-        top: 20%;
+        top: 10%;
     }
     .texts-5 {
-        top: 20%;
+        top: 10%;
     }
 
     .card p {
