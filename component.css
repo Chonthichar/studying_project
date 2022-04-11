@@ -1238,7 +1238,7 @@ table tr .textco {
     }
 
     .widths-google {
-        width: 320px;
+        width: 100%;
         margin: 0;
         height: 500px;
     }
