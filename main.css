@@ -345,6 +345,7 @@ form {
         .form-heading {
             left: 0%;
             transform: translateY(-50%);
+            /*font-size: 16px;*/
         }
 
         form {
@@ -493,8 +494,14 @@ form {
             /*    display: inline-block;*/
             /*    width: 1%;*/
             /*    text-align: left;*/
-            /*    float: left;*/
+            /*    float:
+            left;*/
             /*}*/
+
+            .form-headings{
+                font-size: 19px;
+                text-align: center;
+            }
             .line {
                 height: 1px;
                 /*margin-top: 2rem;*/
