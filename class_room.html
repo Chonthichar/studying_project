@@ -36,7 +36,7 @@
     <!--    <link rel="stylesheet" media="screen and (max-width: 768px)" href="responsive.css">-->
 
     <link rel="stylesheet" href="./styles/media.css">
-<!--    <link rel="stylesheet" href="./component.css">-->
+    <!--    <link rel="stylesheet" href="./component.css">-->
 
 
     <!--font styling-->
@@ -72,31 +72,98 @@
 <header class="container" style="background-color: whitesmoke;">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-scroll fixed-top shadow-0 container">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><i class="fa fa-leaf fa-1x" style="color: black"></i></a>
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent"
-                 style="font-family: 'Prompt', sans-serif;">
-                <ul class="navbar-nav ms-auto">
-                    <!--                    <li class="nav-item">-->
-                    <!--                        <a class="nav-link" href="#!">รูปภาพ</a>-->
-                    <!--                    </li>-->
-                    <!--                    <li class="nav-item text-center">-->
-                    <!--                        <a class="nav-link" href="contact.html">คำถาม</a>-->
-                    <!--                    </li>-->
-                    <button type="button" class="pum-s"><a href="class_room.html"
-                                                           style="text-decoration:none; color: white; font-family: 'Mali', cursive;">ห้องเรียนชุมชน</a>
-                    </button>
-                </ul>
-            </div>
-        </div>
-    </nav>
+
+    <style>
+        .topnav {
+            overflow: hidden;
+            background-color: white;
+            position: sticky;
+            height: 80px;
+        }
+
+        .topnav a {
+            float: right;
+            display: block;
+            color: dimgray;
+            /*font-weight: 700;*/
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 26px;
+            font-family: 'Prompt', sans-serif;
+            margin-top: 8px;
+        }
+
+        .topnav a:hover {
+            /*background-color: mediumaquamarine;*/
+            color: green;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .topnav .icon {
+            display: none;
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+            .topnav a {
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+
+            .topnav.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+    </style>
+    </head>
+    <body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#section-4" class="active">ห้องเรียนชุมชน</a>
+        <a href="#section-2">รายวิชา</a>
+        <a href="#section-3">ผู้รับผิดชอบรายวิชา</a>
+        <a href="#section-1">ห้องเรียน</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 
 
     <!--showcase-->
@@ -116,9 +183,9 @@
     <!-Home --->
 
 
-    <section id="home-articles" class="py-2  container">
+    <section id="home-articles " class="py-2  container">
         <!--        <div class="container">-->
-        <div class="articles" style="  font-family: 'Prompt', sans-serif;">
+        <div class="articles" style="  font-family: 'Prompt', sans-serif;" id="section-1">
             <div class="item-0" style="background: #EFFFFD ">
                 <h5 style="width: 30%; text-align: left; font-family: 'Mali', cursive;">ห้องเรียน</h5>
                 <p class="fs-6">มะพร้าวทับสะแก เป็นมะพร้าวที่เป็นสิ่งบ่งชี้ทางภูมิศาสตร์ GI
@@ -135,9 +202,10 @@
                     ที่ไม่ได้กำหนดเป็นพื้นที่ชุมชน แต่ใช้การรวมผู้นำของทั้ง 4 ชุมชน
                     มาร่วมให้ความรู้ด้านการจัดการการท่องเที่ยวโดยชุมชนที่เกี่ยวข้องกับเนื้อหาของมะพร้าว</p>
             </div>
-            <div class="item-00" style="background: rgb(255, 238, 238)">
+            <div class="item-00" style="background: rgb(255, 238, 238)" id="section-2">
                 <h5 style="width: 30%; text-align: left; font-family: 'Mali', cursive;">รายวิชา</h5>
-                <p class="fs-6">รายวิชาในหลักสูตร มีทั้งสิ้น จำนวน 14 รายวิชา เป็นรายวิชาที่ได้จากการศึกษาข้อมูลท้องถิ่นของทั้ง 4
+                <p class="fs-6">รายวิชาในหลักสูตร มีทั้งสิ้น จำนวน 14 รายวิชา
+                    เป็นรายวิชาที่ได้จากการศึกษาข้อมูลท้องถิ่นของทั้ง 4
                     ชุมชน
                     ที่จะสะท้อนความรู้และภูมิปัญญาท้องถิ่นที่เกี่ยวกับการใช้มะพร้าวเพื่อส่งเสริมการท่องเที่ยวโดยชุมชน
                     เนื่องจาก องค์ความรู้และภูมิปัญญาท้องถิ่นเกี่ยวกับมะพร้าวมีเป็นจำนวนมาก
@@ -150,7 +218,7 @@
                     และรายวิชาที่
                     14 เป็นรายวิชาที่รวมองค์ความรู้และภูมิปัญญาท้องถิ่นของทั้ง 4 ชุมชน โดยผู้นำของทั้ง 4 ชุมชน</p>
             </div>
-            <div class="item-1" style="background: rgb(202, 247, 227)"><h5
+            <div class="item-1" style="background: rgb(202, 247, 227)" id="section-3"><h5
                     style=" text-align: left; font-family: 'Mali', cursive;">ผู้รับผิดชอบรายวิชา</h5>
                 <p class="fs-6"> ผู้รับผิดชอบในแต่ละรายวิชา เป็นผู้นำชุมชนทั้ง 4 ชุมชน
                     และผู้ประกอบอาชีพที่เกี่ยวข้องกับมะพร้าวและการท่องเที่ยวโดยชุมชนในแต่ละชุมชน
@@ -166,13 +234,12 @@
 
     <section id="home-articles" class="py-2 container" style="font-family: 'Mali', cursive;">
         <!--        <div class="container">-->
-        <div class="articles-container bg-darks">
-
+        <div class="articles-container bg-darks" id="section-4">
 
 
             <article class="card">
                 <!--                <div>-->
-                <h5 class="sty">ห้องเรียน</h5>
+                <h5 class="sty">ห้องเรียนชุมชน</h5>
                 <p>
                     ประกอบไปด้วยห้องเรียนชุมชน
                     4 ชุมชน ที่ได้เลือกจาก
@@ -187,7 +254,6 @@
             </article>
 
 
-
             <article class="card">
                 <img src="./images/หินเทิน.jpg" alt="Photo">
                 <!--                <div>-->
@@ -195,7 +261,7 @@
 
                 <p>ห้องเรียนบ้านหินเทิน หมู่ 5 ตำบลแสงอรุณ อำเภอทับสะแก จังหวัดประจวบคีรีขันธ์
                     <a href="hintern_details.html" style="text-decoration: none"><i
-                    class='fas fa-chevron-circle-right'></i></a>
+                            class='fas fa-chevron-circle-right'></i></a>
                 </p>
 
                 <!--                </div>-->
@@ -207,8 +273,8 @@
                 <div class="texts-2">ห้องเรียนบ้านทุ่งประดู่</div>
                 <p class="">ห้องเรียนบ้านทุ่งประดู่ หมู่ 1 ตำบลทับสะแก
                     อำเภอทับสะแก จังหวัดประจวบคีรีขันธ์
-                <a href="pradu_details.html" style="text-decoration: none"><i
-                        class='fas fa-chevron-circle-right'></i></a></p>
+                    <a href="pradu_details.html" style="text-decoration: none"><i
+                            class='fas fa-chevron-circle-right'></i></a></p>
                 <!--                </div>-->
             </article>
 
@@ -227,8 +293,8 @@
                 <!--                <div>-->
                 <div class="texts-3">ห้องเรียนบ้านม้าร้อง</div>
                 <p>ห้องเรียนบ้านม้าร้อง หมู่ 4 ตำบลพงศประศาสน์ อำเภอบางสะพาน จังหวัดประจวบคีรีขันธ์
-                <a href="marong_details.html" style="text-decoration: none"><i
-                        class='fas fa-chevron-circle-right'></i></a></p>
+                    <a href="marong_details.html" style="text-decoration: none"><i
+                            class='fas fa-chevron-circle-right'></i></a></p>
                 <!--                </div>-->
             </article>
 
@@ -239,8 +305,8 @@
                 <div class="texts-4">ห้องเรียนบ้านทุ่งสะท้อน</div>
                 <p>ห้องเรียนบ้านทุ่งสะท้อน หมู่ 6 ตำบลปากแพรก อำเภอบางสะพานน้อย
                     จังหวัดประจวบคีรีขันธ์
-                <a href="tungsaton_details.html" style="text-decoration: none"><i
-                        class='fas fa-chevron-circle-right'></i></a></p>
+                    <a href="tungsaton_details.html" style="text-decoration: none"><i
+                            class='fas fa-chevron-circle-right'></i></a></p>
                 <!--                </div>-->
             </article>
 
@@ -251,7 +317,7 @@
                 <div class="texts-5">ห้องเรียนรวม</div>
                 <p>ห้องเรียนรวม เป็นการรวมทั้ง 4 ชุมชน
                     ไว้ในห้องเดียวกัน<a href="total_class.html" style="text-decoration: none"><i
-                        class='fas fa-chevron-circle-right'></i></a></p>
+                            class='fas fa-chevron-circle-right'></i></a></p>
                 <!--                </div>-->
             </article>
 
@@ -358,26 +424,26 @@
         }
 
         /*bCK TO TOP*/
-#myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 10px;
-    border: none;
-    outline: none;
-    background-color: green;
-    color: white;
-    cursor: pointer;
-    padding: 13px;
-    border-radius: 30px;
-}
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 10px;
+            border: none;
+            outline: none;
+            background-color: green;
+            color: white;
+            cursor: pointer;
+            padding: 13px;
+            border-radius: 30px;
+        }
 
-#myBtn:hover {
-    background-color: darkseagreen;
+        #myBtn:hover {
+            background-color: darkseagreen;
 
-}
+        }
 
         @media (max-width: 500px) {
 
@@ -385,6 +451,7 @@
                 opacity: 0.8;
                 font-size: 10px;
             }
+
             h6 {
                 width: 90%;
             }
@@ -430,7 +497,8 @@
                     'header';
 
             }
-             #myBtn {
+
+            #myBtn {
                 opacity: 0.8;
                 font-size: 10px;
             }
@@ -454,13 +522,13 @@
 <!--pagination page-->
 <nav data-pagination>
     <ul>
-<!--        <a href=main.html><i class='fas fa-angle-double-left' style='font-size:15px'></i></a>-->
+        <!--        <a href=main.html><i class='fas fa-angle-double-left' style='font-size:15px'></i></a>-->
         <li class=current><a href=class_room.html>7</a>
         <li><a href=hintern_details.html>8</a>
         <li><a href=pradu_details.html>15</a>
-         <li><a href=marong_details.html>22</a>
-         <li><a href=tungsaton_details.html>29</a>
-         <li><a href=total_class.html>38</a>
+        <li><a href=marong_details.html>22</a>
+        <li><a href=tungsaton_details.html>29</a>
+        <li><a href=total_class.html>38</a>
             <!--    <li><a href=#4>4</a>-->
         <li><a href=chapter_1.html><i class='fas fa-angle-double-right' style='font-size:15px'></i></a>
     </ul>
@@ -482,33 +550,33 @@
     </div>
 </footer>
 
-    <!-- Back to top button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fas fa-chevron-circle-up'
-                                                                    style='font-size:30px'></i></button>
+<!-- Back to top button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class='fas fa-chevron-circle-up'
+                                                                style='font-size:30px'></i></button>
 
-    <script>
-        //Get the button
-        var mybutton = document.getElementById("myBtn");
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
 
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
-            scrollFunction()
-        };
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
         }
+    }
 
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 
 </header>
 
